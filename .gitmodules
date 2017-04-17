@@ -1,0 +1,3 @@
+[submodule "dde-file-manager"]
+	path = dde-file-manager
+	url = https://cr.deepin.io/dde/dde-file-manager
