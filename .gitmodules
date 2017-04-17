@@ -1,3 +1,141 @@
 [submodule "dde-file-manager"]
 	path = dde-file-manager
 	url = https://cr.deepin.io/dde/dde-file-manager
+[submodule "dde-dock"]
+	path = dde-dock
+	url = https://cr.deepin.io/dde/dde-dock
+[submodule "dde-launcher"]
+	path = dde-launcher
+	url = https://cr.deepin.io/dde/dde-launcher
+[submodule "dde-control-center"]
+	path = dde-control-center
+	url = https://cr.deepin.io/dde/dde-control-center
+[submodule "dde-calendar"]
+	path = dde-calendar
+	url = https://cr.deepin.io/dde/dde-calendar
+[submodule "dde-qt-dbus-factory"]
+	path = dde-qt-dbus-factory
+	url = https://cr.deepin.io/dde/dde-qt-dbus-factory
+[submodule "deepin-desktop-base"]
+	path = deepin-desktop-base
+	url = https://cr.deepin.io/deepin-desktop-base
+[submodule "deepin-metacity"]
+	path = deepin-metacity
+	url = https://cr.deepin.io/deepin-metacity
+[submodule "deepin-wm"]
+	path = deepin-wm
+	url = https://cr.deepin.io/deepin-wm
+[submodule "startdde"]
+	path = startdde
+	url = https://cr.deepin.io/dde/startdde
+[submodule "dde-session-ui"]
+	path = dde-session-ui
+	url = https://cr.deepin.io/dde/dde-session-ui
+[submodule "deepin-appstore"]
+	path = deepin-appstore
+	url = https://cr.deepin.io/dstore/deepin-appstore
+[submodule "deepin-notifications"]
+	path = deepin-notifications
+	url = https://cr.deepin.io/deepin-notifications
+[submodule "deepin-manual"]
+	path = deepin-manual
+	url = https://cr.deepin.io/deepin-manual
+[submodule "deepin-image-viewer"]
+	path = deepin-image-viewer
+	url = https://cr.deepin.io/deepin-image-viewer
+[submodule "deepin-terminal"]
+	path = deepin-terminal
+	url = https://cr.deepin.io/deepin-terminal
+[submodule "deepin-remote-assistance"]
+	path = deepin-remote-assistance
+	url = https://cr.deepin.io/deepin-remote-assistance
+[submodule "deepin-music"]
+	path = deepin-music
+	url = https://cr.deepin.io/deepin-music
+[submodule "deepin-feedback"]
+	path = deepin-feedback
+	url = https://cr.deepin.io/deepin-feedback
+[submodule "deepin-shortcut-viewer"]
+	path = deepin-shortcut-viewer
+	url = https://cr.deepin.io/deepin-shortcut-viewer
+[submodule "dae"]
+	path = dae
+	url = https://cr.deepin.io/dae
+[submodule "dbus-factory"]
+	path = dbus-factory
+	url = https://cr.deepin.io/dbus-factory
+[submodule "dde-api"]
+	path = dde-api
+	url = https://cr.deepin.io/dde/dde-api
+[submodule "dde-daemon"]
+	path = dde-daemon
+	url = https://cr.deepin.io/dde/dde-daemon
+[submodule "dde-polkit-agent"]
+	path = dde-polkit-agent
+	url = https://cr.deepin.io/dde/dde-polkit-agent
+[submodule "deepin-boot-maker"]
+	path = deepin-boot-maker
+	url = https://cr.deepin.io/deepin-boot-maker
+[submodule "deepin-cogl"]
+	path = deepin-cogl
+	url = https://cr.deepin.io/deepin-cogl
+[submodule "default-settings"]
+	path = default-settings
+	url = https://cr.deepin.io/default-settings
+[submodule "deepin-desktop-schemas"]
+	path = deepin-desktop-schemas
+	url = https://cr.deepin.io/deepin-desktop-schemas
+[submodule "deepin-gtk-theme"]
+	path = deepin-gtk-theme
+	url = https://cr.deepin.io/deepin-gtk-theme
+[submodule "deepin-icon-theme"]
+	path = deepin-icon-theme
+	url = https://cr.deepin.io/deepin-icon-theme
+[submodule "deepin-installer-reborn"]
+	path = deepin-installer-reborn
+	url = https://cr.deepin.io/deepin-installer-reborn
+[submodule "deepin-menu"]
+	path = deepin-menu
+	url = https://cr.deepin.io/deepin-menu
+[submodule "deepin-movie"]
+	path = deepin-movie
+	url = https://cr.deepin.io/deepin-movie
+[submodule "deepin-mutter"]
+	path = deepin-mutter
+	url = https://cr.deepin.io/deepin-mutter
+[submodule "deepin-screen-recorder"]
+	path = deepin-screen-recorder
+	url = https://cr.deepin.io/deepin-screen-recorder
+[submodule "deepin-screenshot"]
+	path = deepin-screenshot
+	url = https://cr.deepin.io/deepin-screenshot
+[submodule "deepin-sound-theme"]
+	path = deepin-sound-theme
+	url = https://cr.deepin.io/deepin-sound-theme
+[submodule "deepin-tool-kit"]
+	path = deepin-tool-kit
+	url = https://cr.deepin.io/deepin-tool-kit
+[submodule "deepin-voice-recorder"]
+	path = deepin-voice-recorder
+	url = https://cr.deepin.io/deepin-voice-recorder
+[submodule "deepin-wallpapers"]
+	path = deepin-wallpapers
+	url = https://cr.deepin.io/deepin-wallpapers
+[submodule "deepin-wm-switcher"]
+	path = deepin-wm-switcher
+	url = https://cr.deepin.io/deepin-wm-switcher
+[submodule "dtksettings"]
+	path = dtksettings
+	url = https://cr.deepin.io/dtksettings
+[submodule "go-dbus-generator"]
+	path = go-dbus-generator
+	url = https://cr.deepin.io/go-dbus-generator
+[submodule "go-lib"]
+	path = go-lib
+	url = https://cr.deepin.io/go-lib
+[submodule "go-gir-generator"]
+	path = go-gir-generator
+	url = https://cr.deepin.io/go-gir-generator
+[submodule "miraclecast"]
+	path = miraclecast
+	url = https://cr.deepin.io/miraclecast
