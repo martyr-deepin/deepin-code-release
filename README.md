@@ -10,7 +10,7 @@ HOST cr.deepin.io
 #2.git clone deepin-code-project
  git submodule init
  git submodule update project/$project 
-## can download module code
+##you can download module code
 ## $project can review and push for normal and without interference 
 　
 #3.version project
