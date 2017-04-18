@@ -139,3 +139,6 @@
 [submodule "miraclecast"]
 	path = miraclecast
 	url = https://cr.deepin.io/miraclecast
+[submodule "lastore-daemon"]
+	path = lastore-daemon
+	url = https://cr.deepin.io/lastore/lastore-daemon
