@@ -1,144 +1,144 @@
 [submodule "dde-file-manager"]
 	path = project/dde-file-manager
-	url = ssh://cr.deepin.io/dde/dde-file-manager
+	url = ssh://cr.deepin.io:29418/dde/dde-file-manager
 [submodule "dde-dock"]
 	path = project/dde-dock
-	url = ssh://cr.deepin.io/dde/dde-dock
+	url = ssh://cr.deepin.io:29418/dde/dde-dock
 [submodule "dde-launcher"]
 	path = project/dde-launcher
-	url = ssh://cr.deepin.io/dde/dde-launcher
+	url = ssh://cr.deepin.io:29418/dde/dde-launcher
 [submodule "dde-control-center"]
 	path = project/dde-control-center
-	url = ssh://cr.deepin.io/dde/dde-control-center
+	url = ssh://cr.deepin.io:29418/dde/dde-control-center
 [submodule "dde-calendar"]
 	path = project/dde-calendar
-	url = ssh://cr.deepin.io/dde/dde-calendar
+	url = ssh://cr.deepin.io:29418/dde/dde-calendar
 [submodule "dde-qt-dbus-factory"]
 	path = project/dde-qt-dbus-factory
-	url = ssh://cr.deepin.io/dde/dde-qt-dbus-factory
+	url = ssh://cr.deepin.io:29418/dde/dde-qt-dbus-factory
 [submodule "deepin-desktop-base"]
 	path = project/deepin-desktop-base
-	url = ssh://cr.deepin.io/deepin-desktop-base
+	url = ssh://cr.deepin.io:29418/deepin-desktop-base
 [submodule "deepin-metacity"]
 	path = project/deepin-metacity
-	url = ssh://cr.deepin.io/deepin-metacity
+	url = ssh://cr.deepin.io:29418/deepin-metacity
 [submodule "deepin-wm"]
 	path = project/deepin-wm
-	url = ssh://cr.deepin.io/deepin-wm
+	url = ssh://cr.deepin.io:29418/deepin-wm
 [submodule "startdde"]
 	path = project/startdde
-	url = ssh://cr.deepin.io/dde/startdde
+	url = ssh://cr.deepin.io:29418/dde/startdde
 [submodule "dde-session-ui"]
 	path = project/dde-session-ui
-	url = ssh://cr.deepin.io/dde/dde-session-ui
+	url = ssh://cr.deepin.io:29418/dde/dde-session-ui
 [submodule "deepin-appstore"]
 	path = project/deepin-appstore
-	url = ssh://cr.deepin.io/dstore/deepin-appstore
+	url = ssh://cr.deepin.io:29418/dstore/deepin-appstore
 [submodule "deepin-notifications"]
 	path = project/deepin-notifications
-	url = ssh://cr.deepin.io/deepin-notifications
+	url = ssh://cr.deepin.io:29418/deepin-notifications
 [submodule "deepin-manual"]
 	path = project/deepin-manual
-	url = ssh://cr.deepin.io/deepin-manual
+	url = ssh://cr.deepin.io:29418/deepin-manual
 [submodule "deepin-image-viewer"]
 	path = project/deepin-image-viewer
-	url = ssh://cr.deepin.io/deepin-image-viewer
+	url = ssh://cr.deepin.io:29418/deepin-image-viewer
 [submodule "deepin-terminal"]
 	path = project/deepin-terminal
-	url = ssh://cr.deepin.io/deepin-terminal
+	url = ssh://cr.deepin.io:29418/deepin-terminal
 [submodule "deepin-remote-assistance"]
 	path = project/deepin-remote-assistance
-	url = ssh://cr.deepin.io/deepin-remote-assistance
+	url = ssh://cr.deepin.io:29418/deepin-remote-assistance
 [submodule "deepin-music"]
 	path = project/deepin-music
-	url = ssh://cr.deepin.io/deepin-music
+	url = ssh://cr.deepin.io:29418/deepin-music
 [submodule "deepin-feedback"]
 	path = project/deepin-feedback
-	url = ssh://cr.deepin.io/deepin-feedback
+	url = ssh://cr.deepin.io:29418/deepin-feedback
 [submodule "deepin-shortcut-viewer"]
 	path = project/deepin-shortcut-viewer
-	url = ssh://cr.deepin.io/deepin-shortcut-viewer
+	url = ssh://cr.deepin.io:29418/deepin-shortcut-viewer
 [submodule "dae"]
 	path = project/dae
-	url = ssh://cr.deepin.io/dae
+	url = ssh://cr.deepin.io:29418/dae
 [submodule "dbus-factory"]
 	path = project/dbus-factory
-	url = ssh://cr.deepin.io/dbus-factory
+	url = ssh://cr.deepin.io:29418/dbus-factory
 [submodule "dde-api"]
 	path = project/dde-api
-	url = ssh://cr.deepin.io/dde/dde-api
+	url = ssh://cr.deepin.io:29418/dde/dde-api
 [submodule "dde-daemon"]
 	path = project/dde-daemon
-	url = ssh://cr.deepin.io/dde/dde-daemon
+	url = ssh://cr.deepin.io:29418/dde/dde-daemon
 [submodule "dde-polkit-agent"]
 	path = project/dde-polkit-agent
-	url = ssh://cr.deepin.io/dde/dde-polkit-agent
+	url = ssh://cr.deepin.io:29418/dde/dde-polkit-agent
 [submodule "deepin-boot-maker"]
 	path = project/deepin-boot-maker
-	url = ssh://cr.deepin.io/deepin-boot-maker
+	url = ssh://cr.deepin.io:29418/deepin-boot-maker
 [submodule "deepin-cogl"]
 	path = project/deepin-cogl
-	url = ssh://cr.deepin.io/deepin-cogl
+	url = ssh://cr.deepin.io:29418/deepin-cogl
 [submodule "default-settings"]
 	path = project/default-settings
-	url = ssh://cr.deepin.io/default-settings
+	url = ssh://cr.deepin.io:29418/default-settings
 [submodule "deepin-desktop-schemas"]
 	path = project/deepin-desktop-schemas
-	url = ssh://cr.deepin.io/deepin-desktop-schemas
+	url = ssh://cr.deepin.io:29418/deepin-desktop-schemas
 [submodule "deepin-gtk-theme"]
 	path = project/deepin-gtk-theme
-	url = ssh://cr.deepin.io/deepin-gtk-theme
+	url = ssh://cr.deepin.io:29418/deepin-gtk-theme
 [submodule "deepin-icon-theme"]
 	path = project/deepin-icon-theme
-	url = ssh://cr.deepin.io/deepin-icon-theme
+	url = ssh://cr.deepin.io:29418/deepin-icon-theme
 [submodule "deepin-installer-reborn"]
 	path = project/deepin-installer-reborn
-	url = ssh://cr.deepin.io/deepin-installer-reborn
+	url = ssh://cr.deepin.io:29418/deepin-installer-reborn
 [submodule "deepin-menu"]
 	path = project/deepin-menu
-	url = ssh://cr.deepin.io/deepin-menu
+	url = ssh://cr.deepin.io:29418/deepin-menu
 [submodule "deepin-movie"]
 	path = project/deepin-movie
-	url = ssh://cr.deepin.io/deepin-movie
+	url = ssh://cr.deepin.io:29418/deepin-movie
 [submodule "deepin-mutter"]
 	path = project/deepin-mutter
-	url = ssh://cr.deepin.io/deepin-mutter
+	url = ssh://cr.deepin.io:29418/deepin-mutter
 [submodule "deepin-screen-recorder"]
 	path = project/deepin-screen-recorder
-	url = ssh://cr.deepin.io/deepin-screen-recorder
+	url = ssh://cr.deepin.io:29418/deepin-screen-recorder
 [submodule "deepin-screenshot"]
 	path = project/deepin-screenshot
-	url = ssh://cr.deepin.io/deepin-screenshot
+	url = ssh://cr.deepin.io:29418/deepin-screenshot
 [submodule "deepin-sound-theme"]
 	path = project/deepin-sound-theme
-	url = ssh://cr.deepin.io/deepin-sound-theme
+	url = ssh://cr.deepin.io:29418/deepin-sound-theme
 [submodule "deepin-tool-kit"]
 	path = project/deepin-tool-kit
-	url = ssh://cr.deepin.io/deepin-tool-kit
+	url = ssh://cr.deepin.io:29418/deepin-tool-kit
 [submodule "deepin-voice-recorder"]
 	path = project/deepin-voice-recorder
-	url = ssh://cr.deepin.io/deepin-voice-recorder
+	url = ssh://cr.deepin.io:29418/deepin-voice-recorder
 [submodule "deepin-wallpapers"]
 	path = project/deepin-wallpapers
-	url = ssh://cr.deepin.io/deepin-wallpapers
+	url = ssh://cr.deepin.io:29418/deepin-wallpapers
 [submodule "deepin-wm-switcher"]
 	path = project/deepin-wm-switcher
-	url = ssh://cr.deepin.io/deepin-wm-switcher
+	url = ssh://cr.deepin.io:29418/deepin-wm-switcher
 [submodule "dtksettings"]
 	path = project/dtksettings
-	url = ssh://cr.deepin.io/dtksettings
+	url = ssh://cr.deepin.io:29418/dtksettings
 [submodule "go-dbus-generator"]
 	path = project/go-dbus-generator
-	url = ssh://cr.deepin.io/go-dbus-generator
+	url = ssh://cr.deepin.io:29418/go-dbus-generator
 [submodule "go-lib"]
 	path = project/go-lib
-	url = ssh://cr.deepin.io/go-lib
+	url = ssh://cr.deepin.io:29418/go-lib
 [submodule "go-gir-generator"]
 	path = project/go-gir-generator
-	url = ssh://cr.deepin.io/go-gir-generator
+	url = ssh://cr.deepin.io:29418/go-gir-generator
 [submodule "miraclecast"]
 	path = project/miraclecast
-	url = ssh://cr.deepin.io/miraclecast
+	url = ssh://cr.deepin.io:29418/miraclecast
 [submodule "lastore-daemon"]
 	path = project/lastore-daemon
-	url = ssh://cr.deepin.io/lastore/lastore-daemon
+	url = ssh://cr.deepin.io:29418/lastore/lastore-daemon
