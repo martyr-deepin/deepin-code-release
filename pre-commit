@@ -1,0 +1,29 @@
+#!/bin/bash
+git submodule status > /tmp/achange
+if [ -f /tmp/achange ] ;then
+	echo "{" > change.json
+	while read line
+	do
+		if [[ ${line:0:1} == "-" ]];then
+			continue	
+		else
+			commit=${line%% *}
+			pro=${line#* }
+			if [ -f change.json ] && grep -qr "$commit"  change.json; then
+				continue
+			else
+				#echo  $commit >> change.json
+				#echo $pro >> change.json
+				tag=`echo $pro | cut -d '(' -f2 | cut -d ')' -f1`
+				project1=${pro%% *}
+				project=${project1#*/}
+
+				echo -e "\"$project\":{\"commit\":\"$commit\",\"tag\":\"$tag\"}," >> change.json
+			fi
+		fi
+	done < /tmp/achange
+	rm /tmp/achange
+	sed -i '$s/.$//' change.json
+	echo "}" >> change.json
+fi
+git add change.json
