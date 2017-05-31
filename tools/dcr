@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 
+'''
+dcr tool to manipulate deepin-code-release.
+'''
+
 import argparse
 
 import submodule
 import patch
 
-parser = argparse.ArgumentParser(prog="dcr")
+PARSER = argparse.ArgumentParser(prog="dcr")
 
-subparsers = parser.add_subparsers(title="subcommand",
-     help="subcommands that dcr support.",
-     dest="subcommand")
+SUBPARSER = PARSER.add_subparsers(title="subcommand",
+                                  help="subcommands that dcr support.",
+                                  dest="subcommand")
 
-submodule.register_module_args(subparsers)
-patch.register_module_args(subparsers)
+submodule.register_module_args(SUBPARSER)
+patch.register_module_args(SUBPARSER)
 
-args = parser.parse_args()
+ARGS = PARSER.parse_args()
 
-submodule.run_with_module_args(args)
-patch.run_with_module_args(args)
+submodule.run_with_module_args(ARGS)
+patch.run_with_module_args(ARGS)

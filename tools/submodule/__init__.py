@@ -1,16 +1,29 @@
+'''
+submodule
+'''
+
 import argparse
 import functools
 
-from git_utils import *
+from git_utils import (git_submodule_commit_to_tag,
+                       git_submodule_latest_commit,
+                       git_submodule_get_commit,
+                       git_submodule_list)
 
 def register_module_args(subparsers):
-    parser = subparsers.add_parser("submodule", 
-        help="subcommand to deal with submodules in deepin-code-release")
+    '''
+    register_module_args
+    '''
+    parser = subparsers.add_parser("submodule",
+                                   help="subcommand to deal with submodules in deepin-code-release")
 
     parser.add_argument("--status", action="store_true",
-        help="show submodule current status.")
+                        help="show submodule current status.")
 
 def run_with_module_args(args):
+    '''
+    run_with_module_args
+    '''
     if args.subcommand != __name__:
         return
 
@@ -18,12 +31,14 @@ def run_with_module_args(args):
         status()
 
 def status():
+    '''
+    status
+    '''
     sbms = git_submodule_list()
     for sbm in sbms:
-        _tagify = functools.partial(git_submodule_commit_to_tag, sbm)
-        tagify = lambda x: _tagify(x) or x
+        tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
         current_commit = git_submodule_get_commit(sbm)
         latest_commit = git_submodule_latest_commit(sbm)
-        
-        print("%s: current commit %s, remote latest commit %s." % 
-             (sbm, tagify(current_commit), tagify(latest_commit)))
+
+        print("%s: current commit %s, remote latest commit %s." %
+              (sbm, tagify(current_commit), tagify(latest_commit)))
