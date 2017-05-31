@@ -43,8 +43,14 @@ def main():
             else:
                 tag = tags.split('^{}')[0].split("tags/")[1]
         jsonlist[pro]=dict(commit=commit,tag=tag)
-        if i[0] == "+":
-            jsonchangelist[pro]=dict(commit=commit,tag=tag)
+        #if i[0] == "+":
+         #   jsonchangelist[pro]=dict(commit=commit,tag=tag)
+        with open('project_list.json','r') as json_file:
+            if commit in json_file.read():
+                continue
+            else:
+                jsonchangelist[pro]=dict(commit=commit,tag=tag)
+            json_file.close()
             
     store(jsonlist)
     file = open("project_changelist.json","w+")
