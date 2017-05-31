@@ -1,29 +1,86 @@
-#!/bin/bash
-git submodule status > /tmp/achange
-if [ -f /tmp/achange ] ;then
-	echo "{" > change.json
-	while read line
-	do
-		if [[ ${line:0:1} == "-" ]];then
-			continue	
-		else
-			commit=${line%% *}
-			pro=${line#* }
-			if [ -f change.json ] && grep -qr "$commit"  change.json; then
-				continue
-			else
-				#echo  $commit >> change.json
-				#echo $pro >> change.json
-				tag=`echo $pro | cut -d '(' -f2 | cut -d ')' -f1`
-				project1=${pro%% *}
-				project=${project1#*/}
+#!/usr/bin/python3
+import json
+import os
+import sys
+gitstatus = "git submodule status"
+gettag = "git ls-remote --tags https://cr.deepin.io/"
 
-				echo -e "\"$project\":{\"commit\":\"$commit\",\"tag\":\"$tag\"}," >> change.json
-			fi
-		fi
-	done < /tmp/achange
-	rm /tmp/achange
-	sed -i '$s/.$//' change.json
-	echo "}" >> change.json
-fi
-git add change.json
+def store(data):
+    with open('project_list.json','w+') as json_file:
+        json_file.write(json.dumps(data))
+        json_file.close()
+
+def main():
+    listjson = os.popen("%s"%gitstatus).readlines()
+    jsonlist = {}
+    for i in listjson:
+        commit = i[1:41]
+        tag = ""
+        pro = i.split('/')[1].split(' ')[0].strip('\n')
+        if "dde" in pro:
+            tags = os.popen("%sdde/%s | grep %s"%(gettag, pro, commit)).readline()
+            if tags == "":
+                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            else:
+                tag = tags.split('^{}')[0].split("tags/")[1]
+        elif "lastore" in pro:
+            tags = os.popen("%slastore/%s | grep %s"%(gettag, pro, commit)).readline()
+            if tags == "":
+                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            else:
+                tag = tags.split('^{}')[0].split("tags/")[1]
+        elif "appstore" in pro:
+            tags = os.popen("%sdstore/%s | grep %s"%(gettag, pro, commit)).readline()
+            if tags == "":
+                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            else:
+                tag = tags.split('^{}')[0].split("tags/")[1]
+        else:
+            tags = os.popen("%s%s | grep %s"%(gettag, pro, commit)).readline()
+            if tags == "":
+                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            else:
+                tag = tags.split('^{}')[0].split("tags/")[1]
+        jsonlist[pro]=dict(commit=commit,tag=tag)
+    store(jsonlist)
+    jsonchangelist = {}
+    file = open("project_changelist.json","w+")
+    for i in listjson:
+        if i[0] == " " or i[0] == "+":
+            commit = i[1:41]
+            tag = ""
+            pro = i.split('/')[1].split(' ')[0].strip('\n')
+            if "dde" in pro:
+                tags = os.popen("%sdde/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1]
+            elif "lastore" in pro:
+                tags = os.popen("%slastore/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1]
+            elif "appstore" in pro:
+                tags = os.popen("%sdstore/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1]
+            else:
+                tags = os.popen("%s%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1]
+            jsonchangelist[pro]=dict(commit=commit,tag=tag)
+    file.write(json.dumps(jsonchangelist))
+    file.close()
+
+
+if __name__=='__main__':
+    main()
+    os.system("git add ./project_list.json")
+    os.system("git add ./project_changelist.json")
+
