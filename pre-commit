@@ -46,7 +46,7 @@ def main():
     jsonchangelist = {}
     file = open("project_changelist.json","w+")
     for i in listjson:
-        if i[0] == " " or i[0] == "+":
+        if i[0] == "+":
             commit = i[1:41]
             tag = ""
             pro = i.split('/')[1].split(' ')[0].strip('\n')
