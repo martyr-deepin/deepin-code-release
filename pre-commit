@@ -7,7 +7,7 @@ gettag = "git ls-remote --tags https://cr.deepin.io/"
 
 def store(data):
     with open('project_list.json','w+') as json_file:
-        json_file.write(json.dumps(data))
+        json_file.write(json.dumps(data, indent=4, sort_keys=False, ensure_ascii=False))
         json_file.close()
 
 def main():
@@ -54,7 +54,7 @@ def main():
             
     store(jsonlist)
     file = open("project_changelist.json","w+")
-    file.write(json.dumps(jsonchangelist))
+    file.write(json.dumps(jsonchangelist, indent=4, sort_keys=False, ensure_ascii=False))
     file.close
 
 if __name__=='__main__':
