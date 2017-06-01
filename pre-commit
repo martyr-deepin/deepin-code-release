@@ -16,7 +16,6 @@ def main():
     jsonlist = collections.OrderedDict()
    # jsonchangelist = {}
     for i in listjson:
-        print(i)
         commit = i[1:41]
         tag = ""
         pro = i.split('/')[1].split(' ')[0].strip('\n')
