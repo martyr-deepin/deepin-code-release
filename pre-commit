@@ -13,7 +13,7 @@ def store(data):
 def main():
     listjson = os.popen("%s"%gitstatus).readlines()
     jsonlist = {}
-    jsonchangelist = {}
+   # jsonchangelist = {}
     for i in listjson:
         commit = i[1:41]
         tag = ""
@@ -23,42 +23,40 @@ def main():
             if tags == "":
                 print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1]
+                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         elif "lastore" in pro:
             tags = os.popen("%slastore/%s | grep %s"%(gettag, pro, commit)).readline()
             if tags == "":
                 print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1]
+                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         elif "appstore" in pro:
             tags = os.popen("%sdstore/%s | grep %s"%(gettag, pro, commit)).readline()
             if tags == "":
                 print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1]
+                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         else:
             tags = os.popen("%s%s | grep %s"%(gettag, pro, commit)).readline()
             if tags == "":
                 print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1]
+                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         jsonlist[pro]=dict(commit=commit,tag=tag)
-        #if i[0] == "+":
-         #   jsonchangelist[pro]=dict(commit=commit,tag=tag)
-        with open('project_list.json','r') as json_file:
-            if commit in json_file.read():
-                continue
-            else:
-                jsonchangelist[pro]=dict(commit=commit,tag=tag)
-            json_file.close()
+       # with open('project_list.json','r') as json_file:
+        #    if commit in json_file.read():
+         #       continue
+          #  else:
+           #     jsonchangelist[pro]=dict(commit=commit,tag=tag)
+           # json_file.close()
             
     store(jsonlist)
-    file = open("project_changelist.json","w+")
-    file.write(json.dumps(jsonchangelist, indent=4, sort_keys=False, ensure_ascii=False))
-    file.close
+   # file = open("project_changelist.json","w+")
+   # file.write(json.dumps(jsonchangelist, indent=4, sort_keys=False, ensure_ascii=False))
+   # file.close
 
 if __name__=='__main__':
     main()
     os.system("git add ./project_list.json")
-    os.system("git add ./project_changelist.json")
+    #os.system("git add ./project_changelist.json")
 
