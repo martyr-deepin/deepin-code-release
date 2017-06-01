@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+import collections
 gitstatus = "git submodule status"
 gettag = "git ls-remote --tags https://cr.deepin.io/"
 
@@ -12,9 +13,10 @@ def store(data):
 
 def main():
     listjson = os.popen("%s"%gitstatus).readlines()
-    jsonlist = {}
+    jsonlist = collections.OrderedDict()
    # jsonchangelist = {}
     for i in listjson:
+        print(i)
         commit = i[1:41]
         tag = ""
         pro = i.split('/')[1].split(' ')[0].strip('\n')
