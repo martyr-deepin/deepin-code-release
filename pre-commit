@@ -43,7 +43,10 @@ def main():
                 print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
             else:
                 tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
-        jsonlist[pro]=dict(commit=commit,tag=tag)
+        dist = collections.OrderedDict()
+        dist = {"commit":commit,"tag":tag}
+        #jsonlist[pro]=dict(commit=commit,tag=tag)
+        jsonlist[pro]=dist
        # with open('project_list.json','r') as json_file:
         #    if commit in json_file.read():
          #       continue
