@@ -44,7 +44,8 @@ def main():
             else:
                 tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         dist = collections.OrderedDict()
-        dist = {"commit":commit,"tag":tag}
+        dist["commit"]=commit
+        dist["tag"]=tag
         #jsonlist[pro]=dict(commit=commit,tag=tag)
         jsonlist[pro]=dist
        # with open('project_list.json','r') as json_file:
