@@ -74,6 +74,14 @@ def git_origin_commit(repo_dir):
     git = repo.git
     return git.log("origin", "-1", "--pretty=oneline").split()[0]
 
+def git_origin_tag(repo_dir):
+    '''
+    git_origin_tag
+    '''
+    repo = Repo(repo_dir)
+    tags = repo.tags
+    return tags[-1].name if len(repo.tags) else ""
+
 def git_submodule_commit_to_tag(submodule_name, commit_name):
     '''
     git_submodule_commit_to_tag
@@ -87,6 +95,13 @@ def git_submodule_latest_commit(submodule_name):
     '''
     repo_path = __git_repo__.submodule(submodule_name).abspath
     return git_origin_commit(repo_path)
+
+def git_submodule_latest_tag(submodule_name):
+    '''
+    git_submodule_latest_tag
+    '''
+    repo_path = __git_repo__.submodule(submodule_name).abspath
+    return git_origin_tag(repo_path)
 
 @ensure_submodule_info_cache
 def git_submodule_get_commit(submodule_name):
