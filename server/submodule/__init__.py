@@ -7,6 +7,12 @@ import functools
 
 from git_utils import *
 
+def prepare_branch(branch_name):
+    '''
+    preparen_branch
+    '''
+    git_checkout_branch(branch_name)
+    git_prepare_submodules()
 
 def _status_one(module_name):
     '''
@@ -56,3 +62,10 @@ def status_all():
         result.append(info)
 
     return result
+
+def update_one(submodule_name, commit):
+    '''
+    update_one
+    '''
+    prepare_branch("panda/current")
+    git_create_update_changelines(submodule_name, commit)

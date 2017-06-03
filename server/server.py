@@ -7,9 +7,10 @@ through the web interface.
 
 import json
 
-from flask import Flask
+from flask import Flask, request, abort
 
 import submodule
+from errors import GitException
 
 APP = Flask("dcr-server")
 
@@ -28,13 +29,26 @@ def submodules_all():
     data = submodule.status_all()
     return json.dumps(data)
 
-@APP.route("/submodule/<module_name>")
+@APP.route("/submodule/<module_name>", methods=["GET", "POST"])
 def submodules_one(module_name):
     '''
-    show the status of the submodule specified by parameter submodule
+    manipulate on the specific one submodule
     '''
-    data = submodule.status_one(module_name)
-    return json.dumps(data)
+    if request.method == "GET":
+        data = submodule.status_one(module_name)
+        if data:
+            return json.dumps(data)
+        else:
+            abort(404)
+    elif request.method == "POST":
+        print(request.form["commit"])
+        try:
+            commit = request.form["commit"]
+            submodule.update_one(module_name, commit)
+            return "success"
+        except GitException as ex:
+            print(ex)
+            return "failed"
 
 
 if __name__ == "__main__":

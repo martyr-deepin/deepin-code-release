@@ -8,6 +8,8 @@ from functools import update_wrapper
 
 from git import Repo, Tag, Submodule
 
+from errors import GitException
+
 __git_repo__ = None
 __git_submodule_info_cache__ = {}
 
@@ -54,6 +56,31 @@ def ensure_submodule_info_cache(func):
 
     update_wrapper(ret, func)
     return ret
+
+@ensure_repo
+def git_checkout_branch(branch_name):
+    '''
+    checkout branch
+    '''
+    repo = __git_repo__
+    if branch_name not in repo.branches:
+        raise GitException("branch doesn't exist")
+    cmd = repo.git
+    try:
+        cmd.checkout(branch_name)
+    except:
+        raise
+
+@ensure_repo
+def git_prepare_submodules():
+    '''
+    git_prepare_submodules
+    '''
+    repo = __git_repo__
+    repo.submodule_update()
+
+    cmd = repo.git
+    cmd.pull("--rebase", "--recurse-submodules")
 
 def git_commit_to_tag(repo_dir, commit_name):
     '''
@@ -114,9 +141,30 @@ def git_submodule_get_commit(submodule_name):
     '''
     return __git_submodule_info_cache__.get(submodule_name, "")
 
+def git_submodule_set_commit(submodule_name, commit):
+    '''
+    git_submodule_set_commit
+    '''
+    repo_path = __git_repo__.submodule(submodule_name).abspath
+    cmd = Repo(repo_path).git
+    cmd.checkout(commit)
+
 @ensure_submodule_info_cache
 def git_submodule_list():
     '''
     git_submodule_list
     '''
     return __git_submodule_info_cache__.keys()
+
+@ensure_repo
+def git_create_update_changelines(submodule_name, commit):
+    '''
+    git_create_update_changelines
+    '''
+    repo = __git_repo__
+    cmd = repo.git
+    cmd.checkout("-b", "update_%s_to_%s" % (submodule_name, commit))
+    git_submodule_set_commit(submodule_name, commit)
+    cmd.add("--all")
+    cmd.commit("-m", "update %s release version to %s" % (submodule_name, commit))
+    cmd.review("panda/current")
