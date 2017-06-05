@@ -77,10 +77,10 @@ def git_prepare_submodules():
     git_prepare_submodules
     '''
     repo = __git_repo__
-    repo.submodule_update()
 
     cmd = repo.git
-    cmd.pull("--rebase", "--recurse-submodules")
+    cmd.submodule("update", "--init")
+    cmd.pull("--recurse-submodules")
 
 def git_commit_to_tag(repo_dir, commit_name):
     '''
