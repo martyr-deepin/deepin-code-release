@@ -25,7 +25,7 @@ def _status_one(module_name):
     latest_tag = git_submodule_latest_tag(module_name)
 
     info["name"] = module_name
-    info["locale"] = {
+    info["local"] = {
         "commit": current_commit,
         "tag": git_submodule_commit_to_tag(module_name, current_commit)
     }
