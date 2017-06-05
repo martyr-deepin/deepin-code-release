@@ -164,8 +164,8 @@
         "tag": "2016.9.2"
     },
     "dtksettings": {
-        "commit": "441086177b5d9708daf1c0c60dec630e5ecc7357",
-        "tag": "0.1.5"
+        "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
+        "tag": "0.1.7"
     },
     "go-dbus-generator": {
         "commit": "2382c5d90a8a5255b85c4fc05d34241aedfc9840",
