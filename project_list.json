@@ -4,8 +4,8 @@
         "tag": "1.0.0"
     },
     "dbus-factory": {
-        "commit": "2308ee32ca6fc273c4a09afd063947eb4447e8cd",
-        "tag": "3.1.4"
+        "commit": "cd959df3381a500fcd8d5ba23fee39cf7e21a40a",
+        "tag": "3.1.5"
     },
     "dde-api": {
         "commit": "4c8e030f49cfc118dce28fe02418caa3937a2824",
