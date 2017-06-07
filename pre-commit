@@ -3,21 +3,25 @@ import json
 import os
 import sys
 import collections
+import threading
+import time
 gitstatus = "git submodule status"
 gettag = "git ls-remote --tags https://cr.deepin.io/"
+
+listjson = os.popen("%s"%gitstatus).readlines()
+#jsonlist = collections.OrderedDict()
+jsonlistnew = collections.OrderedDict()
+jsonlist = {}
+
 def store(data):
     with open('project_list.json','w+') as json_file:
         json_file.write(json.dumps(data, indent=4, sort_keys=False, ensure_ascii=False))
         json_file.close()
 
-def main():
-    listjson = os.popen("%s"%gitstatus).readlines()
-    jsonlist = collections.OrderedDict()
-   # jsonchangelist = {}
-    for i in listjson:
-        commit = i[1:41]
+def getmes(mes):
+        commit = mes[1:41]
         tag = ""
-        pro = i.split('/')[1].split(' ')[0].strip('\n')
+        pro = mes.split('/')[1].split(' ')[0].strip('\n')
         if "dde" in pro:
             tags = os.popen("%sdde/%s | grep %s"%(gettag, pro, commit)).readline()
             if tags == "":
@@ -45,23 +49,23 @@ def main():
         dist = collections.OrderedDict()
         dist["commit"]=commit
         dist["tag"]=tag
-        #jsonlist[pro]=dict(commit=commit,tag=tag)
         jsonlist[pro]=dist
-       # with open('project_list.json','r') as json_file:
-        #    if commit in json_file.read():
-         #       continue
-          #  else:
-           #     jsonchangelist[pro]=dict(commit=commit,tag=tag)
-           # json_file.close()
-            
-    store(jsonlist)
-   # file = open("project_changelist.json","w+")
-   # file.write(json.dumps(jsonchangelist, indent=4, sort_keys=False, ensure_ascii=False))
-   # file.close
+
+def main():
+    threads = []
+    for i in listjson:
+        thread = threading.Thread(target=getmes, args=(i,))
+        threads.append(thread)
+    for t in threads:
+        t.setDaemon(True)
+        t.start()
+    t.join()
+    pro = sorted(jsonlist.keys())
+    for m in pro:
+        jsonlistnew[m] = jsonlist[m]
+    store(jsonlistnew)
 
 if __name__=='__main__':
     main()
-#    path = os.popen("git rev-parse --show-toplevel").readline().strip()
     os.system("git add ./project_list.json")
-    #os.system("git add ./project_changelist.json")
 
