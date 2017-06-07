@@ -15,6 +15,10 @@
         "commit": "a8a4f5b90b1b1456514f54ad76e60a38d1fa4ce8",
         "tag": "1.0.7"
     },
+    "dde-control-center": {
+        "commit": "4d3827bf020885e725220be33b04c491285367c1",
+        "tag": "4.1.2"
+    },
     "dde-daemon": {
         "commit": "fa8b5951219f2df6d2dbc98ae1faf4b231903369",
         "tag": "3.1.10"
@@ -22,6 +26,10 @@
     "dde-dock": {
         "commit": "42610aec4621432aa6166537d5149d7204681b29",
         "tag": "4.2.1"
+    },
+    "dde-file-manager": {
+        "commit": "99d75976e596c9ed8eb044d70a4bccae6ab802d0",
+        "tag": "4.1.5"
     },
     "dde-launcher": {
         "commit": "67081d34b18759c82c1968a6b104173bda8c6540",
@@ -74,6 +82,10 @@
     "deepin-image-viewer": {
         "commit": "a6ac7847f0124d855be5a329b28ce5ac5be41f4f",
         "tag": "1.2.13"
+    },
+    "deepin-installer-reborn": {
+        "commit": "2d331f64bd4b3920068f963181d83e6be9bc85db",
+        "tag": "0.2.3"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
