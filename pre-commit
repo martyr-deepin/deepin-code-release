@@ -11,6 +11,7 @@ gettag = "git ls-remote --tags https://cr.deepin.io/"
 listjson = os.popen("%s"%gitstatus).readlines()
 jsonlistnew = collections.OrderedDict()
 jsonlist = {}
+json_hook = {}
 
 def store(data):
     with open('project_list.json','w+') as json_file:
@@ -18,33 +19,48 @@ def store(data):
         json_file.close()
 
 def getmes(mes):
+        with open('project_list.json','r+') as json_old_file:
+            json_hook = json.load(json_old_file)
+            json_old_file.close()
         commit = mes[1:41]
         tag = ""
         pro = mes.split('/')[1].split(' ')[0].strip('\n')
         if "dde" in pro:
-            tags = os.popen("%sdde/%s | grep %s"%(gettag, pro, commit)).readline()
-            if tags == "":
-                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            if pro in json_hook and json_hook[pro]["commit"] == commit:
+                tag = json_hook[pro]["tag"]
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
+                tags = os.popen("%sdde/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         elif "lastore" in pro:
-            tags = os.popen("%slastore/%s | grep %s"%(gettag, pro, commit)).readline()
-            if tags == "":
-                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            if pro in json_hook and json_hook[pro]["commit"] == commit:
+                tag = json_hook[pro]["tag"]
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
+                tags = os.popen("%slastore/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         elif "appstore" in pro:
-            tags = os.popen("%sdstore/%s | grep %s"%(gettag, pro, commit)).readline()
-            if tags == "":
-                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            if pro in json_hook and json_hook[pro]["commit"] == commit:
+                tag = json_hook[pro]["tag"]
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
+                tags = os.popen("%sdstore/%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         else:
-            tags = os.popen("%s%s | grep %s"%(gettag, pro, commit)).readline()
-            if tags == "":
-                print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+            if pro in json_hook and json_hook[pro]["commit"] == commit:
+                tag = json_hook[pro]["tag"]
             else:
-                tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
+                tags = os.popen("%s%s | grep %s"%(gettag, pro, commit)).readline()
+                if tags == "":
+                    print("%s项目submodule引用不在tag上面,请确定提交内容是否正确"%pro)
+                else:
+                    tag = tags.split('^{}')[0].split("tags/")[1].strip('\n')
         dist = collections.OrderedDict()
         dist["commit"]=commit
         dist["tag"]=tag
