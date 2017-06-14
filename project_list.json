@@ -168,8 +168,8 @@
         "tag": "0.1.7"
     },
     "go-dbus-generator": {
-        "commit": "2382c5d90a8a5255b85c4fc05d34241aedfc9840",
-        "tag": "0.6.4"
+        "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
+        "tag": "0.6.6"
     },
     "go-gir-generator": {
         "commit": "9ee7058956d8debee0198f2b8b37bb9e361f3451",
