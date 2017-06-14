@@ -79,7 +79,8 @@ def git_origin_tag(repo_dir):
     git_origin_tag
     '''
     repo = Repo(repo_dir)
-    tags = repo.tags
+    tags = repo.tags.copy()
+    tags.sort(key=lambda x: x.commit.committed_datetime)
     return tags[-1].name if len(repo.tags) else ""
 
 def git_submodule_commit_to_tag(submodule_name, commit_name):

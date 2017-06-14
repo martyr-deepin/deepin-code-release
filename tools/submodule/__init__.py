@@ -94,8 +94,9 @@ def status_diff(projects):
     sbms = git_submodule_list() if not projects else projects
     for sbm in sbms:
         tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
-        current_commit = git_submodule_get_commit(sbm)
-        latest_commit = git_submodule_latest_commit(sbm)
+        current_commit = tagify(git_submodule_get_commit(sbm))
+        latest_tag = git_submodule_latest_tag(sbm)
 
-        print("%s: current commit %s, remote latest commit %s." %
-              (sbm, tagify(current_commit), tagify(latest_commit)))
+        if current_commit != latest_tag:
+            print("%s: \n\tlocal current %s\n\tremote latest tag %s" %
+                  (sbm, current_commit, latest_tag))
