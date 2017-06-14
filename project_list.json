@@ -176,8 +176,8 @@
         "tag": "1.0.1"
     },
     "go-lib": {
-        "commit": "b084e27172bb28e68f44ea4cecddb25d7dcfdc49",
-        "tag": "1.0.3"
+        "commit": "64d546f3dd22be79a9a04ac764f736ec0d39173f",
+        "tag": "1.0.4"
     },
     "lastore-daemon": {
         "commit": "748fe1bdfbcf397e28b1c118d40621a14164f9ed",
