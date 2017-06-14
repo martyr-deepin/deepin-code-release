@@ -104,6 +104,14 @@ def git_submodule_latest_tag(submodule_name):
     repo_path = __git_repo__.submodule(submodule_name).abspath
     return git_origin_tag(repo_path)
 
+def git_submodule_set_commit(submodule_name, commit):
+    '''
+    git_submodule_set_commit
+    '''
+    repo_path = __git_repo__.submodule(submodule_name).abspath
+    repo = Repo(repo_path)
+    return repo.git.checkout(commit)
+
 @ensure_submodule_info_cache
 def git_submodule_get_commit(submodule_name):
     '''

@@ -9,6 +9,7 @@ from git_utils import (git_submodule_commit_to_tag,
                        git_submodule_latest_commit,
                        git_submodule_latest_tag,
                        git_submodule_get_commit,
+                       git_submodule_set_commit,
                        git_submodule_list)
 
 def register_module_args(subparsers):
@@ -22,8 +23,15 @@ def register_module_args(subparsers):
                                         help="subcommands that dcr submodule support.",
                                         dest="ssubcommand")
 
-    status_parser = ssubparsers.add_parser("list",
-                                           help="submodule subcommand to list all the submodules")
+    _ = ssubparsers.add_parser("list",
+                               help="submodule subcommand to list all the submodules")
+
+    sync_parser = ssubparsers.add_parser("sync",
+                                         help="submodule subcommand to sync submodule local ref " \
+                                              "to the remote latest tag")
+    sync_parser.add_argument("submodules", nargs="*",
+                             help="sepcify which submodule to operate on," \
+                                  "default is all submodules")
 
     status_parser = ssubparsers.add_parser("status",
                                            help="submodule subcommand to show the " \
@@ -54,6 +62,8 @@ def run_with_module_args(args):
             status_diff(args.submodules)
     elif args.ssubcommand == "list":
         list_all()
+    elif args.ssubcommand == "sync":
+        sync(args.submodules)
 
 def list_all():
     '''
@@ -100,3 +110,19 @@ def status_diff(projects):
         if current_commit != latest_tag:
             print("%s: \n\tlocal current %s\n\tremote latest tag %s" %
                   (sbm, current_commit, latest_tag))
+
+
+def sync(projects):
+    '''
+    status
+    '''
+    sbms = git_submodule_list() if not projects else projects
+    for sbm in sbms:
+        tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
+        current_commit = tagify(git_submodule_get_commit(sbm))
+        latest_tag = git_submodule_latest_tag(sbm)
+
+        if current_commit != latest_tag:
+            print("%s: checkout to %s from %s" %
+                  (sbm, latest_tag, current_commit))
+            git_submodule_set_commit(sbm, latest_tag)
