@@ -142,3 +142,6 @@
 [submodule "lastore-daemon"]
 	path = project/lastore-daemon
 	url = ssh://cr.deepin.io:29418/lastore/lastore-daemon
+[submodule "project/mintdrivers"]
+	path = project/mintdrivers
+	url = ssh://cr.deepin.io:29418/mintdrivers
