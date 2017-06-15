@@ -183,6 +183,10 @@
         "commit": "a1f122923ba1674d06671015fec57dc298fdf8f5",
         "tag": "0.9.43.1"
     },
+    "mintdrivers": {
+        "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
+        "tag": "1.3.3"
+    },
     "miraclecast": {
         "commit": "6c6e1eec652479c75f775c7c0dd0084db9e4af17",
         "tag": "1.0.7"
