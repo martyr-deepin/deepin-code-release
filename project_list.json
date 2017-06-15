@@ -1,7 +1,7 @@
 {
     "dae": {
-        "commit": "527f0c57bd6914a789c3e30e56081cea357e280b",
-        "tag": "1.0.0"
+        "commit": "350848717ee19b439ac51efd6d9dc2c88769ec3b",
+        "tag": "1.0.2"
     },
     "dbus-factory": {
         "commit": "cd959df3381a500fcd8d5ba23fee39cf7e21a40a",
@@ -48,12 +48,12 @@
         "tag": "4.0.7"
     },
     "deepin-appstore": {
-        "commit": "71cbe5258cd01e881da876ee7952ad9b7b9ee809",
-        "tag": "4.0.9.5"
+        "commit": "224053c4f98861a11a762b50f248508f5509669a",
+        "tag": "4.0.9.6"
     },
     "deepin-boot-maker": {
-        "commit": "6948bc049c8db2f9ef0590c78ee059433217e67c",
-        "tag": "2.0.0"
+        "commit": "2fa106f9835d0990eab83c1873235a0cf557e349",
+        "tag": "2.0.1"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
@@ -72,20 +72,20 @@
         "tag": "1.0.12"
     },
     "deepin-gtk-theme": {
-        "commit": "ed688f6166c9553b750623b5b125ac0d5408531a",
-        "tag": "17.10.1"
+        "commit": "eba2cf48ff7ee8e4cd2cc783ef626bf500092b9b",
+        "tag": "17.10.2"
     },
     "deepin-icon-theme": {
-        "commit": "12ac6b3102621df1e8e0480be9e205cd30eb476c",
-        "tag": "15.12.39"
+        "commit": "4be2fd4bcce21d4a1470c1495fa5abbffc695c95",
+        "tag": "15.12.44"
     },
     "deepin-image-viewer": {
         "commit": "a6ac7847f0124d855be5a329b28ce5ac5be41f4f",
         "tag": "1.2.13"
     },
     "deepin-installer-reborn": {
-        "commit": "2d331f64bd4b3920068f963181d83e6be9bc85db",
-        "tag": "0.2.3"
+        "commit": "b87b85cabe52defd6b101c0305657061b435edb1",
+        "tag": "2.0.4"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
@@ -96,8 +96,8 @@
         "tag": "3.1.3"
     },
     "deepin-metacity": {
-        "commit": "cb3e4c50824f924e76628279d54912cfd6774c88",
-        "tag": "3.22.8"
+        "commit": "52f3488dfbb160080d10753ca48dbfd141b69069",
+        "tag": "3.22.9"
     },
     "deepin-movie": {
         "commit": "69123ed11d04873b9559f4f93faf24346db43e64",
@@ -108,8 +108,8 @@
         "tag": "3.1.0"
     },
     "deepin-mutter": {
-        "commit": "6b2b181b047ee86615382e452181916c08be68c2",
-        "tag": "3.20.17"
+        "commit": "21f513eb6841f7d98597a8ec3784573989830735",
+        "tag": "3.20.18"
     },
     "deepin-notifications": {
         "commit": "07c016386a06c9698ccefe810e32bbcadf849bfc",
@@ -124,20 +124,20 @@
         "tag": "1.8"
     },
     "deepin-screenshot": {
-        "commit": "96aefc0b1f581b9be0eb382e201b17d1e759ddd1",
-        "tag": "3.1.13"
+        "commit": "1744d98122927261123ff7133695b15e9c824b18",
+        "tag": "4.0.3"
     },
     "deepin-shortcut-viewer": {
-        "commit": "760b0825bb1ecbbef3f9c17b2bc77940fc3011df",
-        "tag": "1.0.2"
+        "commit": "5148ff4b9028036cc1098d3959b199e23d4faf96",
+        "tag": "1.3.0"
     },
     "deepin-sound-theme": {
         "commit": "0045de406a143b798ac3b2fbe2b318b4a4894176",
         "tag": "15.10.1"
     },
     "deepin-terminal": {
-        "commit": "468f714025f61d8e60519416f16ed3f10236e52b",
-        "tag": "2.3.4"
+        "commit": "60382bf7ac622886139c652d686943e02e74fcd4",
+        "tag": "2.4.3"
     },
     "deepin-tool-kit": {
         "commit": "fbc8d6a153123b60bc871ab4dd5e6233f0d9398f",
@@ -152,16 +152,16 @@
         "tag": "1.4"
     },
     "deepin-wm": {
-        "commit": "42cd230355c91557b2c4cc88f15186fa5dfe17c7",
-        "tag": "1.9.12"
+        "commit": "a0bd0c5427ad8f153ac5e7fba058e53267121cc3",
+        "tag": "1.9.13"
     },
     "deepin-wm-switcher": {
         "commit": "8692ad3b17fe98291110d6135796ba652521cc9e",
         "tag": "1.1.0"
     },
     "default-settings": {
-        "commit": "5823d4acc81d9a88e1c6e95ea7510cbda43898d5",
-        "tag": "2016.9.2"
+        "commit": "88fe0601d1c1eeba1a3d442f1c98593b1e2130e6",
+        "tag": "2016.9.3"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
@@ -180,15 +180,15 @@
         "tag": "1.0.4"
     },
     "lastore-daemon": {
-        "commit": "748fe1bdfbcf397e28b1c118d40621a14164f9ed",
-        "tag": "0.9.43"
+        "commit": "a1f122923ba1674d06671015fec57dc298fdf8f5",
+        "tag": "0.9.43.1"
     },
     "miraclecast": {
-        "commit": "3931adeca5e9aef5b4bfca5783c3c01cf46e916d",
-        "tag": "1.0.6"
+        "commit": "6c6e1eec652479c75f775c7c0dd0084db9e4af17",
+        "tag": "1.0.7"
     },
     "startdde": {
-        "commit": "a9130d0fa86efe557cd3f2499015b4ead839b1e0",
-        "tag": "3.1.8"
+        "commit": "ea9d3540d2d7f447d50f6d82e84734185f2fecbf",
+        "tag": "3.1.9"
     }
 }
