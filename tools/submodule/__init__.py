@@ -78,24 +78,36 @@ def status_local(projects):
     status_local
     '''
     sbms = git_submodule_list() if not projects else projects
+    delimiter="  |  "
+    name_maxlen=max((len(n) for n in sbms))
+    table_head = "{:{name_maxlen}}{delimiter}{}".format(
+        "project", "tag", name_maxlen=name_maxlen, delimiter=delimiter)
+    print(table_head, "="*(len(table_head)+5), sep="\n")
+
     for sbm in sbms:
         tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
         current_commit = git_submodule_get_commit(sbm)
-
-        print("%s: %s" % (sbm, tagify(current_commit)))
+        tagified = tagify(current_commit)
+        print("{sbm:{name_maxlen}}{delimiter}{tagified}".format_map(locals()))
 
 def status_remote(projects):
     '''
     status_remote
     '''
     sbms = git_submodule_list() if not projects else projects
+    delimiter="  |  "
+    name_maxlen=max((len(n) for n in sbms))
+
+    table_head = "{0:{name_maxlen}}{delimiter}{1:40}{delimiter}{2}".format(
+        "project", "latest_commit", "latest_tag", name_maxlen=name_maxlen, delimiter=delimiter)
+    print(table_head, "="*len(table_head), sep="\n")
+
     for sbm in sbms:
         tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
         latest_commit = git_submodule_latest_commit(sbm)
+        tagified = tagify(latest_commit)
         latest_tag = git_submodule_latest_tag(sbm)
-
-        print("%s: latest commit %s, latest tag %s" %
-              (sbm, tagify(latest_commit), latest_tag))
+        print("{sbm:{name_maxlen}}{delimiter}{tagified:40}{delimiter}{latest_tag}".format_map(locals()))
 
 def status_diff(projects):
     '''
@@ -108,7 +120,7 @@ def status_diff(projects):
         latest_tag = git_submodule_latest_tag(sbm)
 
         if current_commit != latest_tag:
-            print("%s: \n\tlocal current %s\n\tremote latest tag %s" %
+            print("%s: \n\tlocal current     %s\n\tremote latest tag %s" %
                   (sbm, current_commit, latest_tag))
 
 
