@@ -4,7 +4,7 @@ git_utils
 
 import subprocess
 
-from git import Repo
+from git import Repo, Tag
 
 _git_dir = subprocess.getoutput("git rev-parse --show-toplevel")
 __git_repo__ = Repo(_git_dir)
