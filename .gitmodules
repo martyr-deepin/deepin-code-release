@@ -145,3 +145,6 @@
 [submodule "project/mintdrivers"]
 	path = project/mintdrivers
 	url = ssh://cr.deepin.io:29418/mintdrivers
+[submodule "project/deepin-qml-widgets"]
+	path = project/deepin-qml-widgets
+	url = ssh://cr.deepin.io:29418/deepin-qml-widgets
