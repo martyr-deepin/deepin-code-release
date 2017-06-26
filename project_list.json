@@ -195,6 +195,10 @@
         "commit": "6c6e1eec652479c75f775c7c0dd0084db9e4af17",
         "tag": "1.0.7"
     },
+    "qt5integration": {
+        "commit": "ae539894500a744ec87d9a7f2d6aca5306fc26a1",
+        "tag": "0.1.9"
+    },
     "startdde": {
         "commit": "ea9d3540d2d7f447d50f6d82e84734185f2fecbf",
         "tag": "3.1.9"

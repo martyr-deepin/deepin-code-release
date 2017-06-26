@@ -148,3 +148,6 @@
 [submodule "project/deepin-qml-widgets"]
 	path = project/deepin-qml-widgets
 	url = ssh://cr.deepin.io:29418/deepin-qml-widgets
+[submodule "qt5integration"]
+	path = project/qt5integration
+	url = ssh://cr.deepin.io:29418/qt5integration
