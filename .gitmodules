@@ -151,3 +151,6 @@
 [submodule "qt5integration"]
 	path = project/qt5integration
 	url = ssh://cr.deepin.io:29418/qt5integration
+[submodule "project/deepin-icon-theme-tools"]
+	path = project/deepin-icon-theme-tools
+	url = ssh://cr.deepin.io:29418/deepin-icon-theme-tools
