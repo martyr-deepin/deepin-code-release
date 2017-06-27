@@ -68,8 +68,8 @@
         "tag": "3.1.7"
     },
     "deepin-feedback": {
-        "commit": "dd90d339e9a79b177faa57ea037fc71fcebc7803",
-        "tag": "1.0.12"
+        "commit": "042b0c5ffacb9f19c8e4f0e5cb0e4a9e687a17ec",
+        "tag": "1.0.13"
     },
     "deepin-gtk-theme": {
         "commit": "eba2cf48ff7ee8e4cd2cc783ef626bf500092b9b",
