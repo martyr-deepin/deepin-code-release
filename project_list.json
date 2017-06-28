@@ -152,8 +152,8 @@
         "tag": "2.4.3"
     },
     "deepin-tool-kit": {
-        "commit": "fbc8d6a153123b60bc871ab4dd5e6233f0d9398f",
-        "tag": "0.2.10"
+        "commit": "27d6e1706677b766f9994a551b6fbc43f721096b",
+        "tag": "0.2.11"
     },
     "deepin-voice-recorder": {
         "commit": "2a95a46109a80ecf5da47af0fef82b397fdfa9f8",
