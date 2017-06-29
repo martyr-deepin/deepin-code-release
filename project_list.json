@@ -136,8 +136,8 @@
         "tag": "1.9"
     },
     "deepin-screenshot": {
-        "commit": "03121cc8408a8a64749bb03559138b1ce1fb51a1",
-        "tag": "4.0.4"
+        "commit": "b7483cfef3717f540e4db057baea13628f062b84",
+        "tag": "4.0.8"
     },
     "deepin-shortcut-viewer": {
         "commit": "729e82d50a05d88eae61ccbf24f5b2b78eba34db",
