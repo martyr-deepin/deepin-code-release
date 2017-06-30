@@ -28,8 +28,8 @@
         "tag": "4.3.0"
     },
     "dde-file-manager": {
-        "commit": "99d75976e596c9ed8eb044d70a4bccae6ab802d0",
-        "tag": "4.1.5"
+        "commit": "968bd3a1a88db8c408efb7f0b8abe2ce7060c5ec",
+        "tag": "4.1.6"
     },
     "dde-launcher": {
         "commit": "f074035e51d40ddcea3cd45652190e8d0f7ddacf",
@@ -172,8 +172,8 @@
         "tag": "1.1.1"
     },
     "default-settings": {
-        "commit": "1d1078e3ec8596acd3f278d54445791a10b7197c",
-        "tag": "2016.9.4"
+        "commit": "600ae95fa5fd381240be28e3cda3b3cb1bb15e4e",
+        "tag": "2016.9.5"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
