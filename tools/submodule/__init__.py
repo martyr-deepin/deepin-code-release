@@ -128,15 +128,16 @@ def sync(projects):
     '''
     status
     '''
-    sbms = repo.submodule_list if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else projects
     for sbm in sbms:
-        current_commit = sbm.latest_origin_commit
+        current_commit = sbm.latest_commit
         try:
             tagified = sbm.commit_to_tag(current_commit).name
         except TagError:
             tagified = current_commit
-        latest_tag = sbm.latest_tag
-        if current_commit != latest_tag:
-            print("%s: checkout to %s from %s" %
-                  (sbm, latest_tag, current_commit))
+        latest_tag = sbm.latest_tag.name
+
+        if tagified != latest_tag:
+            print("%s: %s -> %s" %
+                  (sbm.name, tagified, latest_tag))
             sbm.set_commit(latest_tag)

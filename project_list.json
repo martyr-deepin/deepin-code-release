@@ -12,8 +12,8 @@
         "tag": "3.1.9"
     },
     "dde-calendar": {
-        "commit": "d9efedb020456c4f6d37470bf6529a80a9223b25",
-        "tag": "1.0.8"
+        "commit": "5f7856554a85b18f70fa43f3ac8facad4c7de0e1",
+        "tag": "1.0.9"
     },
     "dde-control-center": {
         "commit": "7775dc061bd3519abbfd39104822d8073cfce7f2",
@@ -24,8 +24,8 @@
         "tag": "3.1.11"
     },
     "dde-dock": {
-        "commit": "070c55d208332f674f890f0b04bbecc7d47ca32c",
-        "tag": "4.3.0"
+        "commit": "f078a842117ef29ae788fe578548fd387fe2a5fe",
+        "tag": "4.3.1"
     },
     "dde-file-manager": {
         "commit": "968bd3a1a88db8c408efb7f0b8abe2ce7060c5ec",
@@ -92,8 +92,8 @@
         "tag": "1.2.13"
     },
     "deepin-installer-reborn": {
-        "commit": "b87b85cabe52defd6b101c0305657061b435edb1",
-        "tag": "2.0.4"
+        "commit": "140fc50bcd318ec5c8b611bb07b0256d1d8557f9",
+        "tag": "2.1.0"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
@@ -120,16 +120,16 @@
         "tag": "3.20.19"
     },
     "deepin-notifications": {
-        "commit": "79d19cb05c580e955783551cdbe2860c42dd928f",
-        "tag": "3.0.5"
+        "commit": "0033758606f3e1ecf6a34e7d9e9fad0d4f00df76",
+        "tag": "3.0.6"
     },
     "deepin-qml-widgets": {
         "commit": "38135764aaad4f0ba818efee6735612df17d503c",
         "tag": "2.3.5"
     },
     "deepin-remote-assistance": {
-        "commit": "90891549484605e26198b1b6a841cc04831c11fb",
-        "tag": "1.0.14"
+        "commit": "c7a94ac8d41ff8e871b396e30f1bd3b3f02a5fef",
+        "tag": "1.0.15"
     },
     "deepin-screen-recorder": {
         "commit": "3633a90b63a2552c830d89d0f331478a464e4824",
@@ -172,8 +172,8 @@
         "tag": "1.1.1"
     },
     "default-settings": {
-        "commit": "600ae95fa5fd381240be28e3cda3b3cb1bb15e4e",
-        "tag": "2016.9.5"
+        "commit": "df26acb17dcefe6d1221a9ebed3ab335e26add84",
+        "tag": "2016.9.6"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
