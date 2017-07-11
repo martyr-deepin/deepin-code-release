@@ -12,23 +12,30 @@ deepin-code-release仓库(git)作为整个release系统的核心，目前包含�
 
 - projects
 
-    deepin所有子项目都以submodule的形式包含在这个目录，主要用于子项目的添加/删除和版本管理，所有对外推送的deepin系列包都是通过修改这个目录下对应的子项目版本来控制；
+    deepin所有子项目都以submodule的形式包含在这个目录，主要用于子项目的添加/删除和版本管理，所有仓库变动的dde系列包都是通过修改这个目录下对应的子项目版本来控制；
 
-- patches
+
+- patches (废弃)
 
     patches目录主要用于记录相应软件仓库上游软件被deepin打过的patch，防止patch丢失和混乱；所有相应软件仓库中被deepin打过patch的上游应用都应该能在此找到所有patch；
 
     patch规范 （待补充）
 
-- 分支结构和tag
+- 分支命名与仓库关系 (特指此项目自身的分支和tag)
 
-    分支命名规范 软件仓库[-PPA]/current
+    项目根目录的TARGET文件指定了对应的实际仓库地址。 TARGET格式为
+       ```name repo\_url repo\_suite [可选的feature list. 以空格作为分隔符]```
 
-        没有指定PPA的分支，改动过后打的包进入内网仓库，指定了PPA的则进入相应的内网 unstable PPA；
+    分支合并后一定对应到TARGET仓库的实际变动。(特殊情况下，反之不一定)
 
-    tag命名规范 软件仓库/[系统新版本号|更新日期]
+    分支命名规范 TARGET[0]/current
+
+        目前只有current子分支，其他子分支预留给将来扩展使用。
+
+    tag命名规范 TARGET[0]/[系统新版本号|更新日期]
 
         如果是发布新系统则写系统新版本号，如果只是例行更新，则写更新日期；
+
 
 - 辅助工具
 
@@ -54,9 +61,17 @@ deepin-code-release仓库(git)作为整个release系统的核心，目前包含�
     dcr patch （待补充）
     ```
 
-## CI系统
+## 当前分支说明
 
-目前实现为panda-dde/current分支提交CL后，将更新的项目打包，打包完成后 verified +1；CL合并后推送包更新至内网dde PPA的unstable仓库；
+### panda/current
+TARGET内容
+```panda http://packages.deepin.com/deepin panda [RR OnTag]```
+1. panda/current对应官方仓库(packages.deepin.com/deepin panda)
+2. 此分支出现CL后会自动触发rr.deepin.io (TARGET特性列表中含RR)
+3. 且合并前需要保证所有的project落在具体的tag上 (TARGET特性列表中含OnTag)
 
-其他（待补充）
 
+### panda-dde/current
+TARGET内容
+```panda-dde http://pools.corp.deepin.com/ppa/dde unstable```
+1. 对应内网ppa/dde仓库
