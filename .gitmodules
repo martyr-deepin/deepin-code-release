@@ -157,3 +157,6 @@
 [submodule "project/deepin-gettext-tools"]
 	path = project/deepin-gettext-tools
 	url = ssh://cr.deepin.io:29418/deepin-gettext-tools
+[submodule "project/dde-help"]
+	path = project/dde-help
+	url = ssh://cr.deepin.io:29418/dde/dde-help
