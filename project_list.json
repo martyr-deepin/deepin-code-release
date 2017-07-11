@@ -48,8 +48,8 @@
         "tag": "4.0.10"
     },
     "deepin-appstore": {
-        "commit": "224053c4f98861a11a762b50f248508f5509669a",
-        "tag": "4.0.9.6"
+        "commit": "0b8449d0cfd16320a95f802c2784116b50949544",
+        "tag": ""
     },
     "deepin-boot-maker": {
         "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
