@@ -60,8 +60,8 @@
         "tag": "1.22.4"
     },
     "deepin-desktop-base": {
-        "commit": "b1f1fcb54069c38b2da65c0597bbd446ec685a78",
-        "tag": "2016.12.2"
+        "commit": "9a6012d77920457bc401418b38c84c3ff9b96e00",
+        "tag": "2016.12.4"
     },
     "deepin-desktop-schemas": {
         "commit": "a8115c2416af16e96c0589bda7bf52a4779997cf",
