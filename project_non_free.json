@@ -1,10 +1,14 @@
 {
-	"deepin-cloud-print-client":{
-		"commit":"1cde74e72916ba9a208714639bc3fd3d2e4bbb66",
-		"tag":"1.2.1"
-	},
-	"deepin-scanner":{
-		"commit":"a44cccc5184c35c714d2df16a485a26bbf2f046e",
-		"tag":"1.0.5"
-	}
+  "deepin-cloud-print-client": {
+    "commit": "1cde74e72916ba9a208714639bc3fd3d2e4bbb66",
+    "tag": "1.2.1"
+  },
+  "deepin-scanner": {
+    "commit": "a44cccc5184c35c714d2df16a485a26bbf2f046e",
+    "tag": "1.0.5"
+  },
+  "deepin-license": {
+    "commit": "44d4c159be7ec5e53b1a12982c02fa5ab41773dc",
+    "tag": "1.1.4"
+  }
 }
