@@ -32,8 +32,8 @@
         "tag": "4.1.6"
     },
     "dde-help": {
-        "commit": "06b64455bdf274831b74994861b003ab4e5c77a4",
-        "tag": "15.4"
+        "commit": "b01e9ab63abc89348d2fc9a238bbc7215955b113",
+        "tag": "15.4.6"
     },
     "dde-launcher": {
         "commit": "d396476b8404bad7d2ee8203994ccd685bf4072c",
