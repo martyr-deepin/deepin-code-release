@@ -16,16 +16,16 @@
         "tag": "1.0.11"
     },
     "dde-control-center": {
-        "commit": "142c2065f3af374be33c1ff3813d8014e88702b6",
-        "tag": "4.2.2"
+        "commit": "2f420f2051480800624e37ea531d1381e13836c0",
+        "tag": "4.2.3"
     },
     "dde-daemon": {
         "commit": "03541ad31570f9fb19863c5957eebc5af4367956",
         "tag": "3.1.13"
     },
     "dde-dock": {
-        "commit": "b97d9d5ca72121e734d01e4d95874a26fc361b40",
-        "tag": "4.3.2"
+        "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
+        "tag": "4.3.3"
     },
     "dde-file-manager": {
         "commit": "9308953ef9b3f5ea42caebe3d191340d5392e750",
