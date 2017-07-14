@@ -48,8 +48,8 @@
         "tag": "0.2.0"
     },
     "dde-session-ui": {
-        "commit": "e49388fe88c1a486b9ecf04907f77b082f43ad5c",
-        "tag": "4.0.12"
+        "commit": "4cadab1afada9834805aabc60e7741e20082b257",
+        "tag": "4.0.13"
     },
     "deepin-appstore": {
         "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
