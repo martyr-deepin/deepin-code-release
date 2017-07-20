@@ -36,8 +36,8 @@
         "tag": "15.4"
     },
     "dde-launcher": {
-        "commit": "1cc701fd6e66ffb1ecdabbe46925903c6f38b58e",
-        "tag": "4.1.3"
+        "commit": "be7e4085bbbbb8704fd4cdd8d1213f6a4bc18e68",
+        "tag": "4.1.4"
     },
     "dde-polkit-agent": {
         "commit": "680c12f0235d30af0395bf2cb2e55ef71bd3cb55",
@@ -68,8 +68,8 @@
         "tag": "2016.12.6"
     },
     "deepin-desktop-schemas": {
-        "commit": "95af7cd15c013a32b10b24ce534074993774cef4",
-        "tag": "3.1.13"
+        "commit": "eeea1d45900d3bf98a45e6df369563c8238103af",
+        "tag": "3.1.14"
     },
     "deepin-feedback": {
         "commit": "042b0c5ffacb9f19c8e4f0e5cb0e4a9e687a17ec",
@@ -104,8 +104,8 @@
         "tag": "1.0.6"
     },
     "deepin-menu": {
-        "commit": "a4c0bf8e72fb97cf9e90660cb536e182ef61b796",
-        "tag": "3.1.4"
+        "commit": "3ab1c65cabf80cab3e8ae5d045500601b2bffcc9",
+        "tag": "3.1.5"
     },
     "deepin-metacity": {
         "commit": "e9af397c7cfdb67d4d7425d32853ec5cb92c8816",
@@ -152,16 +152,16 @@
         "tag": "15.10.1"
     },
     "deepin-terminal": {
-        "commit": "439ab57a8062419e4c252249ab3079ade9f150ac",
-        "tag": "2.4.4"
+        "commit": "82c4a12c49eee03c4caedb64c3d4407c26bba070",
+        "tag": "2.5.1"
     },
     "deepin-tool-kit": {
         "commit": "e8676963ecc585e7ed5d35dc7cda2eabb71a63c3",
         "tag": "0.3.1"
     },
     "deepin-voice-recorder": {
-        "commit": "6c05bf1532eec8d93656d1e7a43aee5cd74e5b9c",
-        "tag": "1.3"
+        "commit": "6cf1cb99d8d11d7bbbee74f91d6637f318456655",
+        "tag": "1.3.1"
     },
     "deepin-wallpapers": {
         "commit": "a54c2827dbf763f1f5489269f005bad30a048bd4",
@@ -172,8 +172,8 @@
         "tag": "1.9.14"
     },
     "deepin-wm-switcher": {
-        "commit": "4809e53ee33e35f3ae545d028ef92d5773a51a05",
-        "tag": "1.1.1"
+        "commit": "a28aecc5f75c3704e8670443db5c23b16ae5e34e",
+        "tag": "1.1.2"
     },
     "default-settings": {
         "commit": "d6a69de6a3c845d97343d72731fce7a620e1fc4c",
