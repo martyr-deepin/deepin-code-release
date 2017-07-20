@@ -136,8 +136,8 @@
         "tag": "1.0.16"
     },
     "deepin-screen-recorder": {
-        "commit": "3633a90b63a2552c830d89d0f331478a464e4824",
-        "tag": "1.9"
+        "commit": "bacac814fbaa37f3227c28fa3be8efaec93980c4",
+        "tag": "2.4"
     },
     "deepin-screenshot": {
         "commit": "b7483cfef3717f540e4db057baea13628f062b84",
