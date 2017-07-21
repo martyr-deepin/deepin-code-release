@@ -36,8 +36,8 @@
         "tag": "15.4.8"
     },
     "dde-launcher": {
-        "commit": "be7e4085bbbbb8704fd4cdd8d1213f6a4bc18e68",
-        "tag": "4.1.4"
+        "commit": "d98a7f5e80e5f115c8aa3ece6f69274104c8c0e7",
+        "tag": "4.1.5"
     },
     "dde-polkit-agent": {
         "commit": "680c12f0235d30af0395bf2cb2e55ef71bd3cb55",
@@ -96,8 +96,8 @@
         "tag": "1.2.14"
     },
     "deepin-installer-reborn": {
-        "commit": "530b1e383b8b7274055e87104ba99e916b848e8c",
-        "tag": "2.1.5"
+        "commit": "8d45816aa8a12d3168fa8368c88e2f357a0e4543",
+        "tag": "2.1.6"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
