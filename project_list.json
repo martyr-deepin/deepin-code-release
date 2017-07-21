@@ -20,8 +20,8 @@
         "tag": "4.2.4"
     },
     "dde-daemon": {
-        "commit": "0f8418aba5e0ae9552d391d16b4bcc43e36649c9",
-        "tag": "3.1.14"
+        "commit": "a8036b9d267058563617e93ffc39ba000aeca39c",
+        "tag": "3.1.15"
     },
     "dde-dock": {
         "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
