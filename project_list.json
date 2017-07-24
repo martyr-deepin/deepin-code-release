@@ -152,8 +152,8 @@
         "tag": "15.10.1"
     },
     "deepin-system-monitor": {
-        "commit": "a0d5e09d57112ef96dafd824b99386e170a5222c",
-        "tag": "0.1.4"
+        "commit": "b906df04d9add63e1245587ebd69897ca3437d0c",
+        "tag": "0.1.5"
     },
     "deepin-terminal": {
         "commit": "82c4a12c49eee03c4caedb64c3d4407c26bba070",
