@@ -160,3 +160,6 @@
 [submodule "project/dde-help"]
 	path = project/dde-help
 	url = ssh://cr.deepin.io:29418/dde/dde-help
+[submodule "project/deepin-system-monitor"]
+	path = project/deepin-system-monitor
+	url = ssh://cr.deepin.io:29418/deepin-system-monitor
