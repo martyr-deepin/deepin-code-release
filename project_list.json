@@ -8,8 +8,8 @@
         "tag": "3.1.6"
     },
     "dde-api": {
-        "commit": "79125e7de8d8bc2793bad2baf0c26f4a60db8328",
-        "tag": "3.1.10"
+        "commit": "bc3ea65d87a8ff6f25ede6f752faf8e4392af645",
+        "tag": "3.1.11"
     },
     "dde-calendar": {
         "commit": "d2c7b9e26b34ee5c30d393290fb0bba469c98a0b",
@@ -20,8 +20,8 @@
         "tag": "4.2.5"
     },
     "dde-daemon": {
-        "commit": "a8036b9d267058563617e93ffc39ba000aeca39c",
-        "tag": "3.1.15"
+        "commit": "868c06d8a034cccce535979fbbb0d454ab5a58ed",
+        "tag": "3.1.16"
     },
     "dde-dock": {
         "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
@@ -68,8 +68,8 @@
         "tag": "2016.12.5"
     },
     "deepin-desktop-schemas": {
-        "commit": "eeea1d45900d3bf98a45e6df369563c8238103af",
-        "tag": "3.1.14"
+        "commit": "9757a10e6ce4455985f72cadaad4290531d16291",
+        "tag": "3.1.15"
     },
     "deepin-feedback": {
         "commit": "042b0c5ffacb9f19c8e4f0e5cb0e4a9e687a17ec",
@@ -96,8 +96,8 @@
         "tag": "1.2.14"
     },
     "deepin-installer-reborn": {
-        "commit": "8d45816aa8a12d3168fa8368c88e2f357a0e4543",
-        "tag": "2.1.6"
+        "commit": "a62fdd36b4ab64a67e9492d8dd487f2905981dcd",
+        "tag": "2.1.9"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
@@ -132,8 +132,8 @@
         "tag": "2.3.5"
     },
     "deepin-remote-assistance": {
-        "commit": "931c504ea5548aec236185b52059d19bca36d24b",
-        "tag": "1.0.16"
+        "commit": "479396a868a462004a56664279291cfb798939fe",
+        "tag": "1.0.17"
     },
     "deepin-screen-recorder": {
         "commit": "bacac814fbaa37f3227c28fa3be8efaec93980c4",
@@ -160,8 +160,8 @@
         "tag": "2.5.1"
     },
     "deepin-tool-kit": {
-        "commit": "e8676963ecc585e7ed5d35dc7cda2eabb71a63c3",
-        "tag": "0.3.1"
+        "commit": "04be25eb4ee5872ca4f9d251323a671a3bad762c",
+        "tag": "0.3.2"
     },
     "deepin-voice-recorder": {
         "commit": "6cf1cb99d8d11d7bbbee74f91d6637f318456655",
@@ -216,7 +216,7 @@
         "tag": "0.2.1"
     },
     "startdde": {
-        "commit": "08de5b9fa1f08e5e25d4d8611bbf67fa73bc6c11",
-        "tag": "3.1.13"
+        "commit": "ebd76f058174b06a4f1d3587e9f0aed776a7784b",
+        "tag": "3.1.14"
     }
 }
