@@ -152,16 +152,16 @@
         "tag": "15.10.1"
     },
     "deepin-system-monitor": {
-        "commit": "f38b7649adfa3ffa7be3bfbd321719721371c9cd",
-        "tag": "0.1.6"
+        "commit": "d7557424357ec35f069086cacec090928eb54848",
+        "tag": "0.2.0"
     },
     "deepin-terminal": {
         "commit": "82c4a12c49eee03c4caedb64c3d4407c26bba070",
         "tag": "2.5.1"
     },
     "deepin-tool-kit": {
-        "commit": "e8676963ecc585e7ed5d35dc7cda2eabb71a63c3",
-        "tag": "0.3.1"
+        "commit": "b4b5fb5b027c62fd9cd63110d27623d6528d0178",
+        "tag": "0.3.3"
     },
     "deepin-voice-recorder": {
         "commit": "6cf1cb99d8d11d7bbbee74f91d6637f318456655",
