@@ -1,194 +1,218 @@
 {
     "dae": {
-        "commit": "527f0c57bd6914a789c3e30e56081cea357e280b",
-        "tag": "1.0.0"
+        "commit": "350848717ee19b439ac51efd6d9dc2c88769ec3b",
+        "tag": "1.0.2"
     },
     "dbus-factory": {
-        "commit": "cd959df3381a500fcd8d5ba23fee39cf7e21a40a",
-        "tag": "3.1.5"
+        "commit": "0ef92677c266a9b5c76651f00e21bf94b9dae56f",
+        "tag": "3.1.6"
     },
     "dde-api": {
-        "commit": "4c8e030f49cfc118dce28fe02418caa3937a2824",
-        "tag": "3.1.7"
-    },
-    "dde-calendar": {
-        "commit": "a8a4f5b90b1b1456514f54ad76e60a38d1fa4ce8",
-        "tag": "1.0.7"
-    },
-    "dde-control-center": {
-        "commit": "4d3827bf020885e725220be33b04c491285367c1",
-        "tag": "4.1.2"
-    },
-    "dde-daemon": {
-        "commit": "fa8b5951219f2df6d2dbc98ae1faf4b231903369",
+        "commit": "79125e7de8d8bc2793bad2baf0c26f4a60db8328",
         "tag": "3.1.10"
     },
+    "dde-calendar": {
+        "commit": "d2c7b9e26b34ee5c30d393290fb0bba469c98a0b",
+        "tag": "1.0.11"
+    },
+    "dde-control-center": {
+        "commit": "7bf56c0f96f8e38eaf7dd52c31ab2e4e70257952",
+        "tag": "4.2.5"
+    },
+    "dde-daemon": {
+        "commit": "a8036b9d267058563617e93ffc39ba000aeca39c",
+        "tag": "3.1.15"
+    },
     "dde-dock": {
-        "commit": "42610aec4621432aa6166537d5149d7204681b29",
-        "tag": "4.2.1"
+        "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
+        "tag": "4.3.3"
     },
     "dde-file-manager": {
-        "commit": "99d75976e596c9ed8eb044d70a4bccae6ab802d0",
-        "tag": "4.1.5"
+        "commit": "9308953ef9b3f5ea42caebe3d191340d5392e750",
+        "tag": "4.1.8"
+    },
+    "dde-help": {
+        "commit": "84f3f549e6bcc509c6aaf5758bdf39a59f0dc77b",
+        "tag": "15.4.8"
     },
     "dde-launcher": {
-        "commit": "67081d34b18759c82c1968a6b104173bda8c6540",
-        "tag": "4.0.11"
+        "commit": "2762f2dc0621cec7459a787693b97d9b6554fca5",
+        "tag": "4.1.6"
     },
     "dde-polkit-agent": {
-        "commit": "7e0fcbc9a4109069ed30a6efadc722a177a513e5",
-        "tag": "0.0.8"
+        "commit": "680c12f0235d30af0395bf2cb2e55ef71bd3cb55",
+        "tag": "0.0.10"
     },
     "dde-qt-dbus-factory": {
-        "commit": "9adc304138497d6fb89bba06a1ed0a25e0f3a599",
-        "tag": "0.1.0"
+        "commit": "becf8526235cedac20622e6e1973952c84a14392",
+        "tag": "0.2.1"
     },
     "dde-session-ui": {
-        "commit": "3de0537a599c94f3bb6399dcc778bbc9f01d80fc",
-        "tag": "4.0.7"
+        "commit": "4cadab1afada9834805aabc60e7741e20082b257",
+        "tag": "4.0.13"
     },
     "deepin-appstore": {
-        "commit": "71cbe5258cd01e881da876ee7952ad9b7b9ee809",
-        "tag": "4.0.9.5"
+        "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
+        "tag": "4.0.9.7"
     },
     "deepin-boot-maker": {
-        "commit": "6948bc049c8db2f9ef0590c78ee059433217e67c",
-        "tag": "2.0.0"
+        "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
+        "tag": "2.0.2"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
         "tag": "1.22.4"
     },
     "deepin-desktop-base": {
-        "commit": "a0f52f3223a1779ee3c8ce71371237c2ed7a552d",
-        "tag": "2016.11.30"
+        "commit": "94a22cfe461a1d2d52ff69ababe14c649347260d",
+        "tag": "2016.12.6"
     },
     "deepin-desktop-schemas": {
-        "commit": "d064f271ada4b9fb4f364ba28bcd794a5c70075d",
-        "tag": "3.1.7"
+        "commit": "eeea1d45900d3bf98a45e6df369563c8238103af",
+        "tag": "3.1.14"
     },
     "deepin-feedback": {
-        "commit": "dd90d339e9a79b177faa57ea037fc71fcebc7803",
-        "tag": "1.0.12"
+        "commit": "042b0c5ffacb9f19c8e4f0e5cb0e4a9e687a17ec",
+        "tag": "1.0.13"
+    },
+    "deepin-gettext-tools": {
+        "commit": "8f4a8ab0a3d94765cce0c4af2aa809bfa48ad9c4",
+        "tag": "1.0.6"
     },
     "deepin-gtk-theme": {
-        "commit": "ed688f6166c9553b750623b5b125ac0d5408531a",
-        "tag": "17.10.1"
+        "commit": "61405025aaa97e37e45c1d70e3719034da88b967",
+        "tag": "17.10.3"
     },
     "deepin-icon-theme": {
-        "commit": "12ac6b3102621df1e8e0480be9e205cd30eb476c",
-        "tag": "15.12.39"
+        "commit": "10ccdc2cf25e8e172bf3b86d07085c014cde3012",
+        "tag": "15.12.46"
+    },
+    "deepin-icon-theme-tools": {
+        "commit": "dc4cac3f86b8f094b952f83f14af706734785349",
+        "tag": "1.0.0"
     },
     "deepin-image-viewer": {
-        "commit": "a6ac7847f0124d855be5a329b28ce5ac5be41f4f",
-        "tag": "1.2.13"
+        "commit": "e77fde55bffdef074bb2746ad3792b3561a71a41",
+        "tag": "1.2.14"
     },
     "deepin-installer-reborn": {
-        "commit": "2d331f64bd4b3920068f963181d83e6be9bc85db",
-        "tag": "0.2.3"
+        "commit": "8d45816aa8a12d3168fa8368c88e2f357a0e4543",
+        "tag": "2.1.6"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
         "tag": "1.0.6"
     },
     "deepin-menu": {
-        "commit": "84735e74cabf5ba39e06b9364aa9ffd4a6aa12ff",
-        "tag": "3.1.3"
+        "commit": "3ab1c65cabf80cab3e8ae5d045500601b2bffcc9",
+        "tag": "3.1.5"
     },
     "deepin-metacity": {
-        "commit": "cb3e4c50824f924e76628279d54912cfd6774c88",
-        "tag": "3.22.8"
+        "commit": "e9af397c7cfdb67d4d7425d32853ec5cb92c8816",
+        "tag": "3.22.10"
     },
     "deepin-movie": {
         "commit": "69123ed11d04873b9559f4f93faf24346db43e64",
         "tag": "2.2.14"
     },
     "deepin-music": {
-        "commit": "901b8a3bdb956c690d653de426a6d4fb024b4c55",
-        "tag": "3.1.0"
+        "commit": "7c31a72ac59ad5f43d4fdc17b36a8b058748a1c1",
+        "tag": "3.1.4"
     },
     "deepin-mutter": {
-        "commit": "6b2b181b047ee86615382e452181916c08be68c2",
-        "tag": "3.20.17"
+        "commit": "0b40582e71266f10e8f2739aa558b9eef6a1f890",
+        "tag": "3.20.20"
     },
     "deepin-notifications": {
-        "commit": "07c016386a06c9698ccefe810e32bbcadf849bfc",
-        "tag": "3.0.4"
+        "commit": "0033758606f3e1ecf6a34e7d9e9fad0d4f00df76",
+        "tag": "3.0.6"
+    },
+    "deepin-qml-widgets": {
+        "commit": "38135764aaad4f0ba818efee6735612df17d503c",
+        "tag": "2.3.5"
     },
     "deepin-remote-assistance": {
-        "commit": "f46d9344976cacf0237683f82e759b81ca0a34b6",
-        "tag": "1.0.12"
+        "commit": "931c504ea5548aec236185b52059d19bca36d24b",
+        "tag": "1.0.16"
     },
     "deepin-screen-recorder": {
-        "commit": "c4040d0f2e98c40e9c897cdfd3cf20af62cadce2",
-        "tag": "1.8"
+        "commit": "bacac814fbaa37f3227c28fa3be8efaec93980c4",
+        "tag": "2.4"
     },
     "deepin-screenshot": {
-        "commit": "96aefc0b1f581b9be0eb382e201b17d1e759ddd1",
-        "tag": "3.1.13"
+        "commit": "b7483cfef3717f540e4db057baea13628f062b84",
+        "tag": "4.0.8"
     },
     "deepin-shortcut-viewer": {
-        "commit": "760b0825bb1ecbbef3f9c17b2bc77940fc3011df",
-        "tag": "1.0.2"
+        "commit": "729e82d50a05d88eae61ccbf24f5b2b78eba34db",
+        "tag": "1.3.1"
     },
     "deepin-sound-theme": {
         "commit": "0045de406a143b798ac3b2fbe2b318b4a4894176",
         "tag": "15.10.1"
     },
     "deepin-terminal": {
-        "commit": "468f714025f61d8e60519416f16ed3f10236e52b",
-        "tag": "2.3.4"
+        "commit": "82c4a12c49eee03c4caedb64c3d4407c26bba070",
+        "tag": "2.5.1"
     },
     "deepin-tool-kit": {
-        "commit": "fbc8d6a153123b60bc871ab4dd5e6233f0d9398f",
-        "tag": "0.2.10"
+        "commit": "e8676963ecc585e7ed5d35dc7cda2eabb71a63c3",
+        "tag": "0.3.1"
     },
     "deepin-voice-recorder": {
-        "commit": "2a95a46109a80ecf5da47af0fef82b397fdfa9f8",
-        "tag": "1.1"
+        "commit": "6cf1cb99d8d11d7bbbee74f91d6637f318456655",
+        "tag": "1.3.1"
     },
     "deepin-wallpapers": {
         "commit": "a54c2827dbf763f1f5489269f005bad30a048bd4",
         "tag": "1.4"
     },
     "deepin-wm": {
-        "commit": "42cd230355c91557b2c4cc88f15186fa5dfe17c7",
-        "tag": "1.9.12"
+        "commit": "90453e308fbf7222b5c45f65a7497f5fcaf00fc4",
+        "tag": "1.9.14"
     },
     "deepin-wm-switcher": {
-        "commit": "8692ad3b17fe98291110d6135796ba652521cc9e",
-        "tag": "1.1.0"
+        "commit": "a28aecc5f75c3704e8670443db5c23b16ae5e34e",
+        "tag": "1.1.2"
     },
     "default-settings": {
-        "commit": "5823d4acc81d9a88e1c6e95ea7510cbda43898d5",
-        "tag": "2016.9.2"
+        "commit": "d6a69de6a3c845d97343d72731fce7a620e1fc4c",
+        "tag": "2016.9.8"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
     "go-dbus-generator": {
-        "commit": "2382c5d90a8a5255b85c4fc05d34241aedfc9840",
-        "tag": "0.6.4"
+        "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
+        "tag": "0.6.6"
     },
     "go-gir-generator": {
         "commit": "9ee7058956d8debee0198f2b8b37bb9e361f3451",
         "tag": "1.0.1"
     },
     "go-lib": {
-        "commit": "b084e27172bb28e68f44ea4cecddb25d7dcfdc49",
-        "tag": "1.0.3"
+        "commit": "3c9791f1a391d7de7d50ee4e308da669143e2060",
+        "tag": "1.0.5"
     },
     "lastore-daemon": {
-        "commit": "748fe1bdfbcf397e28b1c118d40621a14164f9ed",
-        "tag": "0.9.43"
+        "commit": "57168e52c1661d399175abaa6a62deab1531f46b",
+        "tag": "0.9.44"
+    },
+    "mintdrivers": {
+        "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
+        "tag": "1.3.3"
     },
     "miraclecast": {
-        "commit": "3931adeca5e9aef5b4bfca5783c3c01cf46e916d",
-        "tag": "1.0.6"
+        "commit": "fe3cf88594702aaff2c4f296609712d5fe98b45d",
+        "tag": "1.0.8"
+    },
+    "qt5integration": {
+        "commit": "2cd743211e66fe9ddd4db820c5c84d11e378478d",
+        "tag": "0.2.1"
     },
     "startdde": {
-        "commit": "a9130d0fa86efe557cd3f2499015b4ead839b1e0",
-        "tag": "3.1.8"
+        "commit": "08de5b9fa1f08e5e25d4d8611bbf67fa73bc6c11",
+        "tag": "3.1.13"
     }
 }

@@ -5,11 +5,9 @@ submodule
 import argparse
 import functools
 
-from git_utils import (git_submodule_commit_to_tag,
-                       git_submodule_latest_commit,
-                       git_submodule_latest_tag,
-                       git_submodule_get_commit,
-                       git_submodule_list)
+from git_utils import RepoManager, SubmoduleError, TagError
+
+repo = RepoManager(".")
 
 def register_module_args(subparsers):
     '''
@@ -22,8 +20,15 @@ def register_module_args(subparsers):
                                         help="subcommands that dcr submodule support.",
                                         dest="ssubcommand")
 
-    status_parser = ssubparsers.add_parser("list",
-                                           help="submodule subcommand to list all the submodules")
+    _ = ssubparsers.add_parser("list",
+                               help="submodule subcommand to list all the submodules")
+
+    sync_parser = ssubparsers.add_parser("sync",
+                                         help="submodule subcommand to sync submodule local ref " \
+                                              "to the remote latest tag")
+    sync_parser.add_argument("submodules", nargs="*",
+                             help="sepcify which submodule to operate on," \
+                                  "default is all submodules")
 
     status_parser = ssubparsers.add_parser("status",
                                            help="submodule subcommand to show the " \
@@ -54,12 +59,14 @@ def run_with_module_args(args):
             status_diff(args.submodules)
     elif args.ssubcommand == "list":
         list_all()
+    elif args.ssubcommand == "sync":
+        sync(args.submodules)
 
 def list_all():
     '''
     list_all
     '''
-    sbms = git_submodule_list()
+    sbms = repo.submodule_list
     for sbm in sbms:
         print("%s" % sbm)
 
@@ -67,35 +74,70 @@ def status_local(projects):
     '''
     status_local
     '''
-    sbms = git_submodule_list() if not projects else projects
-    for sbm in sbms:
-        tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
-        current_commit = git_submodule_get_commit(sbm)
+    sbms = repo.get_all_submodules() if not projects else projects
+    delimiter="  |  "
+    name_maxlen=max((len(m.name) for m in sbms))
+    table_head = "{:{name_maxlen}}{delimiter}{}".format(
+        "project", "tag", name_maxlen=name_maxlen, delimiter=delimiter)
+    print(table_head, "="*(len(table_head)+5), sep="\n")
 
-        print("%s: %s" % (sbm, tagify(current_commit)))
+    for sbm in sbms:
+        print("{sbm.name:{name_maxlen}}{delimiter}{sbm.latest_tag}".format_map(locals()))
 
 def status_remote(projects):
     '''
     status_remote
     '''
-    sbms = git_submodule_list() if not projects else projects
-    for sbm in sbms:
-        tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
-        latest_commit = git_submodule_latest_commit(sbm)
-        latest_tag = git_submodule_latest_tag(sbm)
+    sbms = repo.get_all_submodules() if not projects else projects
+    delimiter="  |  "
+    name_maxlen=max((len(m.name) for m in sbms))
 
-        print("%s: latest commit %s, latest tag %s" %
-              (sbm, tagify(latest_commit), latest_tag))
+    table_head = "{0:{name_maxlen}}{delimiter}{1:40}{delimiter}{2}".format(
+        "project", "latest_commit", "latest_tag", name_maxlen=name_maxlen, delimiter=delimiter)
+    print(table_head, "="*len(table_head), sep="\n")
+
+    for sbm in sbms:
+        name = sbm.name
+        latest_commit = sbm.latest_origin_commit
+        try:
+            tagified = sbm.commit_to_tag(latest_commit).name
+        except TagError:
+            tagified = latest_commit
+        latest_tag = sbm.latest_tag
+        print("{name:{name_maxlen}}{delimiter}{tagified:40}{delimiter}{latest_tag}".format_map(locals()))
 
 def status_diff(projects):
     '''
     status
     '''
-    sbms = git_submodule_list() if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else projects
     for sbm in sbms:
-        tagify = lambda x, sbm=sbm: git_submodule_commit_to_tag(sbm, x) or x
-        current_commit = git_submodule_get_commit(sbm)
-        latest_commit = git_submodule_latest_commit(sbm)
+        current_commit = sbm.latest_commit
+        try:
+            tagified = sbm.commit_to_tag(current_commit).name
+        except TagError:
+            tagified = current_commit
+        latest_tag = sbm.latest_tag.name
 
-        print("%s: current commit %s, remote latest commit %s." %
-              (sbm, tagify(current_commit), tagify(latest_commit)))
+        if tagified != latest_tag:
+            print("%s: \n\tlocal current     %s\n\tremote latest tag %s" %
+                  (sbm.name, tagified, latest_tag))
+
+
+def sync(projects):
+    '''
+    status
+    '''
+    sbms = repo.get_all_submodules() if not projects else projects
+    for sbm in sbms:
+        current_commit = sbm.latest_commit
+        try:
+            tagified = sbm.commit_to_tag(current_commit).name
+        except TagError:
+            tagified = current_commit
+        latest_tag = sbm.latest_tag.name
+
+        if tagified != latest_tag:
+            print("%s: %s -> %s" %
+                  (sbm.name, tagified, latest_tag))
+            sbm.set_commit(latest_tag)

@@ -1,118 +1,72 @@
-'''
-git_utils
-'''
+from git import Repo
 
-import os
-import subprocess
-from functools import update_wrapper
+from .error import SubmoduleError, TagError
 
-from git import Repo, Tag, Submodule
+__all__ = ["repo", "RepoManager", "SubmoduleError", "TagError"]
 
-__git_repo__ = None
-__git_submodule_info_cache__ = {}
 
-def check_repo():
-    '''
-    check_repo
-    '''
-    global __git_repo__
+class RepoManager(Repo):
 
-    if not __git_repo__:
-        git_dir = subprocess.getoutput("git rev-parse --show-toplevel")
-        __git_repo__ = Repo(git_dir)
+    def __init__(self, path):
+        super().__init__(path, search_parent_directories=True)
 
-def ensure_repo(func):
-    '''
-    ensure_repo
-    '''
-    def ret(*args, **kwrds):
-        '''
-        wrapper
-        '''
-        check_repo()
-        return func(*args, **kwrds)
-    update_wrapper(ret, func)
-    return ret
+    def submodule(self, name):
+        try:
+            sbm = super().submodule(name)
+        except ValueError:
+            raise SubmoduleError("This git repository doesn't have this submodule")
+        return sbm
 
-def ensure_submodule_info_cache(func):
-    '''
-    ensure_submodule_info_cache
-    '''
-    check_repo()
-    repo = __git_repo__
+    @property
+    def submodules(self):
+        if getattr(self, "_sbms", None):
+            return self._sbms
+        self._sbms = super().submodules
+        if not self._sbms:
+            raise SubmoduleError("This git repository doesn't have any submodule")
+        return self._sbms
 
-    def ret(*args, **kwrds):
-        '''
-        wrapper
-        '''
-        if len(__git_submodule_info_cache__) == 0:
-            mods = Submodule.iter_items(repo)
-            for mod in mods:
-                __git_submodule_info_cache__[mod.name] = mod.hexsha
+    @property
+    def tags(self):
+        tags = super().tags
+        if not tags:
+            raise TagError("This git repository doesn't have any tag")
+        return tags
 
-        return func(*args, **kwrds)
+    def get_submodule(self, name):
+        repo = RepoManager(self.submodule(name).abspath)
+        repo.name = name
+        return repo
 
-    update_wrapper(ret, func)
-    return ret
+    def get_all_submodules(self):
+        sbms = []
+        for sbm in self.submodules:
+            repo = RepoManager(sbm.abspath)
+            repo.name = sbm.name
+            sbms.append(repo)
+        return sbms
 
-def git_commit_to_tag(repo_dir, commit_name):
-    '''
-    git_commit_to_tag
-    '''
-    repo = Repo(repo_dir)
-    tags = Tag.list_items(repo)
-    for tag in tags:
-        if tag.commit.hexsha == commit_name:
-            return tag.name
-    return ""
+    @property
+    def submodule_list(self):
+        return [m.name for m in self.submodules]
 
-def git_origin_commit(repo_dir):
-    '''
-    git_origin_commit
-    '''
-    repo = Repo(repo_dir)
-    git = repo.git
-    return git.log("origin", "-1", "--pretty=oneline").split()[0]
+    @property
+    def latest_commit(self):
+        return self.commit().hexsha
 
-def git_origin_tag(repo_dir):
-    '''
-    git_origin_tag
-    '''
-    repo = Repo(repo_dir)
-    tags = repo.tags
-    return tags[-1].name if len(repo.tags) else ""
+    @property
+    def latest_origin_commit(self):
+        return self.git.log("origin", "-1", "--pretty=oneline").split()[0]
 
-def git_submodule_commit_to_tag(submodule_name, commit_name):
-    '''
-    git_submodule_commit_to_tag
-    '''
-    repo_path = __git_repo__.submodule(submodule_name).abspath
-    return git_commit_to_tag(repo_path, commit_name)
+    @property
+    def latest_tag(self):
+        return max(self.tags, key=lambda t: t.commit.committed_datetime)
 
-def git_submodule_latest_commit(submodule_name):
-    '''
-    git_submodule_latest_commit
-    '''
-    repo_path = __git_repo__.submodule(submodule_name).abspath
-    return git_origin_commit(repo_path)
+    def commit_to_tag(self, commit_hash):
+        for tag in self.tags:
+            if commit_hash == tag.commit.hexsha:
+                return tag
+        raise TagError("This commit can't convert into tag")
 
-def git_submodule_latest_tag(submodule_name):
-    '''
-    git_submodule_latest_tag
-    '''
-    repo_path = __git_repo__.submodule(submodule_name).abspath
-    return git_origin_tag(repo_path)
-
-@ensure_submodule_info_cache
-def git_submodule_get_commit(submodule_name):
-    '''
-    git_submodule_get_commit
-    '''
-    return __git_submodule_info_cache__.get(submodule_name, "")
-
-@ensure_submodule_info_cache
-def git_submodule_list():
-    '''
-    git_submodule_list
-    '''
-    return __git_submodule_info_cache__.keys()
+    def set_commit(self, commit_hash):
+        return self.git.checkout(commit_hash)

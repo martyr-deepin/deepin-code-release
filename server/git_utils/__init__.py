@@ -2,62 +2,17 @@
 git_utils
 '''
 
-import os
 import subprocess
-from functools import update_wrapper
 
-from git import Repo, Tag, Submodule
+from git import Repo, Tag
 
 from errors import GitException
 
-__git_repo__ = None
-__git_submodule_info_cache__ = {}
+_git_dir = subprocess.getoutput("git rev-parse --show-toplevel")
+__git_repo__ = Repo(_git_dir)
+__git_submodule_info_cache__ = {m.name: m.hexsha for m in __git_repo__.iter_submodules()}
 
-def check_repo():
-    '''
-    check_repo
-    '''
-    global __git_repo__
 
-    if not __git_repo__:
-        git_dir = subprocess.getoutput("git rev-parse --show-toplevel")
-        __git_repo__ = Repo(git_dir)
-
-def ensure_repo(func):
-    '''
-    ensure_repo
-    '''
-    def ret(*args, **kwrds):
-        '''
-        wrapper
-        '''
-        check_repo()
-        return func(*args, **kwrds)
-    update_wrapper(ret, func)
-    return ret
-
-def ensure_submodule_info_cache(func):
-    '''
-    ensure_submodule_info_cache
-    '''
-    check_repo()
-    repo = __git_repo__
-
-    def ret(*args, **kwrds):
-        '''
-        wrapper
-        '''
-        if len(__git_submodule_info_cache__) == 0:
-            mods = Submodule.iter_items(repo)
-            for mod in mods:
-                __git_submodule_info_cache__[mod.name] = mod.hexsha
-
-        return func(*args, **kwrds)
-
-    update_wrapper(ret, func)
-    return ret
-
-@ensure_repo
 def git_checkout_branch(branch_name):
     '''
     checkout branch
@@ -71,7 +26,6 @@ def git_checkout_branch(branch_name):
     except:
         raise
 
-@ensure_repo
 def git_prepare_submodules():
     '''
     git_prepare_submodules
@@ -134,7 +88,6 @@ def git_submodule_commit_minus_tag(submodule_name, commit, tag):
     lines = cmd.log("--pretty=oneline", "%s..%s" % (tag, commit)).splitlines()
     return len(lines)
 
-@ensure_submodule_info_cache
 def git_submodule_get_commit(submodule_name):
     '''
     git_submodule_get_commit
@@ -149,14 +102,12 @@ def git_submodule_set_commit(submodule_name, commit):
     cmd = Repo(repo_path).git
     cmd.checkout(commit)
 
-@ensure_submodule_info_cache
 def git_submodule_list():
     '''
     git_submodule_list
     '''
     return __git_submodule_info_cache__.keys()
 
-@ensure_repo
 def git_create_update_changelines(submodule_name, commit):
     '''
     git_create_update_changelines

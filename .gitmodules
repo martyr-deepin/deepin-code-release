@@ -142,3 +142,21 @@
 [submodule "lastore-daemon"]
 	path = project/lastore-daemon
 	url = ssh://cr.deepin.io:29418/lastore/lastore-daemon
+[submodule "project/mintdrivers"]
+	path = project/mintdrivers
+	url = ssh://cr.deepin.io:29418/mintdrivers
+[submodule "project/deepin-qml-widgets"]
+	path = project/deepin-qml-widgets
+	url = ssh://cr.deepin.io:29418/deepin-qml-widgets
+[submodule "qt5integration"]
+	path = project/qt5integration
+	url = ssh://cr.deepin.io:29418/qt5integration
+[submodule "project/deepin-icon-theme-tools"]
+	path = project/deepin-icon-theme-tools
+	url = ssh://cr.deepin.io:29418/deepin-icon-theme-tools
+[submodule "project/deepin-gettext-tools"]
+	path = project/deepin-gettext-tools
+	url = ssh://cr.deepin.io:29418/deepin-gettext-tools
+[submodule "project/dde-help"]
+	path = project/dde-help
+	url = ssh://cr.deepin.io:29418/dde/dde-help
