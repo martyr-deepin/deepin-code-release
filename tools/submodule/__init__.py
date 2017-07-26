@@ -74,7 +74,7 @@ def status_local(projects):
     '''
     status_local
     '''
-    sbms = repo.get_all_submodules() if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else repo.get_submodules(projects)
     delimiter="  |  "
     name_maxlen=max((len(m.name) for m in sbms))
     table_head = "{:{name_maxlen}}{delimiter}{}".format(
@@ -88,7 +88,7 @@ def status_remote(projects):
     '''
     status_remote
     '''
-    sbms = repo.get_all_submodules() if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else repo.get_submodules(projects)
     delimiter="  |  "
     name_maxlen=max((len(m.name) for m in sbms))
 
@@ -110,7 +110,7 @@ def status_diff(projects):
     '''
     status
     '''
-    sbms = repo.get_all_submodules() if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else repo.get_submodules(projects)
     for sbm in sbms:
         current_commit = sbm.latest_commit
         try:
@@ -128,7 +128,7 @@ def sync(projects):
     '''
     status
     '''
-    sbms = repo.get_all_submodules() if not projects else projects
+    sbms = repo.get_all_submodules() if not projects else repo.get_submodules(projects)
     for sbm in sbms:
         current_commit = sbm.latest_commit
         try:
