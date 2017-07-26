@@ -8,7 +8,15 @@ deepin release系统就是这样一个辅助系统，它的目标在于将它的
 
 ## deepin-code-release 仓库
 
-deepin-code-release仓库(git)作为整个release系统的核心，目前包含一下几个重要组件：
+使用deepin-code-release仓库之前，需要简单配置一下ssh，编辑~/.ssh/config，添加一下内容：
+
+```
+HOST cr.deepin.io
+  Port 29418
+  User gerrit用户名
+```
+
+作为整个release系统的核心，deepin-code-release仓库目前包含一下几个重要组件：
 
 - projects
 
