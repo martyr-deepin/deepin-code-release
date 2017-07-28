@@ -8,14 +8,6 @@ deepin release系统就是这样一个辅助系统，它的目标在于将它的
 
 ## deepin-code-release 仓库
 
-使用deepin-code-release仓库之前，需要简单配置一下ssh，编辑~/.ssh/config，添加一下内容：
-
-```
-HOST cr.deepin.io
-  Port 29418
-  User gerrit用户名
-```
-
 作为整个release系统的核心，deepin-code-release仓库目前包含一下几个重要组件：
 
 - projects
@@ -68,6 +60,22 @@ HOST cr.deepin.io
 
     dcr patch （待补充）
     ```
+
+说明：使用deepin-code-release仓库之前，需要
+
+- 简单配置一下ssh，编辑~/.ssh/config，添加以下内容：
+
+  ```
+  HOST cr.deepin.io
+    Port 29418
+    User gerrit用户名
+  ```
+
+- 将 pre-commit 脚本拷贝到项目的.git/hooks目录
+
+- git submodule update --init [SUBMODULE] 初始化以下相应的submodule项目
+
+
 
 ## 当前分支说明
 
