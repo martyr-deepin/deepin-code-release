@@ -1,0 +1,265 @@
+Description: Fix QIconTheme override 
+ icon themes with the same name in different places should be unioned, 
+ instead of just taken the first of them.
+ .
+ qt4-x11 (4:4.8.7+dfsg-11) unstable; urgency=medium
+ .
+   * Fix QIconTheme override
+Author: Hualet Wang <mr.asianwang@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2017-08-04
+
+--- qt4-x11-4.8.7+dfsg.orig/src/gui/image/qiconloader.cpp
++++ qt4-x11-4.8.7+dfsg/src/gui/image/qiconloader.cpp
+@@ -162,72 +162,73 @@ QIconTheme::QIconTheme(const QString &th
+ {
+     QFile themeIndex;
+ 
+-    QList <QIconDirInfo> keyList;
+     QStringList iconDirs = QIcon::themeSearchPaths();
+     for ( int i = 0 ; i < iconDirs.size() ; ++i) {
+         QDir iconDir(iconDirs[i]);
+         QString themeDir = iconDir.path() + QLatin1Char('/') + themeName;
+         themeIndex.setFileName(themeDir + QLatin1String("/index.theme"));
+         if (themeIndex.exists()) {
+-            m_contentDir = themeDir;
++            m_contentDirs.append(themeDir);
+             m_valid = true;
+-            break;
+-        }
+-    }
++
++            QList<QIconDirInfo> keyList;
++
+ #ifndef QT_NO_SETTINGS
+-    if (themeIndex.exists()) {
+-        const QSettings indexReader(themeIndex.fileName(), QSettings::IniFormat);
+-        QStringListIterator keyIterator(indexReader.allKeys());
+-        while (keyIterator.hasNext()) {
+-
+-            const QString key = keyIterator.next();
+-            if (key.endsWith(QLatin1String("/Size"))) {
+-                // Note the QSettings ini-format does not accept
+-                // slashes in key names, hence we have to cheat
+-                if (int size = indexReader.value(key).toInt()) {
+-                    QString directoryKey = key.left(key.size() - 5);
+-                    QIconDirInfo dirInfo(directoryKey);
+-                    dirInfo.size = size;
+-                    QString type = indexReader.value(directoryKey +
+-                                                     QLatin1String("/Type")
+-                                                     ).toString();
+-
+-                    if (type == QLatin1String("Fixed"))
+-                        dirInfo.type = QIconDirInfo::Fixed;
+-                    else if (type == QLatin1String("Scalable"))
+-                        dirInfo.type = QIconDirInfo::Scalable;
+-                    else
+-                        dirInfo.type = QIconDirInfo::Threshold;
+-
+-                    dirInfo.threshold = indexReader.value(directoryKey +
+-                                                        QLatin1String("/Threshold"),
+-                                                        2).toInt();
+-
+-                    dirInfo.minSize = indexReader.value(directoryKey +
+-                                                         QLatin1String("/MinSize"),
+-                                                         size).toInt();
+-
+-                    dirInfo.maxSize = indexReader.value(directoryKey +
+-                                                        QLatin1String("/MaxSize"),
+-                                                        size).toInt();
+-                    m_keyList.append(dirInfo);
++            const QSettings indexReader(themeIndex.fileName(), QSettings::IniFormat);
++            QStringListIterator keyIterator(indexReader.allKeys());
++            while (keyIterator.hasNext()) {
++
++                const QString key = keyIterator.next();
++                if (key.endsWith(QLatin1String("/Size"))) {
++                    // Note the QSettings ini-format does not accept
++                    // slashes in key names, hence we have to cheat
++                    if (int size = indexReader.value(key).toInt()) {
++                        QString directoryKey = key.left(key.size() - 5);
++                        QIconDirInfo dirInfo(directoryKey);
++                        dirInfo.size = size;
++                        QString type = indexReader.value(directoryKey +
++                                                        QLatin1String("/Type")
++                                                        ).toString();
++
++                        if (type == QLatin1String("Fixed"))
++                            dirInfo.type = QIconDirInfo::Fixed;
++                        else if (type == QLatin1String("Scalable"))
++                            dirInfo.type = QIconDirInfo::Scalable;
++                        else
++                            dirInfo.type = QIconDirInfo::Threshold;
++
++                        dirInfo.threshold = indexReader.value(directoryKey +
++                                                            QLatin1String("/Threshold"),
++                                                            2).toInt();
++
++                        dirInfo.minSize = indexReader.value(directoryKey +
++                                                            QLatin1String("/MinSize"),
++                                                            size).toInt();
++
++                        dirInfo.maxSize = indexReader.value(directoryKey +
++                                                            QLatin1String("/MaxSize"),
++                                                            size).toInt();
++                        keyList.append(dirInfo);
++                    }
+                 }
+             }
+-        }
+ 
+-        // Parent themes provide fallbacks for missing icons
+-        m_parents = indexReader.value(
+-                QLatin1String("Icon Theme/Inherits")).toStringList();
+-
+-        // Ensure a default platform fallback for all themes
+-        if (m_parents.isEmpty())
+-            m_parents.append(fallbackTheme());
+-
+-        // Ensure that all themes fall back to hicolor
+-        if (!m_parents.contains(QLatin1String("hicolor")))
+-            m_parents.append(QLatin1String("hicolor"));
+-    }
++            // Parent themes provide fallbacks for missing icons
++            m_parents = indexReader.value(
++                    QLatin1String("Icon Theme/Inherits")).toStringList();
++
++            // Ensure a default platform fallback for all themes
++            if (m_parents.isEmpty())
++                m_parents.append(fallbackTheme());
++
++            // Ensure that all themes fall back to hicolor
++            if (!m_parents.contains(QLatin1String("hicolor")))
++                m_parents.append(QLatin1String("hicolor"));
+ #endif //QT_NO_SETTINGS
++
++            m_keyListList.append(keyList);
++        }
++    }
+ }
+ 
+ QThemeIconEntries QIconLoader::findIconHelper(const QString &themeName,
+@@ -251,47 +252,50 @@ QThemeIconEntries QIconLoader::findIconH
+         themeList.insert(themeName, theme);
+     }
+ 
+-    QString contentDir = theme.contentDir() + QLatin1Char('/');
+-    QList<QIconDirInfo> subDirs = theme.keyList();
+-
+-    const QString svgext(QLatin1String(".svg"));
+-    const QString pngext(QLatin1String(".png"));
+-
+-    // Add all relevant files
+-    for (int i = 0; i < subDirs.size() ; ++i) {
+-        const QIconDirInfo &dirInfo = subDirs.at(i);
+-        QString subdir = dirInfo.path;
+-        QDir currentDir(contentDir + subdir);
+-        if (currentDir.exists(iconName + pngext)) {
+-            PixmapEntry *iconEntry = new PixmapEntry;
+-            iconEntry->dir = dirInfo;
+-            iconEntry->filename = currentDir.filePath(iconName + pngext);
+-            // Notice we ensure that pixmap entries always come before
+-            // scalable to preserve search order afterwards
+-            entries.prepend(iconEntry);
+-        } else if (m_supportsSvg &&
+-            currentDir.exists(iconName + svgext)) {
+-            ScalableEntry *iconEntry = new ScalableEntry;
+-            iconEntry->dir = dirInfo;
+-            iconEntry->filename = currentDir.filePath(iconName + svgext);
+-            entries.append(iconEntry);
++    for (int i = 0; i < theme.contentDirs().size(); i++) {
++        QString contentDir = theme.contentDirs().at(i) + QLatin1Char('/');
++        QList<QIconDirInfo> subDirs = theme.keyListList().at(i);
++
++        const QString svgext(QLatin1String(".svg"));
++        const QString pngext(QLatin1String(".png"));
++
++        // Add all relevant files
++        for (int i = 0; i < subDirs.size() ; ++i) {
++            const QIconDirInfo &dirInfo = subDirs.at(i);
++            QString subdir = dirInfo.path;
++            QDir currentDir(contentDir + subdir);
++            if (currentDir.exists(iconName + pngext)) {
++                PixmapEntry *iconEntry = new PixmapEntry;
++                iconEntry->dir = dirInfo;
++                iconEntry->filename = currentDir.filePath(iconName + pngext);
++                // Notice we ensure that pixmap entries always come before
++                // scalable to preserve search order afterwards
++                entries.prepend(iconEntry);
++            } else if (m_supportsSvg &&
++                currentDir.exists(iconName + svgext)) {
++                ScalableEntry *iconEntry = new ScalableEntry;
++                iconEntry->dir = dirInfo;
++                iconEntry->filename = currentDir.filePath(iconName + svgext);
++                entries.append(iconEntry);
++            }
+         }
+-    }
+ 
+-    if (entries.isEmpty()) {
+-        const QStringList parents = theme.parents();
+-        // Search recursively through inherited themes
+-        for (int i = 0 ; i < parents.size() ; ++i) {
++        if (entries.isEmpty()) {
++            const QStringList parents = theme.parents();
++            // Search recursively through inherited themes
++            for (int i = 0 ; i < parents.size() ; ++i) {
+ 
+-            const QString parentTheme = parents.at(i).trimmed();
++                const QString parentTheme = parents.at(i).trimmed();
+ 
+-            if (!visited.contains(parentTheme)) // guard against recursion
+-                entries = findIconHelper(parentTheme, iconName, visited);
++                if (!visited.contains(parentTheme)) // guard against recursion
++                    entries = findIconHelper(parentTheme, iconName, visited);
+ 
+-            if (!entries.isEmpty()) // success
+-                break;
++                if (!entries.isEmpty()) // success
++                    break;
++            }
+         }
+     }
++
+     return entries;
+ }
+ 
+@@ -544,7 +548,6 @@ void QIconLoaderEngine::virtual_hook(int
+         {
+             QIconEngineV2::AvailableSizesArgument &arg
+                     = *reinterpret_cast<QIconEngineV2::AvailableSizesArgument*>(data);
+-            const QList<QIconDirInfo> directoryKey = iconLoaderInstance()->theme().keyList();
+             arg.sizes.clear();
+ 
+             // Gets all sizes from the DirectoryInfo entries
+--- qt4-x11-4.8.7+dfsg.orig/src/gui/image/qiconloader_p.h
++++ qt4-x11-4.8.7+dfsg/src/gui/image/qiconloader_p.h
+@@ -142,13 +142,13 @@ public:
+     QIconTheme(const QString &name);
+     QIconTheme() : m_valid(false) {}
+     QStringList parents() { return m_parents; }
+-    QList <QIconDirInfo> keyList() { return m_keyList; }
+-    QString contentDir() { return m_contentDir; }
++    QList< QList<QIconDirInfo> > keyListList() { return m_keyListList; }
++    QStringList contentDirs() { return m_contentDirs; }
+     bool isValid() { return m_valid; }
+ 
+ private:
+-    QString m_contentDir;
+-    QList <QIconDirInfo> m_keyList;
++    QStringList m_contentDirs;
++    QList< QList<QIconDirInfo> > m_keyListList;
+     QStringList m_parents;
+     bool m_valid;
+ };
