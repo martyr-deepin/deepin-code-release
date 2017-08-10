@@ -160,3 +160,6 @@
 [submodule "project/dde-help"]
 	path = project/dde-help
 	url = ssh://cr.deepin.io:29418/dde/dde-help
+[submodule "project/deepin-deb-installer"]
+	path = project/deepin-deb-installer
+	url = ssh://cr.deepin.io:29418/deepin-deb-installer
