@@ -84,8 +84,8 @@
         "tag": "1.0.6"
     },
     "deepin-gtk-theme": {
-        "commit": "61405025aaa97e37e45c1d70e3719034da88b967",
-        "tag": "17.10.3"
+        "commit": "f46c257e6d483538414a79c7e35f02f8f8f90d21",
+        "tag": "17.10.4"
     },
     "deepin-icon-theme": {
         "commit": "10ccdc2cf25e8e172bf3b86d07085c014cde3012",
