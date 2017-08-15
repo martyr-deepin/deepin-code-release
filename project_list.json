@@ -120,8 +120,8 @@
         "tag": "3.1.4"
     },
     "deepin-mutter": {
-        "commit": "0b40582e71266f10e8f2739aa558b9eef6a1f890",
-        "tag": "3.20.20"
+        "commit": "fdedc87da824c783455f78850031ce47551ad6da",
+        "tag": "3.20.21"
     },
     "deepin-notifications": {
         "commit": "0033758606f3e1ecf6a34e7d9e9fad0d4f00df76",
