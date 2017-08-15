@@ -212,8 +212,8 @@
         "tag": "1.0.8"
     },
     "qt5integration": {
-        "commit": "2cd743211e66fe9ddd4db820c5c84d11e378478d",
-        "tag": "0.2.1"
+        "commit": "8f13ad131ec0fe53fa57896e00cc9ed96beb745e",
+        "tag": "0.2.1.1"
     },
     "startdde": {
         "commit": "ebd76f058174b06a4f1d3587e9f0aed776a7784b",
