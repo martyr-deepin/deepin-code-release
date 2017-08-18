@@ -16,16 +16,16 @@
         "tag": "1.0.12"
     },
     "dde-control-center": {
-        "commit": "7bf56c0f96f8e38eaf7dd52c31ab2e4e70257952",
-        "tag": "4.2.5"
+        "commit": "70f2dedf0a33f08e450edbd929efde96c59a007b",
+        "tag": "4.2.5.4"
     },
     "dde-daemon": {
         "commit": "64aba362b9e41804fa05d48592a4f05e76129783",
         "tag": "3.1.17"
     },
     "dde-dock": {
-        "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
-        "tag": "4.3.3"
+        "commit": "8ccbdcca892b1a1660f332a5f407318a536e0799",
+        "tag": "4.3.4"
     },
     "dde-file-manager": {
         "commit": "b9408c3ad615c54112670517869eceb839f67e97",
@@ -36,8 +36,8 @@
         "tag": "15.4.8"
     },
     "dde-launcher": {
-        "commit": "2762f2dc0621cec7459a787693b97d9b6554fca5",
-        "tag": "4.1.6"
+        "commit": "13c13a3c0155a643e5f1cf06b596631fd328348a",
+        "tag": "4.1.7"
     },
     "dde-polkit-agent": {
         "commit": "3f34b53b06278106e691e40fc54e2ccb55093009",
@@ -48,8 +48,8 @@
         "tag": "0.3.0"
     },
     "dde-session-ui": {
-        "commit": "4cadab1afada9834805aabc60e7741e20082b257",
-        "tag": "4.0.13"
+        "commit": "e078009ae5152b28d7f051ac1340561c7dba04d6",
+        "tag": "4.0.13.1"
     },
     "deepin-appstore": {
         "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
