@@ -1,16 +1,4 @@
 {
-    "dtkcore": {
-        "commit": "ba9f460f718d7176e76268bbc32e014c47c0e74c",
-        "tag": "2.0.0"
-    },
-    "dtkwidget": {
-        "commit": "5beb4e806fd5c182cecaefe0098194a5ab7a9ee8",
-        "tag": "2.0.0"
-    },
-    "dtkwm": {
-        "commit": "60b3c70f31b209681a9fb5eeaa2cdc09982d55a2",
-        "tag": "2.0.0"
-    },
     "dae": {
         "commit": "350848717ee19b439ac51efd6d9dc2c88769ec3b",
         "tag": "1.0.2"
@@ -56,8 +44,8 @@
         "tag": "0.0.10"
     },
     "dde-qt-dbus-factory": {
-        "commit": "becf8526235cedac20622e6e1973952c84a14392",
-        "tag": "0.2.1"
+        "commit": "3acb5df1612dac9bfeb10f7870f957852f3f6edb",
+        "tag": "0.3.0"
     },
     "dde-session-ui": {
         "commit": "4cadab1afada9834805aabc60e7741e20082b257",
@@ -195,9 +183,21 @@
         "commit": "d6a69de6a3c845d97343d72731fce7a620e1fc4c",
         "tag": "2016.9.8"
     },
+    "dtkcore": {
+        "commit": "ba9f460f718d7176e76268bbc32e014c47c0e74c",
+        "tag": "2.0.0"
+    },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
+    },
+    "dtkwidget": {
+        "commit": "5beb4e806fd5c182cecaefe0098194a5ab7a9ee8",
+        "tag": "2.0.0"
+    },
+    "dtkwm": {
+        "commit": "60b3c70f31b209681a9fb5eeaa2cdc09982d55a2",
+        "tag": "2.0.0"
     },
     "go-dbus-generator": {
         "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
