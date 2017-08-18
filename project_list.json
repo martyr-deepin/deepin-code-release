@@ -40,8 +40,8 @@
         "tag": "4.1.6"
     },
     "dde-polkit-agent": {
-        "commit": "680c12f0235d30af0395bf2cb2e55ef71bd3cb55",
-        "tag": "0.0.10"
+        "commit": "3f34b53b06278106e691e40fc54e2ccb55093009",
+        "tag": "0.1.0"
     },
     "dde-qt-dbus-factory": {
         "commit": "3acb5df1612dac9bfeb10f7870f957852f3f6edb",
@@ -108,8 +108,8 @@
         "tag": "1.0.6"
     },
     "deepin-menu": {
-        "commit": "3ab1c65cabf80cab3e8ae5d045500601b2bffcc9",
-        "tag": "3.1.5"
+        "commit": "828e350c4733f928c14d6d6f7910aaea811a4d61",
+        "tag": "3.1.6"
     },
     "deepin-metacity": {
         "commit": "e9af397c7cfdb67d4d7425d32853ec5cb92c8816",
@@ -132,8 +132,8 @@
         "tag": "3.0.7"
     },
     "deepin-qml-widgets": {
-        "commit": "38135764aaad4f0ba818efee6735612df17d503c",
-        "tag": "2.3.5"
+        "commit": "8930f3e9e84bfd7492b7b476ecd36a6c5de34a97",
+        "tag": "2.3.6"
     },
     "deepin-remote-assistance": {
         "commit": "931c504ea5548aec236185b52059d19bca36d24b",
