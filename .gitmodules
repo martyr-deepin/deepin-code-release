@@ -166,3 +166,6 @@
 [submodule "project/dtkcore"]
 	path = project/dtkcore
 	url = ssh://cr.deepin.io:29418/dtkcore
+[submodule "project/dtkwidget"]
+	path = project/dtkwidget
+	url = ssh://cr.deepin.io:29418/dtkwidget

@@ -3,6 +3,10 @@
         "commit": "ba9f460f718d7176e76268bbc32e014c47c0e74c",
         "tag": "2.0.0"
     },
+    "dtkwidget": {
+        "commit": "5beb4e806fd5c182cecaefe0098194a5ab7a9ee8",
+        "tag": "2.0.0"
+    },
     "dae": {
         "commit": "350848717ee19b439ac51efd6d9dc2c88769ec3b",
         "tag": "1.0.2"
