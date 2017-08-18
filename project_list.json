@@ -12,8 +12,8 @@
         "tag": "3.1.10"
     },
     "dde-calendar": {
-        "commit": "d2c7b9e26b34ee5c30d393290fb0bba469c98a0b",
-        "tag": "1.0.11"
+        "commit": "fe69776720247af57f1e58221f39442f49bb0e8d",
+        "tag": "1.0.12"
     },
     "dde-control-center": {
         "commit": "7bf56c0f96f8e38eaf7dd52c31ab2e4e70257952",
@@ -128,8 +128,8 @@
         "tag": "3.20.21"
     },
     "deepin-notifications": {
-        "commit": "0033758606f3e1ecf6a34e7d9e9fad0d4f00df76",
-        "tag": "3.0.6"
+        "commit": "8145c4ebeea72d1eaea09e314d1bceefa13eeebf",
+        "tag": "3.0.7"
     },
     "deepin-qml-widgets": {
         "commit": "38135764aaad4f0ba818efee6735612df17d503c",
