@@ -52,12 +52,12 @@
         "tag": "4.0.13.1"
     },
     "deepin-appstore": {
-        "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
-        "tag": "4.0.9.7"
+        "commit": "777a4383f99c9201aa2973dcdd099ac0c82cc76b",
+        "tag": "4.0.9.8"
     },
     "deepin-boot-maker": {
-        "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
-        "tag": "2.0.2"
+        "commit": "bd5b887e32704bee5ad6633dc095627e4c2883ff",
+        "tag": "2.0.3"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
@@ -120,8 +120,8 @@
         "tag": "2.2.14"
     },
     "deepin-music": {
-        "commit": "7c31a72ac59ad5f43d4fdc17b36a8b058748a1c1",
-        "tag": "3.1.4"
+        "commit": "39165b8b33fff54f3740778500a0536a87f5e469",
+        "tag": "3.1.5"
     },
     "deepin-mutter": {
         "commit": "fdedc87da824c783455f78850031ce47551ad6da",
