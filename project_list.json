@@ -164,8 +164,8 @@
         "tag": "2.5.3"
     },
     "deepin-tool-kit": {
-        "commit": "e8676963ecc585e7ed5d35dc7cda2eabb71a63c3",
-        "tag": "0.3.1"
+        "commit": "b4b5fb5b027c62fd9cd63110d27623d6528d0178",
+        "tag": "0.3.3"
     },
     "deepin-voice-recorder": {
         "commit": "e8a03c1ef9a9256de5a3ed4e5c6b8a921bb79215",
