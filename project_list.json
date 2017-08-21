@@ -140,8 +140,8 @@
         "tag": "1.0.16"
     },
     "deepin-screen-recorder": {
-        "commit": "bacac814fbaa37f3227c28fa3be8efaec93980c4",
-        "tag": "2.4"
+        "commit": "0388921c62e91ebc2c715273aacdc5b9f6db04be",
+        "tag": "2.6"
     },
     "deepin-screenshot": {
         "commit": "14c7a028f7bb118314172cb81884afc2ea6fadba",
@@ -155,6 +155,10 @@
         "commit": "0045de406a143b798ac3b2fbe2b318b4a4894176",
         "tag": "15.10.1"
     },
+    "deepin-system-monitor": {
+        "commit": "5cdc1919006d134fbd7164cac35a1a9262fb5a92",
+        "tag": "1.3"
+    },
     "deepin-terminal": {
         "commit": "6c5c4eff12de9552e634212d64cc9aaf91342872",
         "tag": "2.5.3"
@@ -164,8 +168,8 @@
         "tag": "0.3.1"
     },
     "deepin-voice-recorder": {
-        "commit": "6cf1cb99d8d11d7bbbee74f91d6637f318456655",
-        "tag": "1.3.1"
+        "commit": "e8a03c1ef9a9256de5a3ed4e5c6b8a921bb79215",
+        "tag": "1.3.3"
     },
     "deepin-wallpapers": {
         "commit": "a54c2827dbf763f1f5489269f005bad30a048bd4",

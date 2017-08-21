@@ -172,3 +172,6 @@
 [submodule "project/dtkwm"]
 	path = project/dtkwm
 	url = ssh://cr.deepin.io:29418/dtkwm
+[submodule "deepin-system-monitor"]
+	path = project/deepin-system-monitor
+	url = ssh://cr.deepin.io:29418/deepin-system-monitor
