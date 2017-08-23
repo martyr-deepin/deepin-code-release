@@ -1,10 +1,10 @@
 {
 	"deepin-cloud-print-client":{
-		"commit":"1cde74e72916ba9a208714639bc3fd3d2e4bbb66",
-		"tag":"1.2.1"
+		"commit":"f351d2724fce140f9d7d168ce3df86ed101a5dbd",
+		"tag":"1.2.3"
 	},
 	"deepin-scanner":{
-		"commit":"a44cccc5184c35c714d2df16a485a26bbf2f046e",
-		"tag":"1.0.5"
+		"commit":"209f067d4c72fa1af072b596f0a7bb9a6ad57015",
+		"tag":"1.0.7"
 	}
 }
