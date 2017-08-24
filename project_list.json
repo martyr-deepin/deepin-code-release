@@ -176,8 +176,8 @@
         "tag": "1.4"
     },
     "deepin-wm": {
-        "commit": "ad9bef7614a25e099f933a9262c95358e4c0700d",
-        "tag": "1.9.15"
+        "commit": "2d5cbd468039b009dcb4dd6a25ef1d335e7d6ee0",
+        "tag": "1.9.16"
     },
     "deepin-wm-switcher": {
         "commit": "a28aecc5f75c3704e8670443db5c23b16ae5e34e",
