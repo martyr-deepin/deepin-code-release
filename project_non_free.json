@@ -1,4 +1,12 @@
 {
+	"deepin-presentation-assistant-rtmp":{
+		"commit":"b0a8b62bddf9a92adb4181248fc9ea7fa197839f",
+		"tag":"1.0.0"
+	},
+	"deepin-presentation-assistant":{
+		"commit":"69161355973ecae27cbbb505a09576499d1d3e4f",
+		"tag":"1.0.0"
+	},
 	"deepin-cloud-print-client":{
 		"commit":"f351d2724fce140f9d7d168ce3df86ed101a5dbd",
 		"tag":"1.2.3"
