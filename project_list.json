@@ -120,8 +120,8 @@
         "tag": "2.2.15"
     },
     "deepin-music": {
-        "commit": "39165b8b33fff54f3740778500a0536a87f5e469",
-        "tag": "3.1.5"
+        "commit": "22bc0a6664ca491413d81eeb4508eb352449c641",
+        "tag": "3.1.6"
     },
     "deepin-mutter": {
         "commit": "fdedc87da824c783455f78850031ce47551ad6da",
