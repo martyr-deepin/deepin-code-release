@@ -64,8 +64,8 @@
         "tag": "1.22.4"
     },
     "deepin-deb-installer": {
-        "commit": "dc7f310b0199e5715fa3e9f82480d8c8c57d2304",
-        "tag": "1.0.0"
+        "commit": "9e1e4e9b6a0e99a9b25cd34ee9c35b7d0567038a",
+        "tag": "1.1.3"
     },
     "deepin-desktop-base": {
         "commit": "94a22cfe461a1d2d52ff69ababe14c649347260d",
