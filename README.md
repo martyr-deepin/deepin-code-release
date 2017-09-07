@@ -75,6 +75,32 @@ deepin release系统就是这样一个辅助系统，它的目标在于将它的
 
 - git submodule update --init [SUBMODULE] 初始化以下相应的submodule项目
 
+####使用举例说明
+1.配置环境
+  编辑~/.ssh/config,添加配置文件,目的是让每个submoudle引用我们都有权限提交代码。
+  HOST cr.deepin.io
+    Port 29418
+    User gerrit用户名
+2.拉取deepin-code-release 代码
+git clone ssh://deepin@cr.deepin.io:29418/deepin-code-release && scp -p -P 29418 deepin@cr.deepin.io:hooks/commit-msg deepin-code-release/.git/hooks/
+
+3.拷贝hook文件,目的是每次提交刷新project_list.json文件。
+cd  deepin-code-release
+cp pre-commit .git/hooks
+
+4.切换到对应分之
+例如：git checkout panda/current
+git submodule init //初始化submodule引用
+git submodule updae project/dde-daemon//拉取引用项目源码
+cd project/dde-daemon
+git checkout 3.1.6   //切换submodule引用commit,原则上commit必须在tag上面
+cd ../../
+git add project/dde-daemon    //添加新修改到本地
+git commit -a -m "update 3.1.6"   //提交新修改到本地，此时会调用3步里面pre-commit hook文件刷新json文件并自动提交
+git review panda/current   //提交新修改
+
+至此一个正常提交流程完成，需要说明，切换引用commit，必须在tag上面。
+
 
 
 ## 当前分支说明
