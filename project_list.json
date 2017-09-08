@@ -160,8 +160,8 @@
         "tag": "1.3"
     },
     "deepin-terminal": {
-        "commit": "6c5c4eff12de9552e634212d64cc9aaf91342872",
-        "tag": "2.5.3"
+        "commit": "887986e6ec5e1acb2a2794501865196782b635cd",
+        "tag": "2.6.1"
     },
     "deepin-tool-kit": {
         "commit": "b4b5fb5b027c62fd9cd63110d27623d6528d0178",
