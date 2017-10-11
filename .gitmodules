@@ -175,3 +175,6 @@
 [submodule "deepin-system-monitor"]
 	path = project/deepin-system-monitor
 	url = ssh://cr.deepin.io:29418/deepin-system-monitor
+[submodule "deepin-movie-reborn"]
+	path = project/deepin-movie-reborn
+	url = ssh://cr.deepin.io:29418/deepin-movie-reborn

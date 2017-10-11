@@ -119,6 +119,10 @@
         "commit": "882a0eeb895a91109728e0b32b2484a3da725c03",
         "tag": "2.2.15"
     },
+    "deepin-movie-reborn": {
+        "commit": "47fb28167cac02e8d78ef28bc375ad6382a1e41a",
+        "tag": "2.9.16"
+    },
     "deepin-music": {
         "commit": "22bc0a6664ca491413d81eeb4508eb352449c641",
         "tag": "3.1.6"
