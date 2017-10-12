@@ -224,8 +224,8 @@
         "tag": "1.0.5"
     },
     "lastore-daemon": {
-        "commit": "57168e52c1661d399175abaa6a62deab1531f46b",
-        "tag": "0.9.44"
+        "commit": "b791e88f2cea2bbe02e7b5e619ebd7552b1390b4",
+        "tag": "0.9.47"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
