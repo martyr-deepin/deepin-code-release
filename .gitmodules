@@ -178,3 +178,6 @@
 [submodule "deepin-movie-reborn"]
 	path = project/deepin-movie-reborn
 	url = ssh://cr.deepin.io:29418/deepin-movie-reborn
+[submodule "project/deepin-picker"]
+	path = project/deepin-picker
+	url = ssh://cr.deepin.io:29418/deepin-picker
