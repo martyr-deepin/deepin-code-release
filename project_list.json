@@ -135,6 +135,10 @@
         "commit": "8145c4ebeea72d1eaea09e314d1bceefa13eeebf",
         "tag": "3.0.7"
     },
+    "deepin-picker": {
+        "commit": "63aa5bec3931cf2b6170a5fcdac6fa043d168e4b",
+        "tag": "1.0"
+    },
     "deepin-qml-widgets": {
         "commit": "8930f3e9e84bfd7492b7b476ecd36a6c5de34a97",
         "tag": "2.3.6"
@@ -200,8 +204,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "5beb4e806fd5c182cecaefe0098194a5ab7a9ee8",
-        "tag": "2.0.0"
+        "commit": "2aa9bd156c44c0089271cdc7513a9527f5ea0eb2",
+        "tag": "2.0.0.1"
     },
     "dtkwm": {
         "commit": "60b3c70f31b209681a9fb5eeaa2cdc09982d55a2",
