@@ -52,8 +52,8 @@
         "tag": "4.0.13.1"
     },
     "deepin-appstore": {
-        "commit": "777a4383f99c9201aa2973dcdd099ac0c82cc76b",
-        "tag": "4.0.9.8"
+        "commit": "09b5777cc8a58c907cb81d116c86f8386ff33d96",
+        "tag": "4.0.10"
     },
     "deepin-boot-maker": {
         "commit": "bd5b887e32704bee5ad6633dc095627e4c2883ff",
@@ -224,8 +224,8 @@
         "tag": "1.0.5"
     },
     "lastore-daemon": {
-        "commit": "b791e88f2cea2bbe02e7b5e619ebd7552b1390b4",
-        "tag": "0.9.47"
+        "commit": "4f75ab924dfd88bc943fc241d99dbb8a27311d31",
+        "tag": "0.9.48"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
