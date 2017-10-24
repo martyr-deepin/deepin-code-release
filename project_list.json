@@ -76,8 +76,8 @@
         "tag": "3.1.17"
     },
     "deepin-feedback": {
-        "commit": "44c965929809c3b3198478fc4336903e1e321119",
-        "tag": "1.0.14"
+        "commit": "9c633e8e3d6b4f1daeea28472dcb4dc5af2834be",
+        "tag": "1.0.15"
     },
     "deepin-gettext-tools": {
         "commit": "8f4a8ab0a3d94765cce0c4af2aa809bfa48ad9c4",
