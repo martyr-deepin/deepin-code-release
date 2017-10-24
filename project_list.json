@@ -223,6 +223,10 @@
         "commit": "3c9791f1a391d7de7d50ee4e308da669143e2060",
         "tag": "1.0.5"
     },
+    "go-x11-client": {
+        "commit": "a10a839c0f79ea80d2b4309c6f2d120f98664c5a",
+        "tag": "0.0.2"
+    },
     "lastore-daemon": {
         "commit": "4f75ab924dfd88bc943fc241d99dbb8a27311d31",
         "tag": "0.9.48"

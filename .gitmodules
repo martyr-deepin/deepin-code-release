@@ -181,3 +181,6 @@
 [submodule "project/deepin-picker"]
 	path = project/deepin-picker
 	url = ssh://cr.deepin.io:29418/deepin-picker
+[submodule "project/go-x11-client"]
+	path = project/go-x11-client
+	url = ssh://cr.deepin.io:29418/go-x11-client
