@@ -44,12 +44,12 @@
         "tag": "0.1.1"
     },
     "dde-qt-dbus-factory": {
-        "commit": "3acb5df1612dac9bfeb10f7870f957852f3f6edb",
-        "tag": "0.3.0"
+        "commit": "f3f25eddd5b68cede30e9fa3d5da448a8ce8f6c7",
+        "tag": "0.3.1"
     },
     "dde-session-ui": {
-        "commit": "e078009ae5152b28d7f051ac1340561c7dba04d6",
-        "tag": "4.0.13.1"
+        "commit": "eaf4e0910a3210b69139571d04fb89860f3b5227",
+        "tag": "4.0.16"
     },
     "deepin-appstore": {
         "commit": "09b5777cc8a58c907cb81d116c86f8386ff33d96",
