@@ -16,8 +16,8 @@
         "tag": "1.0.13"
     },
     "dde-control-center": {
-        "commit": "10d98fe98967ed078d2bb29e950bded17de3d1c4",
-        "tag": "4.2.5.10"
+        "commit": "3f797dd74783aa40dc33a34e18f0a09a78d990c3",
+        "tag": "4.2.5.11"
     },
     "dde-daemon": {
         "commit": "64aba362b9e41804fa05d48592a4f05e76129783",
