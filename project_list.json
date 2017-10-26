@@ -56,8 +56,8 @@
         "tag": "4.0.11"
     },
     "deepin-boot-maker": {
-        "commit": "bd5b887e32704bee5ad6633dc095627e4c2883ff",
-        "tag": "2.0.3"
+        "commit": "4ad0dda3dec94c01542bcf95829fb3338b03a615",
+        "tag": "2.0.4"
     },
     "deepin-clone": {
         "commit": "0ecfeafd6ade6947f2590f165a0de492c359e43e",
@@ -128,8 +128,8 @@
         "tag": "2.9.95"
     },
     "deepin-music": {
-        "commit": "22bc0a6664ca491413d81eeb4508eb352449c641",
-        "tag": "3.1.6"
+        "commit": "e321dc8074e703b0651ab91fd1a0ad39cc750a92",
+        "tag": "3.1.7"
     },
     "deepin-mutter": {
         "commit": "be4bee2e21e95fea8b279711590de073d91da3f4",
