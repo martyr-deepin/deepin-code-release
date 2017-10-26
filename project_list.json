@@ -239,6 +239,10 @@
         "commit": "fe3cf88594702aaff2c4f296609712d5fe98b45d",
         "tag": "1.0.8"
     },
+    "plymouth-theme-deepin": {
+        "commit": "fd6886323c336cf07bde8092eaee275d5f708397",
+        "tag": "15.10.3"
+    },
     "qt5integration": {
         "commit": "d5d93dbae8cdc21e887da17b8d710b0403f3b0aa",
         "tag": "0.2.5"

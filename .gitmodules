@@ -184,3 +184,6 @@
 [submodule "project/go-x11-client"]
 	path = project/go-x11-client
 	url = ssh://cr.deepin.io:29418/go-x11-client
+[submodule "project/plymouth-theme-deepin"]
+	path = project/plymouth-theme-deepin
+	url = ssh://cr.deepin.io:29418/plymouth-theme-deepin
