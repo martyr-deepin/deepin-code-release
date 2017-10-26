@@ -148,8 +148,8 @@
         "tag": "2.3.6"
     },
     "deepin-remote-assistance": {
-        "commit": "931c504ea5548aec236185b52059d19bca36d24b",
-        "tag": "1.0.16"
+        "commit": "06c27183f3d80194ab8ad466e683976fd290f60a",
+        "tag": "1.0.18"
     },
     "deepin-screen-recorder": {
         "commit": "38850c40b32237fca93e19f5545b947824689904",
