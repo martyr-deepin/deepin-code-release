@@ -16,8 +16,8 @@
         "tag": "1.0.13"
     },
     "dde-control-center": {
-        "commit": "3f797dd74783aa40dc33a34e18f0a09a78d990c3",
-        "tag": "4.2.5.11"
+        "commit": "6c78571f2426d78ca8bb527956abbfb33e12bbc6",
+        "tag": "4.2.5.13"
     },
     "dde-daemon": {
         "commit": "1c64b57c8a6529683268c130ddfba31163d830b8",
@@ -48,8 +48,8 @@
         "tag": "0.3.2"
     },
     "dde-session-ui": {
-        "commit": "eaf4e0910a3210b69139571d04fb89860f3b5227",
-        "tag": "4.0.16"
+        "commit": "7ac260749d51724b3bb519505a20b82c8f53bee8",
+        "tag": "4.0.17"
     },
     "deepin-appstore": {
         "commit": "80477fc6f8b88d0c50aca8eb6046523ecc45f1a2",
