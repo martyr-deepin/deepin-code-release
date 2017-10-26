@@ -8,11 +8,11 @@
 		"tag":"1.0.0"
 	},
 	"deepin-cloud-print-client":{
-		"commit":"f351d2724fce140f9d7d168ce3df86ed101a5dbd",
-		"tag":"1.2.3"
+		"commit":"0bc6c25c55367852b09c234fcf306bb6a683d906",
+		"tag":"1.2.3.1"
 	},
 	"deepin-scanner":{
-		"commit":"209f067d4c72fa1af072b596f0a7bb9a6ad57015",
-		"tag":"1.0.7"
+		"commit":"05778d083bae151be8943fd382ba2d1293ae192b",
+		"tag":"1.0.8"
 	}
 }
