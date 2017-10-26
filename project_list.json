@@ -248,8 +248,8 @@
         "tag": "15.10.3"
     },
     "qt5integration": {
-        "commit": "d5d93dbae8cdc21e887da17b8d710b0403f3b0aa",
-        "tag": "0.2.5"
+        "commit": "f6331ee32809d7e548b7d538beefc7ea5582f111",
+        "tag": "0.2.6.1"
     },
     "startdde": {
         "commit": "3a4b56c0d0dae36c79c858c5e2938dd85fcff1e6",
