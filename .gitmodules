@@ -187,3 +187,6 @@
 [submodule "project/plymouth-theme-deepin"]
 	path = project/plymouth-theme-deepin
 	url = ssh://cr.deepin.io:29418/plymouth-theme-deepin
+[submodule "project/deepin-clone"]
+	path = project/deepin-clone
+	url = ssh://cr.deepin.io:29418/deepin-clone
