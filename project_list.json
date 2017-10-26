@@ -196,8 +196,8 @@
         "tag": "1.1.7"
     },
     "default-settings": {
-        "commit": "c49c29e52d5dfea8366003fb362daf715e156e88",
-        "tag": "2016.10.1"
+        "commit": "79d4fcb4a1958e92a075ff73940ff7fae9d0d6ea",
+        "tag": "2016.10.2"
     },
     "dtkcore": {
         "commit": "f61c1b54d9d4f1802dc6cf3281cdcc6d2712a0bf",
