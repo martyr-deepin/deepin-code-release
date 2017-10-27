@@ -60,8 +60,8 @@
         "tag": "2.0.3"
     },
     "deepin-clone": {
-        "commit": "9d9b4520f70841119c43fb9fa3939159cc8df565",
-        "tag": "0.0.5"
+        "commit": "0ecfeafd6ade6947f2590f165a0de492c359e43e",
+        "tag": "0.0.5.1"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
@@ -208,8 +208,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "dff92b1b85a2cb89c646e130398e6b3ca2052cee",
-        "tag": "2.0.3"
+        "commit": "228fd523e3de120d71b230cf3321f7ac689864ff",
+        "tag": "2.0.4"
     },
     "dtkwm": {
         "commit": "b457122079758b225daba14acb768823ce6d15fc",
