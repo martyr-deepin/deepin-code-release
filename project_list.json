@@ -187,6 +187,10 @@
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
+    "dtkwidget": {
+        "commit": "1883f86f3fbe7c6d87a802a6732be0344d3bbd22",
+        "tag": "2.0.4.2"
+    },
     "go-dbus-generator": {
         "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
         "tag": "0.6.6"

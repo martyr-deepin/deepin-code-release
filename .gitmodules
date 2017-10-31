@@ -163,3 +163,6 @@
 [submodule "project/deepin-system-monitor"]
 	path = project/deepin-system-monitor
 	url = ssh://cr.deepin.io:29418/deepin-system-monitor
+[submodule "dtkwidget"]
+	path = project/dtkwidget
+	url = ssh://cr.deepin.io:29418/dtkwidget
