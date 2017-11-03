@@ -136,8 +136,8 @@
         "tag": "3.20.22"
     },
     "deepin-notifications": {
-        "commit": "8145c4ebeea72d1eaea09e314d1bceefa13eeebf",
-        "tag": "3.0.7"
+        "commit": "65a56fc3b550c14d88db7abc57505f4dd7f98c90",
+        "tag": "3.1.0"
     },
     "deepin-picker": {
         "commit": "63aa5bec3931cf2b6170a5fcdac6fa043d168e4b",
