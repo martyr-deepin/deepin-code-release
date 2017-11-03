@@ -244,8 +244,8 @@
         "tag": "1.0.8"
     },
     "plymouth-theme-deepin": {
-        "commit": "50cb6372d11b00817cfbdf5a194c0f3682ba58d1",
-        "tag": "15.10.5"
+        "commit": "fd51d6fed6c308acfd606e119b9175c70b139dc6",
+        "tag": "15.10.6"
     },
     "qt5dxcb-plugin": {
         "commit": "fbe74fd71ee5c9963d1846911a71de33d6a4f6d2",
