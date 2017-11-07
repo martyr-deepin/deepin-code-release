@@ -100,8 +100,8 @@
         "tag": "1.0.0"
     },
     "deepin-image-viewer": {
-        "commit": "af0ff636207516c3e3415728a5d6b262cbe6296a",
-        "tag": "1.2.16.1"
+        "commit": "d1102e7bad43b78bebffaf0f4cf28c9d82542ff0",
+        "tag": "1.2.16.2"
     },
     "deepin-installer-reborn": {
         "commit": "f67c6b4621e6fe5bec8c151a1eb4ad246d683efe",
@@ -156,8 +156,8 @@
         "tag": "2.6.4"
     },
     "deepin-screenshot": {
-        "commit": "5f65ced8e1523d9d74169eea710510075ae03bed",
-        "tag": "4.0.10"
+        "commit": "0e7eecc26d06dd77d52d278c3643b1dacc218d71",
+        "tag": "4.0.10.1"
     },
     "deepin-shortcut-viewer": {
         "commit": "850212e477192a751e9dbd978f54e1992686d377",
