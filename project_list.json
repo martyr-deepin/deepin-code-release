@@ -44,8 +44,8 @@
         "tag": "0.1.1"
     },
     "dde-qt-dbus-factory": {
-        "commit": "1587f1b0e4beb65dab4da976d7b443b0a54d27ed",
-        "tag": "0.4.0"
+        "commit": "a56ac31d7bdb407004ed68f7f97a2dbe5604be16",
+        "tag": "0.4.1"
     },
     "dde-session-ui": {
         "commit": "1afd799201511af1b1eddd7eae6dafba68f910e2",
