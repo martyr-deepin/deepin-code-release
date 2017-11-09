@@ -132,8 +132,8 @@
         "tag": "3.1.7"
     },
     "deepin-mutter": {
-        "commit": "be4bee2e21e95fea8b279711590de073d91da3f4",
-        "tag": "3.20.24"
+        "commit": "e14c1dd7e56b6df2eb0f73d8b7346f2b28df30c7",
+        "tag": "3.20.25"
     },
     "deepin-notifications": {
         "commit": "9c82ec00d93d6802408b2a708bb715526d691167",
@@ -188,8 +188,8 @@
         "tag": "1.7"
     },
     "deepin-wm": {
-        "commit": "7cdc8fa2853c0197491e47fcb2cf1b1e8265d586",
-        "tag": "1.9.19"
+        "commit": "9279810ab1e157103c849fdf6149110df937597c",
+        "tag": "1.9.20"
     },
     "deepin-wm-switcher": {
         "commit": "da52e50d9ce613612891560fa9953b8a9e8de7cb",
