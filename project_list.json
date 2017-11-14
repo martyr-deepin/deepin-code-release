@@ -87,6 +87,10 @@
         "commit": "b342981151d7b744a6da8158d11a201cdb22fd7b",
         "tag": "1.0.7"
     },
+    "deepin-graphics-driver-manager": {
+        "commit": "1e6e407a313761dab267b145a57b438ebc9f2ed8",
+        "tag": "0.99"
+    },
     "deepin-gtk-theme": {
         "commit": "f46c257e6d483538414a79c7e35f02f8f8f90d21",
         "tag": "17.10.4"

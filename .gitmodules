@@ -193,3 +193,6 @@
 [submodule "qt5dxcb-plugin"]
 	path = project/qt5dxcb-plugin
 	url = ssh://cr.deepin.io:29418/qt5dxcb-plugin
+[submodule "deepin-graphics-driver-manager"]
+	path = project/deepin-graphics-driver-manager
+	url = ssh://cr.deepin.io:29418/deepin-graphics-driver-manager
