@@ -120,8 +120,8 @@
         "tag": "3.1.8"
     },
     "deepin-metacity": {
-        "commit": "1ab107ecbc76621a469bb07363053affb637872b",
-        "tag": "3.22.12"
+        "commit": "1f7e23865670cc56fe7e44848e20ae980132a5c0",
+        "tag": "3.22.13"
     },
     "deepin-movie": {
         "commit": "882a0eeb895a91109728e0b32b2484a3da725c03",
@@ -136,8 +136,8 @@
         "tag": "3.1.7"
     },
     "deepin-mutter": {
-        "commit": "e14c1dd7e56b6df2eb0f73d8b7346f2b28df30c7",
-        "tag": "3.20.25"
+        "commit": "071979df766ad1f9347cba6c764cf9d9fd7d0be5",
+        "tag": "3.20.26"
     },
     "deepin-notifications": {
         "commit": "833b116756ef7ab0d9852e399fefc1588703b615",
@@ -192,8 +192,8 @@
         "tag": "1.7"
     },
     "deepin-wm": {
-        "commit": "9279810ab1e157103c849fdf6149110df937597c",
-        "tag": "1.9.20"
+        "commit": "5c7f5267ad6d7f35725ecd861a631dfc49c8a1f9",
+        "tag": "1.9.21"
     },
     "deepin-wm-switcher": {
         "commit": "da52e50d9ce613612891560fa9953b8a9e8de7cb",
