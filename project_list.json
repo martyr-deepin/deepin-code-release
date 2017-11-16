@@ -212,8 +212,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "4bcbb6a39da6efed65849af9bce967a277093ac4",
-        "tag": "2.0.5"
+        "commit": "5f2581e9370daee086b4eab97cf3ec841a64a8dc",
+        "tag": "2.0.5.1"
     },
     "dtkwm": {
         "commit": "913e7c58c82fa978a451efa223d791c92b8de46e",
