@@ -140,8 +140,8 @@
         "tag": "3.20.25"
     },
     "deepin-notifications": {
-        "commit": "9c82ec00d93d6802408b2a708bb715526d691167",
-        "tag": "3.1.1"
+        "commit": "833b116756ef7ab0d9852e399fefc1588703b615",
+        "tag": "3.1.2"
     },
     "deepin-picker": {
         "commit": "7b954f263cfe120786f388d5c0d11a5e4f7e8246",
