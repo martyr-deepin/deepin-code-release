@@ -20,8 +20,8 @@
         "tag": "4.3.3"
     },
     "dde-daemon": {
-        "commit": "b87a79dd1976145153ae3a0be4ecc114d837301b",
-        "tag": "3.2.4"
+        "commit": "f38e16d2afaacff04cb494eea4729eb9a20f9c52",
+        "tag": "3.2.6"
     },
     "dde-dock": {
         "commit": "875eca925cbcd4160c1b01a10fc4ebb499f5a538",
@@ -76,8 +76,8 @@
         "tag": "2016.13.1"
     },
     "deepin-desktop-schemas": {
-        "commit": "8201bc0e88c0b9033c44c1ada47022298bd65315",
-        "tag": "3.2.1"
+        "commit": "49388de449e3d6688fbc2370169eb0b63ef57fbb",
+        "tag": "3.2.2"
     },
     "deepin-feedback": {
         "commit": "9c633e8e3d6b4f1daeea28472dcb4dc5af2834be",
@@ -228,8 +228,8 @@
         "tag": "1.0.1"
     },
     "go-lib": {
-        "commit": "3c9791f1a391d7de7d50ee4e308da669143e2060",
-        "tag": "1.0.5"
+        "commit": "d575e32f09e4923d3ac8e2fbd86fd0f03ee5f797",
+        "tag": "1.2.1"
     },
     "go-x11-client": {
         "commit": "a10a839c0f79ea80d2b4309c6f2d120f98664c5a",
@@ -260,7 +260,7 @@
         "tag": "0.2.8.1"
     },
     "startdde": {
-        "commit": "4361da7fd8351616df8fc5c3a474335e064d9b50",
-        "tag": "3.1.18"
+        "commit": "a413b2960639feb9982fa27c85704a67867d948d",
+        "tag": "3.1.19"
     }
 }
