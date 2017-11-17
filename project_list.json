@@ -92,12 +92,12 @@
         "tag": "0.99"
     },
     "deepin-gtk-theme": {
-        "commit": "f46c257e6d483538414a79c7e35f02f8f8f90d21",
-        "tag": "17.10.4"
+        "commit": "1a8b2c31fc39c3921d85fd33a8746ca0b7c67969",
+        "tag": "17.10.5"
     },
     "deepin-icon-theme": {
-        "commit": "752f4b4a919995714b8b0e223ba7ad304d3d4d7b",
-        "tag": "15.12.49"
+        "commit": "a86875a63a9c1949e020b330bf9ecf16cc9b3300",
+        "tag": "15.12.50"
     },
     "deepin-icon-theme-tools": {
         "commit": "dc4cac3f86b8f094b952f83f14af706734785349",
