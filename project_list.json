@@ -72,8 +72,8 @@
         "tag": "1.2"
     },
     "deepin-desktop-base": {
-        "commit": "c719888afeec5245e36b1534092807099d967c6c",
-        "tag": "2016.13.1"
+        "commit": "ef96772d0813a0116708c8cc799bae441451667f",
+        "tag": "2016.13.4"
     },
     "deepin-desktop-schemas": {
         "commit": "49388de449e3d6688fbc2370169eb0b63ef57fbb",
