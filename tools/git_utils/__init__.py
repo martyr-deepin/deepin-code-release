@@ -60,7 +60,7 @@ class RepoManager(Repo):
 
     @property
     def latest_origin_commit(self):
-        return self.git.log("--all", "-1", "--pretty=oneline").split()[0]
+        return self.git.log("origin/master", "-1", "--pretty=oneline").split()[0]
 
     @property
     def latest_tag(self):
