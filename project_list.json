@@ -196,8 +196,8 @@
         "tag": "1.9.21"
     },
     "deepin-wm-switcher": {
-        "commit": "c821a54e99c200ec0dd454afedf19000e7c71c96",
-        "tag": "1.1.8"
+        "commit": "6addca97f5bc804500da320ce087b7f18a5a6d96",
+        "tag": "1.1.9"
     },
     "default-settings": {
         "commit": "8dc6cc73905f35312005c90092a582d43a07d644",
