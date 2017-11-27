@@ -160,8 +160,8 @@
         "tag": "2.6.5.1"
     },
     "deepin-screenshot": {
-        "commit": "0e7eecc26d06dd77d52d278c3643b1dacc218d71",
-        "tag": "4.0.10.1"
+        "commit": "9e29799c15d56103c57b5e1c0deb0895fec67438",
+        "tag": "4.0.10.4"
     },
     "deepin-shortcut-viewer": {
         "commit": "850212e477192a751e9dbd978f54e1992686d377",
