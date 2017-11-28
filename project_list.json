@@ -116,8 +116,8 @@
         "tag": "1.0.6"
     },
     "deepin-menu": {
-        "commit": "07978eb4b3d45ec2087c8fffa73ab94e3615732c",
-        "tag": "3.1.8"
+        "commit": "611eeeaa7e4e3f0d6fe11db77385a5de4dec2377",
+        "tag": "3.2.0"
     },
     "deepin-metacity": {
         "commit": "1f7e23865670cc56fe7e44848e20ae980132a5c0",
