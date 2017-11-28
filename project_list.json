@@ -252,8 +252,8 @@
         "tag": "15.10.6"
     },
     "qt5dxcb-plugin": {
-        "commit": "0f19e7aac477cdaf2d6fc635a05c5b41f3bfb558",
-        "tag": "1.1.2"
+        "commit": "9dd88787da369ab9b0e18dbfa793963d3a3b5ad8",
+        "tag": "1.1.3"
     },
     "qt5integration": {
         "commit": "0b974177904cb2c6c8a9d5cdeebfd0a2e1953b0e",
