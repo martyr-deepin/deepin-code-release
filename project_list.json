@@ -108,8 +108,8 @@
         "tag": "1.2.16.4"
     },
     "deepin-installer-reborn": {
-        "commit": "3aa7a07407221b57220eaf6088a322a6396567ea",
-        "tag": "2.2.10"
+        "commit": "d5d36aa9e71cd428cea3e0fb7fecc17cdafe2275",
+        "tag": "2.2.11"
     },
     "deepin-manual": {
         "commit": "3ae465ea1274ddef845683bc7d9a0425f8171f88",
