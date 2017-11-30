@@ -75,7 +75,7 @@ deepin release系统就是这样一个辅助系统，它的目标在于将它的
 
 - git submodule update --init [SUBMODULE] 初始化以下相应的submodule项目
 
-####使用举例说明
+#### 使用举例说明
 1.配置环境
   编辑~/.ssh/config,添加配置文件,目的是让每个submoudle引用我们都有权限提交代码。
   HOST cr.deepin.io
