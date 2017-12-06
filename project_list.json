@@ -36,8 +36,8 @@
         "tag": "15.5"
     },
     "dde-launcher": {
-        "commit": "7cd4651ae011cb4a1ece78be1cf2f05333d75e8b",
-        "tag": "4.2.6"
+        "commit": "f0fe3e07ea8e5c6910b6cbe8c5a2b1394f9f9338",
+        "tag": "4.2.7"
     },
     "dde-polkit-agent": {
         "commit": "ad5e665fd01de098f06a1d45b3f0645ed7bfa40a",
