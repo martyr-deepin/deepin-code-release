@@ -8,8 +8,8 @@
         "tag": "3.1.11"
     },
     "dde-api": {
-        "commit": "666f373a3c44dbdbddb113649a73dc86df5dcba1",
-        "tag": "3.1.18"
+        "commit": "ad475df9879f4c9af6bcefcb1265d574296f6a13",
+        "tag": "3.1.18.1"
     },
     "dde-calendar": {
         "commit": "19523a195422c69ab71368708f5f7cc449325073",
