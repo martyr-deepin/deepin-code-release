@@ -24,8 +24,8 @@
         "tag": "3.2.8"
     },
     "dde-dock": {
-        "commit": "40c05ef287a2a78f6a4f5957e451ece9b091a127",
-        "tag": "4.5.8"
+        "commit": "587c74a069d89e482eebfe3aed0c364e6bcf4ab9",
+        "tag": "4.5.9"
     },
     "dde-file-manager": {
         "commit": "a829d36f8544a3ddfbe6d23698662988612cab4d",
@@ -36,8 +36,8 @@
         "tag": "15.5"
     },
     "dde-launcher": {
-        "commit": "94c2e9be05e60c8583025fd189279d391fb3ef1f",
-        "tag": "4.2.9"
+        "commit": "f46f4cae2d8e6a2cedccf953841025bb39ee5db9",
+        "tag": "4.3.0"
     },
     "dde-polkit-agent": {
         "commit": "ad5e665fd01de098f06a1d45b3f0645ed7bfa40a",
