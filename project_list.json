@@ -240,8 +240,8 @@
         "tag": "0.0.2"
     },
     "lastore-daemon": {
-        "commit": "db47b9028673136ed3b4e8c8f797da4792d429c0",
-        "tag": "0.9.50"
+        "commit": "7b505c4b7f074e80035bcf9896c703bb3816843b",
+        "tag": "0.9.53"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
