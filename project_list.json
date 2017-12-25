@@ -108,8 +108,8 @@
         "tag": "1.0.0"
     },
     "deepin-image-viewer": {
-        "commit": "c45f001e5e17ea6e25ac50fcc3c77ae5fd121858",
-        "tag": "1.2.16.5"
+        "commit": "020f26578be88793dc078c3f00bc58f2714f90bc",
+        "tag": "1.2.16.7"
     },
     "deepin-installer-reborn": {
         "commit": "2f0e6066a9b0042c478532624de46aa9afdb28d0",
