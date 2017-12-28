@@ -208,16 +208,16 @@
         "tag": "2016.10.5"
     },
     "dtkcore": {
-        "commit": "9e61570eed56bd7ff7d7793a42e7bcb263cc5ca5",
-        "tag": "2.0.5"
+        "commit": "aa71811a2ad2794d4a4afb5f0efed59fa065d74a",
+        "tag": "2.0.5.3"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "5f2581e9370daee086b4eab97cf3ec841a64a8dc",
-        "tag": "2.0.5.1"
+        "commit": "b34cf487a2b3b72246e140c2a5da3d29be9e48c1",
+        "tag": "2.0.5.3"
     },
     "dtkwm": {
         "commit": "913e7c58c82fa978a451efa223d791c92b8de46e",
