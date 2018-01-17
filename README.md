@@ -100,6 +100,12 @@ git commit -a -m "update 3.1.6"   //提交新修改到本地，此时会调用3�
 git review panda/current   //提交新修改
 
 至此一个正常提交流程完成，需要说明，切换引用commit，必须在tag上面。
+5.添加新项目到对应project目录，操作如下
+git submodule add ssh://cr.deepin.io:29418/deepin-calculator  project/deepin-calculator
+git add project/deepin-calculator
+git commit -a -m "***"
+git review panda/current 
+正常提交此次submodule 项目添加即可。
 
 
 
