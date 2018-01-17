@@ -199,3 +199,6 @@
 [submodule "project/deepin-calculator"]
 	path = project/deepin-calculator
 	url = ssh://cr.deepin.io:29418/deepin-calculator
+[submodule "project/deepin-repair-tools"]
+	path = project/deepin-repair-tools
+	url = ssh://cr.deepin.io:29418/deepin-repair-tools
