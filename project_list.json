@@ -212,8 +212,8 @@
         "tag": "2016.10.5"
     },
     "dtkcore": {
-        "commit": "aa71811a2ad2794d4a4afb5f0efed59fa065d74a",
-        "tag": "2.0.5.3"
+        "commit": "59d30aaaf86c2f9ce9be3b152d8d198a3f39fdba",
+        "tag": "2.0.6"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
@@ -224,8 +224,8 @@
         "tag": "2.0.6"
     },
     "dtkwm": {
-        "commit": "913e7c58c82fa978a451efa223d791c92b8de46e",
-        "tag": "2.0.5"
+        "commit": "85f78191e9bb9ca10484133e2f9d79351a20a6a0",
+        "tag": "2.0.6"
     },
     "go-dbus-generator": {
         "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
