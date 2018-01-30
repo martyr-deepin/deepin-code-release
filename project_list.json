@@ -220,8 +220,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "636b598e856d2c59395ba4f93a79f7565af9c225",
-        "tag": "2.0.6"
+        "commit": "d83ab555b6e458f17fdb31254ae5752741116a2b",
+        "tag": "2.0.6.1"
     },
     "dtkwm": {
         "commit": "85f78191e9bb9ca10484133e2f9d79351a20a6a0",
