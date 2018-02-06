@@ -172,8 +172,8 @@
         "tag": "4.0.10.4"
     },
     "deepin-shortcut-viewer": {
-        "commit": "b175e31cf6272d211c1e693fe5aa9486c42e8a86",
-        "tag": "1.3.3"
+        "commit": "1b25f9ea97302f98fced71f9b5867d2772032f04",
+        "tag": "1.3.4"
     },
     "deepin-sound-theme": {
         "commit": "5c43ea9554a71239714b12cfff524db283bba462",
