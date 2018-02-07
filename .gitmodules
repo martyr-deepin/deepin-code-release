@@ -202,3 +202,6 @@
 [submodule "project/deepin-repair-tools"]
 	path = project/deepin-repair-tools
 	url = ssh://cr.deepin.io:29418/deepin-repair-tools
+[submodule "project/deepin-font-installer"]
+	path = project/deepin-font-installer
+	url = ssh://cr.deepin.io:29418/deepin-font-installer
