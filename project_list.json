@@ -88,8 +88,8 @@
         "tag": "1.0.15"
     },
     "deepin-font-installer": {
-        "commit": "45cbbf416a219f82603f9949ab04968d25f8fe39",
-        "tag": "1.0"
+        "commit": "1185a13af328190d1fb113e6e00658c91453ae8b",
+        "tag": "1.0.2"
     },
     "deepin-gettext-tools": {
         "commit": "b342981151d7b744a6da8158d11a201cdb22fd7b",
