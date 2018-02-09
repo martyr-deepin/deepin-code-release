@@ -205,3 +205,6 @@
 [submodule "project/deepin-font-installer"]
 	path = project/deepin-font-installer
 	url = ssh://cr.deepin.io:29418/deepin-font-installer
+[submodule "project/deepin-webengine"]
+	path = project/deepin-webengine
+	url = ssh://cr.deepin.io:29418/deepin-webengine
