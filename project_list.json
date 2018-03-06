@@ -140,8 +140,8 @@
         "tag": "3.2.0.2"
     },
     "deepin-music": {
-        "commit": "e321dc8074e703b0651ab91fd1a0ad39cc750a92",
-        "tag": "3.1.7"
+        "commit": "4ce40a091bf61bfa6ae09a6f7436deee2cc3f098",
+        "tag": "3.1.8.1"
     },
     "deepin-mutter": {
         "commit": "071979df766ad1f9347cba6c764cf9d9fd7d0be5",
@@ -228,8 +228,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "d60317a0d8ffb11303b060fc07cdb3070f6face5",
-        "tag": "2.0.7"
+        "commit": "03999114f5906e2e6aa7c15506a4909f3a4a585d",
+        "tag": "2.0.7.1"
     },
     "dtkwm": {
         "commit": "b9e5296fda3756b8ba88002c3fe83b9cfbc0f545",
