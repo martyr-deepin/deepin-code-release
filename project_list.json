@@ -59,6 +59,10 @@
         "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
         "tag": "2.0.2"
     },
+    "deepin-clone": {
+        "commit": "f5f64920a33b0834289c2523fb6c74ee719049ee",
+        "tag": ""
+    },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
         "tag": "1.22.4"
