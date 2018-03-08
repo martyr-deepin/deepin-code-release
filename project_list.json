@@ -64,8 +64,8 @@
         "tag": "1.0.1"
     },
     "deepin-clone": {
-        "commit": "25cff5248aae86132a64fbbdb8c2aa9db41a755b",
-        "tag": "0.0.7.1"
+        "commit": "13ebe983379d9287a64d1ee2bce07eb6f7926f4e",
+        "tag": "0.0.8.1"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
