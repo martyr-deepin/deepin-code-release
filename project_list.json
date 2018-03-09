@@ -40,16 +40,16 @@
         "tag": "4.1.6.2"
     },
     "dde-polkit-agent": {
-        "commit": "680c12f0235d30af0395bf2cb2e55ef71bd3cb55",
-        "tag": "0.0.10"
+        "commit": "630e7a3cc51bdf8cbcce66855f6ff7479e999a8b",
+        "tag": "0.2.0"
     },
     "dde-qt-dbus-factory": {
         "commit": "d92ecc72f19ace83da7d46135777177e03d7d4eb",
         "tag": "1.0.0"
     },
     "dde-session-ui": {
-        "commit": "4cadab1afada9834805aabc60e7741e20082b257",
-        "tag": "4.0.13"
+        "commit": "2d829efcabc65e4f301d381d481e026efc4fe093",
+        "tag": ""
     },
     "deepin-appstore": {
         "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
@@ -108,8 +108,8 @@
         "tag": "1.0.6"
     },
     "deepin-menu": {
-        "commit": "3ab1c65cabf80cab3e8ae5d045500601b2bffcc9",
-        "tag": "3.1.5"
+        "commit": "229db25cf1c8cde49b430b215931350ed868e671",
+        "tag": "3.3.0"
     },
     "deepin-metacity": {
         "commit": "e9af397c7cfdb67d4d7425d32853ec5cb92c8816",
@@ -240,7 +240,7 @@
         "tag": "0.2.9"
     },
     "startdde": {
-        "commit": "ebd76f058174b06a4f1d3587e9f0aed776a7784b",
-        "tag": "3.1.14"
+        "commit": "f3140a554edf1537d9b6d33e2494c75ea356d1d3",
+        "tag": "3.1.25"
     }
 }
