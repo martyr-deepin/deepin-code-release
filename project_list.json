@@ -4,12 +4,12 @@
         "tag": "1.0.2"
     },
     "dbus-factory": {
-        "commit": "9076989b6ecb28b600b482fab870955e99b44810",
-        "tag": "3.1.7"
+        "commit": "41c24277e5407370d7d0beab1c45c9b9b6e54fb6",
+        "tag": "3.1.14"
     },
     "dde-api": {
-        "commit": "bc3ea65d87a8ff6f25ede6f752faf8e4392af645",
-        "tag": "3.1.11"
+        "commit": "7115affbd579e6d7879a85eaf8580550ca0d4c66",
+        "tag": "3.1.21"
     },
     "dde-calendar": {
         "commit": "d2c7b9e26b34ee5c30d393290fb0bba469c98a0b",
@@ -20,8 +20,8 @@
         "tag": "4.2.5.1"
     },
     "dde-daemon": {
-        "commit": "f5159221ee4cd9cdc4f244e6740ec901d56b0c58",
-        "tag": "3.1.18"
+        "commit": "f4c27550f6b4142dc568b57a89770445f6f0fedf",
+        "tag": "3.2.10"
     },
     "dde-dock": {
         "commit": "bf79f1cca5edefd14bc823c8dbdb7a4a334b3671",
@@ -72,16 +72,16 @@
         "tag": "2016.12.5"
     },
     "deepin-desktop-schemas": {
-        "commit": "9757a10e6ce4455985f72cadaad4290531d16291",
-        "tag": "3.1.15"
+        "commit": "478f9787453cf0d903e0398de976af9140b37784",
+        "tag": "3.2.7"
     },
     "deepin-feedback": {
         "commit": "042b0c5ffacb9f19c8e4f0e5cb0e4a9e687a17ec",
         "tag": "1.0.13"
     },
     "deepin-gettext-tools": {
-        "commit": "8f4a8ab0a3d94765cce0c4af2aa809bfa48ad9c4",
-        "tag": "1.0.6"
+        "commit": "b342981151d7b744a6da8158d11a201cdb22fd7b",
+        "tag": "1.0.7"
     },
     "deepin-gtk-theme": {
         "commit": "61405025aaa97e37e45c1d70e3719034da88b967",
@@ -208,12 +208,16 @@
         "tag": "0.6.6"
     },
     "go-gir-generator": {
-        "commit": "9ee7058956d8debee0198f2b8b37bb9e361f3451",
-        "tag": "1.0.1"
+        "commit": "078c5b3db0d18f75a29a532926100faa0b13aa56",
+        "tag": "1.0.2"
     },
     "go-lib": {
-        "commit": "3c9791f1a391d7de7d50ee4e308da669143e2060",
-        "tag": "1.0.5"
+        "commit": "d242faeac79b743f47544a480e45c33bfc2a497f",
+        "tag": "1.2.5"
+    },
+    "go-x11-client": {
+        "commit": "71929bb36dcea8827ea19a0f23b03e98e1b0df18",
+        "tag": "0.0.3"
     },
     "lastore-daemon": {
         "commit": "57168e52c1661d399175abaa6a62deab1531f46b",

@@ -178,3 +178,6 @@
 [submodule "project/qt5dxcb-plugin"]
 	path = project/qt5dxcb-plugin
 	url = ssh://cr.deepin.io:29418/qt5dxcb-plugin
+[submodule "project/go-x11-client"]
+	path = project/go-x11-client
+	url = ssh://cr.deepin.io:29418/go-x11-client
