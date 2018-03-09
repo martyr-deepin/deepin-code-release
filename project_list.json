@@ -52,8 +52,8 @@
         "tag": ""
     },
     "deepin-appstore": {
-        "commit": "7d565a753b011aef8dc0e3b07c1b4e75f72296c6",
-        "tag": "4.0.9.7"
+        "commit": "758f8373077b448fed2179cb4138fb2fbba99ce9",
+        "tag": "4.0.12"
     },
     "deepin-boot-maker": {
         "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
@@ -112,8 +112,8 @@
         "tag": "3.3.0"
     },
     "deepin-metacity": {
-        "commit": "e9af397c7cfdb67d4d7425d32853ec5cb92c8816",
-        "tag": "3.22.10"
+        "commit": "1f7e23865670cc56fe7e44848e20ae980132a5c0",
+        "tag": "3.22.13"
     },
     "deepin-movie": {
         "commit": "69123ed11d04873b9559f4f93faf24346db43e64",
@@ -124,8 +124,8 @@
         "tag": "3.1.4"
     },
     "deepin-mutter": {
-        "commit": "fdedc87da824c783455f78850031ce47551ad6da",
-        "tag": "3.20.21"
+        "commit": "e53998467429cf2fe98127ad3fc1212bbf1dfdba",
+        "tag": "3.20.27"
     },
     "deepin-notifications": {
         "commit": "0033758606f3e1ecf6a34e7d9e9fad0d4f00df76",
@@ -176,16 +176,16 @@
         "tag": "1.5"
     },
     "deepin-wm": {
-        "commit": "ad9bef7614a25e099f933a9262c95358e4c0700d",
-        "tag": "1.9.15"
+        "commit": "86d2b80f3fa7e63d23ee5bd1d31f722d480d26d5",
+        "tag": "1.9.22"
     },
     "deepin-wm-switcher": {
         "commit": "a28aecc5f75c3704e8670443db5c23b16ae5e34e",
         "tag": "1.1.2"
     },
     "default-settings": {
-        "commit": "df26acb17dcefe6d1221a9ebed3ab335e26add84",
-        "tag": "2016.9.6"
+        "commit": "0c34e661d55232d1ec1f66b7e7e3cbf2b7c0eb60",
+        "tag": "2018.1.25"
     },
     "dtkcore": {
         "commit": "d9440ab0a9d890e2acb79e58a64c482b149dd6af",
@@ -220,8 +220,8 @@
         "tag": "0.0.3"
     },
     "lastore-daemon": {
-        "commit": "57168e52c1661d399175abaa6a62deab1531f46b",
-        "tag": "0.9.44"
+        "commit": "86e484d8b53e3a374fe8e218fbb37af6b185dc1d",
+        "tag": "0.9.54"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
@@ -230,6 +230,10 @@
     "miraclecast": {
         "commit": "fe3cf88594702aaff2c4f296609712d5fe98b45d",
         "tag": "1.0.8"
+    },
+    "plymouth-theme-deepin": {
+        "commit": "4b379e57cfed5a5969ec2d2b3e4267d6cf1d4212",
+        "tag": "15.10.7"
     },
     "qt5dxcb-plugin": {
         "commit": "e1e7104e1f6ca87518f2a3163267ec58f3c9c621",
