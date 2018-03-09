@@ -169,3 +169,12 @@
 [submodule "project/deepin-clone"]
 	path = project/deepin-clone
 	url = ssh://cr.deepin.io:29418/deepin-clone
+[submodule "project/dtkcore"]
+	path = project/dtkcore
+	url = ssh://cr.deepin.io:29418/dtkcore
+[submodule "project/dtkwm"]
+	path = project/dtkwm
+	url = ssh://cr.deepin.io:29418/dtkwm
+[submodule "project/qt5dxcb-plugin"]
+	path = project/qt5dxcb-plugin
+	url = ssh://cr.deepin.io:29418/qt5dxcb-plugin

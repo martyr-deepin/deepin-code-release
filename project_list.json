@@ -44,8 +44,8 @@
         "tag": "0.0.10"
     },
     "dde-qt-dbus-factory": {
-        "commit": "becf8526235cedac20622e6e1973952c84a14392",
-        "tag": "0.2.1"
+        "commit": "d92ecc72f19ace83da7d46135777177e03d7d4eb",
+        "tag": "1.0.0"
     },
     "dde-session-ui": {
         "commit": "4cadab1afada9834805aabc60e7741e20082b257",
@@ -187,13 +187,21 @@
         "commit": "df26acb17dcefe6d1221a9ebed3ab335e26add84",
         "tag": "2016.9.6"
     },
+    "dtkcore": {
+        "commit": "d9440ab0a9d890e2acb79e58a64c482b149dd6af",
+        "tag": "2.0.7"
+    },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "1883f86f3fbe7c6d87a802a6732be0344d3bbd22",
-        "tag": "2.0.4.2"
+        "commit": "d60317a0d8ffb11303b060fc07cdb3070f6face5",
+        "tag": "2.0.7"
+    },
+    "dtkwm": {
+        "commit": "b9e5296fda3756b8ba88002c3fe83b9cfbc0f545",
+        "tag": "2.0.7"
     },
     "go-dbus-generator": {
         "commit": "ace6ac0af3ad2bbbddb4c3c770bee03b5edf6bf9",
@@ -219,9 +227,13 @@
         "commit": "fe3cf88594702aaff2c4f296609712d5fe98b45d",
         "tag": "1.0.8"
     },
+    "qt5dxcb-plugin": {
+        "commit": "e1e7104e1f6ca87518f2a3163267ec58f3c9c621",
+        "tag": "1.1.8.1"
+    },
     "qt5integration": {
-        "commit": "de84e4d397c9aaa0b6a22d315e1c7ee1d6175645",
-        "tag": "0.2.1.1"
+        "commit": "ece14cda8636144d1d3365cd4d26afdff298e1ec",
+        "tag": "0.2.9"
     },
     "startdde": {
         "commit": "ebd76f058174b06a4f1d3587e9f0aed776a7784b",
