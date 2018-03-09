@@ -193,3 +193,15 @@
 [submodule "project/deepin-calculator"]
 	path = project/deepin-calculator
 	url = ssh://cr.deepin.io:29418/deepin-calculator
+[submodule "project/deepin-deb-installer"]
+	path = project/deepin-deb-installer
+	url = ssh://cr.deepin.io:29418/deepin-deb-installer
+[submodule "project/deepin-font-installer"]
+	path = project/deepin-font-installer
+	url = ssh://cr.deepin.io:29418/deepin-font-installer
+[submodule "project/deepin-repair-tools"]
+	path = project/deepin-repair-tools
+	url = ssh://cr.deepin.io:29418/deepin-repair-tools
+[submodule "project/dpa-ext-gnomekeyring"]
+	path = project/dpa-ext-gnomekeyring
+	url = ssh://cr.deepin.io:29418/dpa-ext-gnomekeyring

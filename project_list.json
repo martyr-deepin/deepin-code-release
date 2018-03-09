@@ -56,8 +56,8 @@
         "tag": "4.0.12"
     },
     "deepin-boot-maker": {
-        "commit": "6aea9ab861ff9c741d8e9c73d13e43013ce9036c",
-        "tag": "2.0.2"
+        "commit": "a751edb66770de7fd410ce13aa2bc89b0d3d54c2",
+        "tag": "2.0.4.4"
     },
     "deepin-calculator": {
         "commit": "a80fe11c95e5b344da6b7267c953648e18ba57f7",
@@ -71,6 +71,10 @@
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
         "tag": "1.22.4"
     },
+    "deepin-deb-installer": {
+        "commit": "569a044594e328a1baa6ef19f4329c1b07c43ce3",
+        "tag": "1.2.3"
+    },
     "deepin-desktop-base": {
         "commit": "ffe0b09e6cb1a875d9b3884ddd51a8ebc924a93b",
         "tag": "2016.12.5"
@@ -82,6 +86,10 @@
     "deepin-feedback": {
         "commit": "69eacf1a29d272f23d0295d9276450b7e1d7bd9f",
         "tag": "1.0.16"
+    },
+    "deepin-font-installer": {
+        "commit": "b6dd38d3c10914539f1b3c0c27399eea1d77276b",
+        "tag": "1.0.4"
     },
     "deepin-gettext-tools": {
         "commit": "b342981151d7b744a6da8158d11a201cdb22fd7b",
@@ -151,6 +159,10 @@
         "commit": "479396a868a462004a56664279291cfb798939fe",
         "tag": "1.0.17"
     },
+    "deepin-repair-tools": {
+        "commit": "d45c818edcbddd482ca3d68076d6369f28ac14a4",
+        "tag": "1.0.2"
+    },
     "deepin-screen-recorder": {
         "commit": "bf6019edbe06350a963a8aa17cf0e4c3f25207f1",
         "tag": "2.7.3"
@@ -198,6 +210,10 @@
     "default-settings": {
         "commit": "0c34e661d55232d1ec1f66b7e7e3cbf2b7c0eb60",
         "tag": "2018.1.25"
+    },
+    "dpa-ext-gnomekeyring": {
+        "commit": "585b9a8487cbeb34b1a0263350ffbf382699b4df",
+        "tag": "0.0.1"
     },
     "dtkcore": {
         "commit": "d9440ab0a9d890e2acb79e58a64c482b149dd6af",
