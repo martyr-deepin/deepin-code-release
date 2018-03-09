@@ -184,3 +184,12 @@
 [submodule "project/plymouth-theme-deepin"]
 	path = project/plymouth-theme-deepin
 	url = ssh://cr.deepin.io:29418/plymouth-theme-deepin
+[submodule "project/deepin-movie-reborn"]
+	path = project/deepin-movie-reborn
+	url = ssh://cr.deepin.io:29418/deepin-movie-reborn
+[submodule "project/deepin-graphics-driver-manager"]
+	path = project/deepin-graphics-driver-manager
+	url = ssh://cr.deepin.io:29418/deepin-graphics-driver-manager
+[submodule "project/deepin-calculator"]
+	path = project/deepin-calculator
+	url = ssh://cr.deepin.io:29418/deepin-calculator
