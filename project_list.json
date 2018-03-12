@@ -160,8 +160,8 @@
         "tag": "1.0.17"
     },
     "deepin-repair-tools": {
-        "commit": "d45c818edcbddd482ca3d68076d6369f28ac14a4",
-        "tag": "1.0.2"
+        "commit": "73822c7d3170814bb9acef37403e2dd104fdd0fb",
+        "tag": "1.0.3"
     },
     "deepin-screen-recorder": {
         "commit": "bf6019edbe06350a963a8aa17cf0e4c3f25207f1",
