@@ -24,12 +24,12 @@
         "tag": "3.2.10"
     },
     "dde-dock": {
-        "commit": "6d83660eff10271fd8cb30381de5f0c20c643881",
-        "tag": "4.5.9.1"
+        "commit": "3b0425c7a4ccaefb6f2ad75c56735980a12316a4",
+        "tag": "4.6.0"
     },
     "dde-file-manager": {
-        "commit": "8f5c8b63638276fe722af62872c4d10a90cd0b52",
-        "tag": "4.4.7.1"
+        "commit": "cdad2f7f9338eaba97fc609731cebc361d818948",
+        "tag": "4.4.8.1"
     },
     "dde-help": {
         "commit": "ad0be943ffeab911ac32efbfb0669a08dd14b753",
@@ -76,8 +76,8 @@
         "tag": "1.2.3"
     },
     "deepin-desktop-base": {
-        "commit": "ffe0b09e6cb1a875d9b3884ddd51a8ebc924a93b",
-        "tag": "2016.12.5"
+        "commit": "3dccd3446306d8a115403dd00fec9d0d6e4f8966",
+        "tag": "2018.03.09"
     },
     "deepin-desktop-schemas": {
         "commit": "478f9787453cf0d903e0398de976af9140b37784",
