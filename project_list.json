@@ -64,8 +64,8 @@
         "tag": "1.0.1"
     },
     "deepin-clone": {
-        "commit": "13ebe983379d9287a64d1ee2bce07eb6f7926f4e",
-        "tag": "0.0.8.1"
+        "commit": "d8ffddaae4f107452903015cc2846aae41f1e722",
+        "tag": "0.0.8.2"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
@@ -154,6 +154,10 @@
     "deepin-qml-widgets": {
         "commit": "38135764aaad4f0ba818efee6735612df17d503c",
         "tag": "2.3.5"
+    },
+    "deepin-qt5config": {
+        "commit": "f3cc1d9bb0d440db34a43b21931cd2b419bf2340",
+        "tag": "1.0.1"
     },
     "deepin-remote-assistance": {
         "commit": "479396a868a462004a56664279291cfb798939fe",
