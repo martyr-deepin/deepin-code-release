@@ -136,8 +136,8 @@
         "tag": "2.2.14"
     },
     "deepin-movie-reborn": {
-        "commit": "72dc9963ca3c15ace83644c49536aefb7d3367cb",
-        "tag": "3.2.2"
+        "commit": "d6454b3399a468b61791deaa55376a5cc5c17d1d",
+        "tag": "3.2.3"
     },
     "deepin-music": {
         "commit": "432d2afe6a8302f366de5fd20c9a953b93303a0a",
@@ -180,8 +180,8 @@
         "tag": "15.10.2"
     },
     "deepin-system-monitor": {
-        "commit": "4f4cbf51570d625574eae85b6c03930354c5d5a9",
-        "tag": "1.4.2"
+        "commit": "b1be207633b328372b2df45e2fe93114812d501b",
+        "tag": "1.4.3"
     },
     "deepin-terminal": {
         "commit": "82f2d80aada0be57b32230042375dac0ba7331c0",
