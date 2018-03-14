@@ -76,8 +76,8 @@
         "tag": "1.2.4"
     },
     "deepin-desktop-base": {
-        "commit": "47b60c10ecee735518c0e2968f889f7c3f861bf9",
-        "tag": "2018.03.12"
+        "commit": "7bd087e3eef394b3377e42a87444d4004c38f175",
+        "tag": "2018.03.13"
     },
     "deepin-desktop-schemas": {
         "commit": "478f9787453cf0d903e0398de976af9140b37784",
@@ -272,8 +272,8 @@
         "tag": "1.1.8.1"
     },
     "qt5integration": {
-        "commit": "ece14cda8636144d1d3365cd4d26afdff298e1ec",
-        "tag": "0.2.9"
+        "commit": "8460990e27b0076a9b339b917727172a55f443b1",
+        "tag": "0.2.10"
     },
     "startdde": {
         "commit": "f3140a554edf1537d9b6d33e2494c75ea356d1d3",
