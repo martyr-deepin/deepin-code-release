@@ -104,8 +104,8 @@
         "tag": "17.10.6"
     },
     "deepin-icon-theme": {
-        "commit": "19cbaa5c4929876cebe2162838e23246869d0fca",
-        "tag": ""
+        "commit": "f37ac4e492ac24b8cd4fdff382524cca684f2917",
+        "tag": "15.12.53"
     },
     "deepin-icon-theme-tools": {
         "commit": "dc4cac3f86b8f094b952f83f14af706734785349",
