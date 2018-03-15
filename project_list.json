@@ -28,8 +28,8 @@
         "tag": "4.6.0"
     },
     "dde-file-manager": {
-        "commit": "cdad2f7f9338eaba97fc609731cebc361d818948",
-        "tag": "4.4.8.1"
+        "commit": "23e9eb48fdacc9af6761bf86fffcbe912589e4cc",
+        "tag": "4.4.8.2"
     },
     "dde-help": {
         "commit": "ad0be943ffeab911ac32efbfb0669a08dd14b753",
@@ -212,8 +212,8 @@
         "tag": "1.1.2"
     },
     "default-settings": {
-        "commit": "0c34e661d55232d1ec1f66b7e7e3cbf2b7c0eb60",
-        "tag": "2018.1.25"
+        "commit": "8b931f6d48ffde070849a1a8418fffcf9fa07583",
+        "tag": "2018.1.26"
     },
     "dpa-ext-gnomekeyring": {
         "commit": "585b9a8487cbeb34b1a0263350ffbf382699b4df",
