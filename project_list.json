@@ -120,8 +120,8 @@
         "tag": "2.2.1"
     },
     "deepin-manual": {
-        "commit": "ba22c437153fbb331f847a0916f93ea1b2032d15",
-        "tag": "2.0.7"
+        "commit": "9aea52571da8ce7b54f966ef9b2ad8473970515a",
+        "tag": "2.0.7.1"
     },
     "deepin-menu": {
         "commit": "229db25cf1c8cde49b430b215931350ed868e671",
