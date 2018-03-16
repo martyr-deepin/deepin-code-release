@@ -128,8 +128,8 @@
         "tag": "3.3.0"
     },
     "deepin-metacity": {
-        "commit": "681b65e891b0410bcf5322821310c6ddeb95f679",
-        "tag": "3.22.14"
+        "commit": "c3bcf10d6f2a528cf636b62c1f66cab6fda53140",
+        "tag": "3.22.15"
     },
     "deepin-movie": {
         "commit": "69123ed11d04873b9559f4f93faf24346db43e64",
@@ -268,8 +268,8 @@
         "tag": "15.10.7"
     },
     "qt5dxcb-plugin": {
-        "commit": "e1e7104e1f6ca87518f2a3163267ec58f3c9c621",
-        "tag": "1.1.8.1"
+        "commit": "d0c31a39f3d4c798ca2be305088b994fa90ad8fb",
+        "tag": "1.1.8.3"
     },
     "qt5integration": {
         "commit": "8460990e27b0076a9b339b917727172a55f443b1",
