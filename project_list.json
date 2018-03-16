@@ -80,8 +80,8 @@
         "tag": "2018.03.13"
     },
     "deepin-desktop-schemas": {
-        "commit": "478f9787453cf0d903e0398de976af9140b37784",
-        "tag": "3.2.7"
+        "commit": "06c5e917d427fd53b1fe02cf33f197d4ccd9a5bd",
+        "tag": "3.2.8"
     },
     "deepin-feedback": {
         "commit": "69eacf1a29d272f23d0295d9276450b7e1d7bd9f",
@@ -144,8 +144,8 @@
         "tag": "3.1.8.1"
     },
     "deepin-mutter": {
-        "commit": "e53998467429cf2fe98127ad3fc1212bbf1dfdba",
-        "tag": "3.20.27"
+        "commit": "66f445d422241d16a471022c6848cc0ef11b74e0",
+        "tag": "3.20.28"
     },
     "deepin-notifications": {
         "commit": "43548fd194548ab5f3966389cf641f6fd27dfcf6",
@@ -204,8 +204,8 @@
         "tag": "1.6.1"
     },
     "deepin-wm": {
-        "commit": "86d2b80f3fa7e63d23ee5bd1d31f722d480d26d5",
-        "tag": "1.9.22"
+        "commit": "52b4e2f0fb803681d24f895b812b882fb7467c23",
+        "tag": "1.9.23"
     },
     "deepin-wm-switcher": {
         "commit": "a28aecc5f75c3704e8670443db5c23b16ae5e34e",
