@@ -96,8 +96,8 @@
         "tag": "1.0.7"
     },
     "deepin-graphics-driver-manager": {
-        "commit": "1e6143a4faad60f5ee10eb022af422705946fd08",
-        "tag": "1.0"
+        "commit": "065daa8bae42fbd4ead4bfe53788a854dd42914a",
+        "tag": "1.0.1"
     },
     "deepin-gtk-theme": {
         "commit": "1a8b2c31fc39c3921d85fd33a8746ca0b7c67969",
