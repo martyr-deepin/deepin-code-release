@@ -76,8 +76,8 @@
         "tag": "1.2.4"
     },
     "deepin-desktop-base": {
-        "commit": "7bd087e3eef394b3377e42a87444d4004c38f175",
-        "tag": "2018.03.13"
+        "commit": "93bfe9a167e6a9403efc6ec4a94303e56d865a87",
+        "tag": "2018.03.19"
     },
     "deepin-desktop-schemas": {
         "commit": "06c5e917d427fd53b1fe02cf33f197d4ccd9a5bd",
@@ -244,8 +244,8 @@
         "tag": "1.0.2"
     },
     "go-lib": {
-        "commit": "d242faeac79b743f47544a480e45c33bfc2a497f",
-        "tag": "1.2.5"
+        "commit": "cba7324e6dac0707c153f7444c808117de6d288a",
+        "tag": "1.2.6"
     },
     "go-x11-client": {
         "commit": "71929bb36dcea8827ea19a0f23b03e98e1b0df18",
