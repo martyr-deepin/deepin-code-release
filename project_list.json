@@ -8,8 +8,8 @@
         "tag": "3.1.14"
     },
     "dde-api": {
-        "commit": "7115affbd579e6d7879a85eaf8580550ca0d4c66",
-        "tag": "3.1.21"
+        "commit": "0dedcec8da6ad182e7559804bcb3cb10d489377a",
+        "tag": "3.1.22"
     },
     "dde-calendar": {
         "commit": "dacbda7c2c17e60bf149e822a46d3677087adce6",
@@ -20,8 +20,8 @@
         "tag": "4.4.1"
     },
     "dde-daemon": {
-        "commit": "f4c27550f6b4142dc568b57a89770445f6f0fedf",
-        "tag": "3.2.10"
+        "commit": "c76cf9af164ee0aec97c812bbc70a59dc94df2b6",
+        "tag": "3.2.11"
     },
     "dde-dock": {
         "commit": "9589b2c996eeb5dda17147e74fa4600910123057",
@@ -252,8 +252,8 @@
         "tag": "0.0.3"
     },
     "lastore-daemon": {
-        "commit": "86e484d8b53e3a374fe8e218fbb37af6b185dc1d",
-        "tag": "0.9.54"
+        "commit": "1a1b54fda1a71771149b5f3470a3aedfbdf3c722",
+        "tag": "0.9.55"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
