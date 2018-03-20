@@ -80,8 +80,8 @@
         "tag": "2018.03.19"
     },
     "deepin-desktop-schemas": {
-        "commit": "06c5e917d427fd53b1fe02cf33f197d4ccd9a5bd",
-        "tag": "3.2.8"
+        "commit": "65477d250f84c8c54c26e43df7510dd9c956e673",
+        "tag": "3.2.9"
     },
     "deepin-feedback": {
         "commit": "69eacf1a29d272f23d0295d9276450b7e1d7bd9f",
