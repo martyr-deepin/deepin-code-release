@@ -20,8 +20,8 @@
         "tag": "4.4.1"
     },
     "dde-daemon": {
-        "commit": "c76cf9af164ee0aec97c812bbc70a59dc94df2b6",
-        "tag": "3.2.11"
+        "commit": "2a7e7ea83abafa0927d49d551745fd83228d25aa",
+        "tag": "3.2.12"
     },
     "dde-dock": {
         "commit": "9589b2c996eeb5dda17147e74fa4600910123057",
@@ -96,8 +96,8 @@
         "tag": "1.0.7"
     },
     "deepin-graphics-driver-manager": {
-        "commit": "065daa8bae42fbd4ead4bfe53788a854dd42914a",
-        "tag": "1.0.1"
+        "commit": "c902756c2b22f78084562eb413195ad7f2f55a2b",
+        "tag": "1.0.2"
     },
     "deepin-gtk-theme": {
         "commit": "fd30c2e59728dd283b6427afacca56265b3943b0",
@@ -164,8 +164,8 @@
         "tag": "1.0.17"
     },
     "deepin-repair-tools": {
-        "commit": "b3da8e879beb5e41ffb3ff065a1faa5c0fa84fda",
-        "tag": "1.0.4"
+        "commit": "b90f04946f9522ad2d7cf6883e74bf5d8e50a951",
+        "tag": "1.0.5"
     },
     "deepin-screen-recorder": {
         "commit": "bf6019edbe06350a963a8aa17cf0e4c3f25207f1",
