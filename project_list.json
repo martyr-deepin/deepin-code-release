@@ -12,8 +12,8 @@
         "tag": "3.1.22"
     },
     "dde-calendar": {
-        "commit": "dacbda7c2c17e60bf149e822a46d3677087adce6",
-        "tag": "1.2.1"
+        "commit": "0d589cc2a8f8c8051467136790035dda689a699d",
+        "tag": "1.2.2"
     },
     "dde-control-center": {
         "commit": "d215d9a91f94bf27cc3093bae0ae35e62d3cd15d",
@@ -24,12 +24,12 @@
         "tag": "3.2.12"
     },
     "dde-dock": {
-        "commit": "9589b2c996eeb5dda17147e74fa4600910123057",
-        "tag": "4.6.1"
+        "commit": "ef327aa748f85489e0e18a3c7b1cb2b83a49f05c",
+        "tag": "4.6.2"
     },
     "dde-file-manager": {
-        "commit": "23e9eb48fdacc9af6761bf86fffcbe912589e4cc",
-        "tag": "4.4.8.2"
+        "commit": "4873b1e8832e6a7ebdd8f56812e5475835b74323",
+        "tag": "4.4.8.3"
     },
     "dde-help": {
         "commit": "ad0be943ffeab911ac32efbfb0669a08dd14b753",
@@ -268,8 +268,8 @@
         "tag": "15.10.7"
     },
     "qt5dxcb-plugin": {
-        "commit": "d0c31a39f3d4c798ca2be305088b994fa90ad8fb",
-        "tag": "1.1.8.3"
+        "commit": "ed5d7698de278b6a5df6ed944cbab7b53f352f1c",
+        "tag": "1.1.8.4"
     },
     "qt5integration": {
         "commit": "8460990e27b0076a9b339b917727172a55f443b1",
