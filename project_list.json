@@ -48,8 +48,8 @@
         "tag": "1.0.1"
     },
     "dde-session-ui": {
-        "commit": "3a97b6a8a2c2996c725b0ad865b174a56e0d7a2e",
-        "tag": "4.3.2"
+        "commit": "0d125b1eac988b93e3f8c5fb2cafdd27356f347c",
+        "tag": "4.3.3"
     },
     "deepin-appstore": {
         "commit": "758f8373077b448fed2179cb4138fb2fbba99ce9",
@@ -124,8 +124,8 @@
         "tag": "2.0.7.3"
     },
     "deepin-menu": {
-        "commit": "1a40f3169bf15b89cf5a238005631db36f21003d",
-        "tag": "3.3.1"
+        "commit": "dac03693c14003a1a69d1932c45d88aa5020fb01",
+        "tag": "3.3.2"
     },
     "deepin-metacity": {
         "commit": "c3bcf10d6f2a528cf636b62c1f66cab6fda53140",
@@ -164,8 +164,8 @@
         "tag": "1.0.17"
     },
     "deepin-repair-tools": {
-        "commit": "b90f04946f9522ad2d7cf6883e74bf5d8e50a951",
-        "tag": "1.0.5"
+        "commit": "f78556b27e6508d12d8ef540859f3ed062b9c3cb",
+        "tag": "1.0.6"
     },
     "deepin-screen-recorder": {
         "commit": "bf6019edbe06350a963a8aa17cf0e4c3f25207f1",
