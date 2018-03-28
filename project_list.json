@@ -148,8 +148,8 @@
         "tag": "3.20.29"
     },
     "deepin-notifications": {
-        "commit": "54eed7b186f7108d8bae48ab3f9b38f1124f6580",
-        "tag": "3.2.1"
+        "commit": "439f943a9f41f8fa2beaca551c173964832d7755",
+        "tag": "3.2.2"
     },
     "deepin-qml-widgets": {
         "commit": "38135764aaad4f0ba818efee6735612df17d503c",
