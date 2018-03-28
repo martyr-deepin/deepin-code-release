@@ -40,8 +40,8 @@
         "tag": "4.3.1"
     },
     "dde-polkit-agent": {
-        "commit": "630e7a3cc51bdf8cbcce66855f6ff7479e999a8b",
-        "tag": "0.2.0"
+        "commit": "ec003056fdf06d95f7c05e15df604f71bcc894ea",
+        "tag": "0.2.1"
     },
     "dde-qt-dbus-factory": {
         "commit": "ddbebe35bf8d77ced24a39ebb689c6c2bd774b2e",
