@@ -4,8 +4,8 @@
         "tag": "1.0.2"
     },
     "dbus-factory": {
-        "commit": "65fc1b45ba62ab1d5421278043e267913c70083a",
-        "tag": "3.1.13"
+        "commit": "544ee85a9496f7658b07e45f93635b0e03f5af98",
+        "tag": "3.1.11"
     },
     "dde-api": {
         "commit": "ad475df9879f4c9af6bcefcb1265d574296f6a13",
@@ -20,8 +20,8 @@
         "tag": "4.3.7"
     },
     "dde-daemon": {
-        "commit": "8cdb2014ed10813ab35345ce23f88b59e2ed259a",
-        "tag": "3.2.8"
+        "commit": "e9d755dac5ce28f91d9a9bae8cb9255b76964a71",
+        "tag": "3.2.8.1"
     },
     "dde-dock": {
         "commit": "570230afaf939c8e715d19cc34be63ef6bec38a9",
@@ -228,8 +228,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "03999114f5906e2e6aa7c15506a4909f3a4a585d",
-        "tag": "2.0.7.1"
+        "commit": "dfdc35a9d6eee970031cca69b38393e73472a7c2",
+        "tag": "2.0.7.2"
     },
     "dtkwm": {
         "commit": "b9e5296fda3756b8ba88002c3fe83b9cfbc0f545",
