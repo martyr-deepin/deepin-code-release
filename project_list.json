@@ -24,8 +24,8 @@
         "tag": "3.2.12"
     },
     "dde-dock": {
-        "commit": "ef327aa748f85489e0e18a3c7b1cb2b83a49f05c",
-        "tag": "4.6.2"
+        "commit": "9ab1edce404b9283c1544a535a997283f8a5eac0",
+        "tag": "4.6.3"
     },
     "dde-file-manager": {
         "commit": "4873b1e8832e6a7ebdd8f56812e5475835b74323",
