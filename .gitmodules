@@ -208,3 +208,9 @@
 [submodule "project/deepin-webengine"]
 	path = project/deepin-webengine
 	url = ssh://cr.deepin.io:29418/deepin-webengine
+[submodule "project/dpa-ext-gnomekeyring"]
+	path = project/dpa-ext-gnomekeyring
+	url = ssh://cr.deepin.io:29418/dpa-ext-gnomekeyring
+[submodule "project/deepin-qt5config"]
+	path = project/deepin-qt5config
+	url = ssh://cr.deepin.io:29418/deepin-qt5config
