@@ -220,3 +220,6 @@
 [submodule "project/warm-sched"]
 	path = project/warm-sched
 	url = ssh://cr.deepin.io:29418/warm-sched
+[submodule "project/dde-network-utils"]
+	path = project/dde-network-utils
+	url = ssh://cr.deepin.io:29418/dde/dde-network-utils

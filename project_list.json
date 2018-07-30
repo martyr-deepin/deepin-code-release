@@ -39,6 +39,10 @@
         "commit": "4aa13e6fc84eb309d53db0516191bcd0d059948c",
         "tag": "4.4.1"
     },
+    "dde-network-utils": {
+        "commit": "f2fc85203668649d8540d9cf1dbde3bd0040db27",
+        "tag": "0.0.3"
+    },
     "dde-polkit-agent": {
         "commit": "ec003056fdf06d95f7c05e15df604f71bcc894ea",
         "tag": "0.2.1"
