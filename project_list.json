@@ -4,56 +4,56 @@
         "tag": "1.0.2"
     },
     "dbus-factory": {
-        "commit": "09ff5fee4f31806cff0066dc486159b15f533ee7",
-        "tag": "3.1.16"
+        "commit": "8ca9ba20dea272af2cdb69d6929034e39098e3ec",
+        "tag": "3.1.17"
     },
     "dde-api": {
-        "commit": "772974cb355c708e5ec394dde4d6e6b8d0755f24",
-        "tag": "3.1.26"
+        "commit": "4bba81fa3f2f2dfc592b7a4880d0779f91cb633a",
+        "tag": "3.1.27"
     },
     "dde-calendar": {
         "commit": "42835c9c5b3c0048e0c050d69e86c8b6fd6638f0",
         "tag": "1.2.3"
     },
     "dde-control-center": {
-        "commit": "45f310c173cfc88eaf096a16e0368ab7eeaa49ec",
-        "tag": "4.5.5"
+        "commit": "0f3a18898d9168b341c63b955d3bcd9d8f9afc59",
+        "tag": "4.6.1"
     },
     "dde-daemon": {
-        "commit": "e10c3bdc5a813fd61e1dd513e6dd6255660d9f73",
-        "tag": "3.2.20"
+        "commit": "f40da8b005f3247a76348f469d74db759e653244",
+        "tag": "3.2.21"
     },
     "dde-dock": {
-        "commit": "0e01e8ad632dfdd89c4f2c8f30840a55fac39c41",
-        "tag": "4.6.6"
+        "commit": "67ff035de900e186a160268cae1d76930efd8258",
+        "tag": "4.6.7"
     },
     "dde-file-manager": {
-        "commit": "d44604433e46104908ab3bd2646c998441ac3c2e",
-        "tag": "4.5.6.1"
+        "commit": "500e61031febbc0a5d376f3840cb5ba11033d85c",
+        "tag": "4.6.2"
     },
     "dde-help": {
         "commit": "9c84a5aa80b7b9f9e35900251e3e9267795554d9",
         "tag": "15.5"
     },
     "dde-launcher": {
-        "commit": "6414daf3ad582c6f3601938cd142deed6bdb6009",
-        "tag": "4.3.7"
+        "commit": "4aa13e6fc84eb309d53db0516191bcd0d059948c",
+        "tag": "4.4.1"
     },
     "dde-polkit-agent": {
         "commit": "ec003056fdf06d95f7c05e15df604f71bcc894ea",
         "tag": "0.2.1"
     },
     "dde-qt-dbus-factory": {
-        "commit": "1a974326b05cd3f45dbcef7db3897bc94f46c040",
-        "tag": "1.0.2"
+        "commit": "5475686db2e130c2ca42032ef1aad6918fa7441f",
+        "tag": "1.0.3"
     },
     "dde-session-ui": {
-        "commit": "8bc248817c2bc0119b69ac4a49714db698b1c482",
-        "tag": "4.4.5"
+        "commit": "e7d49dd3fef009bf7e706f91cb962309d1fea402",
+        "tag": "4.4.7"
     },
     "deepin-appstore": {
-        "commit": "758f8373077b448fed2179cb4138fb2fbba99ce9",
-        "tag": "4.0.12"
+        "commit": "8ddaf11f3def25638e750bfd3101a0181e25d7aa",
+        "tag": "5.0.2.2"
     },
     "deepin-boot-maker": {
         "commit": "0b5b5b0651b8783d07d4e8fa18a80a25077167ed",
@@ -64,32 +64,32 @@
         "tag": "1.0.4"
     },
     "deepin-clone": {
-        "commit": "c3a6023682fc28217202e47bca804912a68d9d0e",
-        "tag": "0.0.8.4"
+        "commit": "57613a0522573ad193b8dd43097d3744610878a7",
+        "tag": "0.0.8.5"
     },
     "deepin-cogl": {
         "commit": "1e1e1b8a97ecfc07de37e3f2646290d5c38be34f",
         "tag": "1.22.4"
     },
     "deepin-deb-installer": {
-        "commit": "46e26ec42b1a288289f999bf2a84e23dc9d6d9ff",
-        "tag": "1.2.4"
+        "commit": "ab278ca9488c39b55004239195f513082fdd54b6",
+        "tag": "1.2.5"
     },
     "deepin-desktop-base": {
-        "commit": "eb46a7222e62e8d236626e15b0b2d250dd326864",
-        "tag": "2018.6.07"
+        "commit": "a1ddf91367000cc20ab803732f2b491c47943982",
+        "tag": "2018.7.23"
     },
     "deepin-desktop-schemas": {
-        "commit": "1b23d127e99430ac2c67b406eb107510bba985ba",
-        "tag": "3.2.14"
+        "commit": "ef26d0b04802f6fddbb6f55db2f663c14609edd8",
+        "tag": "3.2.15"
     },
     "deepin-feedback": {
         "commit": "3b6dfb6cf93bdf8edb0af3294ab7f2d7df0b7767",
         "tag": "1.0.17"
     },
     "deepin-font-installer": {
-        "commit": "0569063a98e0fa5c2d4d30aa1bde133484275433",
-        "tag": "1.0.5"
+        "commit": "06308606d9494a2fbc7d353142c2befcdd684251",
+        "tag": "1.0.6"
     },
     "deepin-gettext-tools": {
         "commit": "1482e15fb18176678531255f4b452a5df07f05b6",
@@ -100,8 +100,8 @@
         "tag": "1.0.2"
     },
     "deepin-gtk-theme": {
-        "commit": "fd30c2e59728dd283b6427afacca56265b3943b0",
-        "tag": "17.10.6"
+        "commit": "5441c7714d95e9b2aa53ed43ea4d04c17dfe4498",
+        "tag": "17.10.7"
     },
     "deepin-icon-theme": {
         "commit": "d140e815edf8b3d922da63cea8c5db7724a393ba",
@@ -112,40 +112,40 @@
         "tag": "1.0.0"
     },
     "deepin-image-viewer": {
-        "commit": "ec9f5859a4890fe8e0f12f57d38a0f32cbd63eec",
-        "tag": "1.2.22"
+        "commit": "06d317ec15cb459f1659f009f6db14a8996667a1",
+        "tag": "1.2.23"
     },
     "deepin-installer-reborn": {
         "commit": "b2fb01e65e731c5daf4455c415416b1ef8799681",
         "tag": "2.2.17"
     },
     "deepin-manual": {
-        "commit": "1e67f756dd4812c494f41aeca40e4738f2f05d9c",
-        "tag": "2.0.9.3"
+        "commit": "a2e709dae6424065c986e5954d6b75682c69d81a",
+        "tag": "2.0.10"
     },
     "deepin-menu": {
-        "commit": "00f33a55fda211c640b09632091c69b073819a62",
-        "tag": "3.3.8"
+        "commit": "80d17e7847f81734dcaef95e7f59090ec081a654",
+        "tag": "3.3.10"
     },
     "deepin-metacity": {
-        "commit": "c1cdec2e62eacbcc71c8b868a6dfaa5f51df4893",
-        "tag": "3.22.18"
+        "commit": "afced0ff486ae00a21849aaa7046713b4dc98aec",
+        "tag": "3.22.19"
     },
     "deepin-movie": {
         "commit": "882a0eeb895a91109728e0b32b2484a3da725c03",
         "tag": "2.2.15"
     },
     "deepin-movie-reborn": {
-        "commit": "e58d8d68c823f731285e3d60f347d67f7e928ebd",
-        "tag": "3.2.7"
+        "commit": "976e5be03412d75fdce60fe0d743ff88ab05b349",
+        "tag": "3.2.8"
     },
     "deepin-music": {
         "commit": "ae209f10161b855eb902798ece4d1dbb356249a7",
         "tag": "3.1.8.3"
     },
     "deepin-mutter": {
-        "commit": "efa23b512584b1bcbcb2afdb305f8fc3b94c6e4d",
-        "tag": "3.20.30"
+        "commit": "525802f441b7c81a48a74e48cafd5a54d0a73b5b",
+        "tag": "3.20.31"
     },
     "deepin-notifications": {
         "commit": "75f31add17f5ad11d7a3291df7f384104e2eb8ef",
@@ -160,20 +160,20 @@
         "tag": "2.3.6"
     },
     "deepin-qt5config": {
-        "commit": "f3cc1d9bb0d440db34a43b21931cd2b419bf2340",
-        "tag": "1.0.1"
+        "commit": "168dc2cc5b666afaec365d1123d3306e4cfed5d6",
+        "tag": "1.0.3"
     },
     "deepin-remote-assistance": {
         "commit": "06c27183f3d80194ab8ad466e683976fd290f60a",
         "tag": "1.0.18"
     },
     "deepin-repair-tools": {
-        "commit": "0747746c27e619269baa00d7bbe61282f0fecfca",
-        "tag": "1.0.8"
+        "commit": "9081333cb983eeb46ed9ca58dceedcbf13285b3a",
+        "tag": "1.0.9"
     },
     "deepin-screen-recorder": {
-        "commit": "84758b271ba40ec1b1f6638a82cd714a58d250c3",
-        "tag": "2.7.4"
+        "commit": "1edb4a1c139c88107fee3cf6fffa55606fb464ae",
+        "tag": "2.7.5"
     },
     "deepin-screenshot": {
         "commit": "f87c06d0ded78c47749979a6917906cf9b088359",
@@ -184,16 +184,16 @@
         "tag": "1.3.5"
     },
     "deepin-sound-theme": {
-        "commit": "5c43ea9554a71239714b12cfff524db283bba462",
-        "tag": "15.10.2"
+        "commit": "260fc762bebd45e6bd76671985ed98dd9a2ffc94",
+        "tag": "15.10.3"
     },
     "deepin-system-monitor": {
-        "commit": "b1be207633b328372b2df45e2fe93114812d501b",
-        "tag": "1.4.3"
+        "commit": "006628030f936b321edfde18b38bdb8080b4189f",
+        "tag": "1.4.5"
     },
     "deepin-terminal": {
-        "commit": "bb5ab18d71bf6a903306da275c7a1c238ab61bce",
-        "tag": "3.0.0"
+        "commit": "bf8f5393ffa38ff97a9034f974ed9cea88397e68",
+        "tag": "3.0.1"
     },
     "deepin-tool-kit": {
         "commit": "176b7d39ffcacfa336ee5ed2388191168a6def12",
@@ -204,40 +204,40 @@
         "tag": "1.3.7"
     },
     "deepin-wallpapers": {
-        "commit": "f9403775a102c0642e013d99547ca16f97935049",
-        "tag": "1.7.4"
+        "commit": "f5c57245f2735a7c368181b1a8a40cad0687153f",
+        "tag": "1.7.5"
     },
     "deepin-webengine": {
         "commit": "7fc44a7f24d2990315faf6126ff170aebba22956",
         "tag": "5.9.4.1"
     },
     "deepin-wm": {
-        "commit": "2406b4ae5cbd27a6c738180b6f6e080b5dff87b9",
-        "tag": "1.9.27"
+        "commit": "39081c84b962b4bc218d2920f82a40ad05d46003",
+        "tag": "1.9.29"
     },
     "deepin-wm-switcher": {
         "commit": "6addca97f5bc804500da320ce087b7f18a5a6d96",
         "tag": "1.1.9"
     },
     "default-settings": {
-        "commit": "34bbb130ae230c897ff1cbb7918924b2cef7c62d",
-        "tag": "2018.5.31"
+        "commit": "20a75b38b6cdc37653cbbe95f9c5a995c00b4659",
+        "tag": "2018.6.26"
     },
     "dpa-ext-gnomekeyring": {
-        "commit": "585b9a8487cbeb34b1a0263350ffbf382699b4df",
-        "tag": "0.0.1"
+        "commit": "5819ba7e2ae8db548f61492392990e0f438801d1",
+        "tag": "0.1.0"
     },
     "dtkcore": {
-        "commit": "996eb982fea5a34fc0ddd2720058a1ecb8502ad3",
-        "tag": "2.0.8.1"
+        "commit": "d9ce37ab6bbbd5d81c991b5bb38648c427e2e06c",
+        "tag": "2.0.9"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "09d3568346214af81d29286252ede6f7fe072503",
-        "tag": "2.0.8.1"
+        "commit": "3d7138f1de4d458562bbb88c38b8afa1347b1698",
+        "tag": "2.0.9.1"
     },
     "dtkwm": {
         "commit": "f1f859f0b04aba3a35151aacd80d014a4edcce31",
@@ -252,16 +252,16 @@
         "tag": "1.0.3"
     },
     "go-lib": {
-        "commit": "c3fe5dcaf7a8ac229246ebd0248e366e0c7e6201",
-        "tag": "1.2.11"
+        "commit": "2d45507b63ba2da0c7b35c73b903068aa41a3ab4",
+        "tag": "1.2.14"
     },
     "go-x11-client": {
-        "commit": "71929bb36dcea8827ea19a0f23b03e98e1b0df18",
-        "tag": "0.0.3"
+        "commit": "70dbb86c0a0cb10ebc4e6cbbb21dfa5d5aff5570",
+        "tag": "0.0.4"
     },
     "lastore-daemon": {
-        "commit": "fb3368edd2a2a1bbfe3f853f1bc3b56e8fef854a",
-        "tag": "0.9.61"
+        "commit": "bf2c58cbc28f5a66330ad7316400e7c9f8f75fb1",
+        "tag": "0.9.65"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
@@ -276,15 +276,15 @@
         "tag": "15.10.7"
     },
     "qt5dxcb-plugin": {
-        "commit": "67e2cfab2059b6ee0b6546add8199cdd22e64b7f",
-        "tag": "1.1.9"
+        "commit": "6b47bbe62cd1442ac26e0b4bf756e15a3367fd78",
+        "tag": "1.1.9.2"
     },
     "qt5integration": {
-        "commit": "d5a1ba9bf3ff9bb3d5d22e876572e929d552cff9",
-        "tag": "0.3.0"
+        "commit": "af387e82b192ea358ab1e8ff2da5375955b77c67",
+        "tag": "0.3.1"
     },
     "startdde": {
-        "commit": "a917957bc59a63e2d7ce470012b89ca59c82222e",
-        "tag": "3.1.33"
+        "commit": "0967738532372a58b02cac5a44a292e20d9959f0",
+        "tag": "3.1.34"
     }
 }
