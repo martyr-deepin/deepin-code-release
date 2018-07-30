@@ -214,3 +214,9 @@
 [submodule "project/deepin-qt5config"]
 	path = project/deepin-qt5config
 	url = ssh://cr.deepin.io:29418/deepin-qt5config
+[submodule "project/deepin-anything"]
+	path = project/deepin-anything
+	url = ssh://cr.deepin.io:29418/deepin-anything
+[submodule "project/warm-sched"]
+	path = project/warm-sched
+	url = ssh://cr.deepin.io:29418/warm-sched

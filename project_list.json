@@ -51,6 +51,10 @@
         "commit": "e7d49dd3fef009bf7e706f91cb962309d1fea402",
         "tag": "4.4.7"
     },
+    "deepin-anything": {
+        "commit": "3b7adacd414af6685a3fc8890da7730634d6ba20",
+        "tag": "0.0.2"
+    },
     "deepin-appstore": {
         "commit": "8ddaf11f3def25638e750bfd3101a0181e25d7aa",
         "tag": "5.0.2.2"
@@ -286,5 +290,9 @@
     "startdde": {
         "commit": "0967738532372a58b02cac5a44a292e20d9959f0",
         "tag": "3.1.34"
+    },
+    "warm-sched": {
+        "commit": "ed74c39f73f8201f45a38f9baf6eb03596f8601f",
+        "tag": "0.2.1"
     }
 }
