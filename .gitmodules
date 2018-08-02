@@ -223,3 +223,6 @@
 [submodule "project/dde-network-utils"]
 	path = project/dde-network-utils
 	url = ssh://cr.deepin.io:29418/dde/dde-network-utils
+[submodule "project/nvidia-prime"]
+	path = project/nvidia-prime
+	url = ssh://cr.deepin.io:29418/nvidia-prime

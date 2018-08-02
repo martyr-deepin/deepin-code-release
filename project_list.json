@@ -279,6 +279,10 @@
         "commit": "fe3cf88594702aaff2c4f296609712d5fe98b45d",
         "tag": "1.0.8"
     },
+    "nvidia-prime": {
+        "commit": "07d25e0341769afce72042c479981f894a8d988e",
+        "tag": "1.0.0"
+    },
     "plymouth-theme-deepin": {
         "commit": "4b379e57cfed5a5969ec2d2b3e4267d6cf1d4212",
         "tag": "15.10.7"
