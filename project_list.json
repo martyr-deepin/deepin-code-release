@@ -8,8 +8,8 @@
         "tag": "3.1.17"
     },
     "dde-api": {
-        "commit": "4bba81fa3f2f2dfc592b7a4880d0779f91cb633a",
-        "tag": "3.1.27"
+        "commit": "a1b58ed89e0fe8edd33f9bab77b90f7b85649d42",
+        "tag": "3.1.28"
     },
     "dde-calendar": {
         "commit": "ec9946d24ecf68f10be842d4d31396bd50baab0f",
@@ -28,8 +28,8 @@
         "tag": "4.6.9"
     },
     "dde-file-manager": {
-        "commit": "500e61031febbc0a5d376f3840cb5ba11033d85c",
-        "tag": "4.6.2"
+        "commit": "a830e11223225daec65ecfa7937769920a817bbc",
+        "tag": "4.6.3"
     },
     "dde-help": {
         "commit": "9c84a5aa80b7b9f9e35900251e3e9267795554d9",
@@ -96,8 +96,8 @@
         "tag": "1.0.17"
     },
     "deepin-font-installer": {
-        "commit": "9d40216c9bd54fc0c8f1b416036ed99da15bb2d7",
-        "tag": "1.0.7"
+        "commit": "fff2c3e3845232aa2c9baa06ba60952de25fe219",
+        "tag": "1.0.8"
     },
     "deepin-gettext-tools": {
         "commit": "1482e15fb18176678531255f4b452a5df07f05b6",
@@ -112,8 +112,8 @@
         "tag": "17.10.8"
     },
     "deepin-icon-theme": {
-        "commit": "d140e815edf8b3d922da63cea8c5db7724a393ba",
-        "tag": "15.12.58"
+        "commit": "d27ece780d74ebc31bb9d75fcc4e725cb7d0fca8",
+        "tag": "15.12.59"
     },
     "deepin-icon-theme-tools": {
         "commit": "dc4cac3f86b8f094b952f83f14af706734785349",
@@ -220,8 +220,8 @@
         "tag": "5.9.4.1"
     },
     "deepin-wm": {
-        "commit": "63e2e327e321f234d06cc09eddf516ebb3de8f0a",
-        "tag": "1.9.30"
+        "commit": "bb3323c81b38f5c9ceccf30aceaac1e61c4c25b1",
+        "tag": "1.9.31"
     },
     "deepin-wm-switcher": {
         "commit": "6addca97f5bc804500da320ce087b7f18a5a6d96",
@@ -244,8 +244,8 @@
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "3d7138f1de4d458562bbb88c38b8afa1347b1698",
-        "tag": "2.0.9.1"
+        "commit": "ebcf2b1541210d74ec6bb5802eb4c76dd346f730",
+        "tag": "2.0.9.2"
     },
     "dtkwm": {
         "commit": "f1f859f0b04aba3a35151aacd80d014a4edcce31",
@@ -260,8 +260,8 @@
         "tag": "1.0.3"
     },
     "go-lib": {
-        "commit": "c3141815e8e082ea7a5a3cc703f5e294c0e92be1",
-        "tag": "1.2.15"
+        "commit": "b9b3512873e4eb0dbdff7a2125f80d290a758010",
+        "tag": "1.2.16"
     },
     "go-x11-client": {
         "commit": "70dbb86c0a0cb10ebc4e6cbbb21dfa5d5aff5570",
@@ -288,12 +288,12 @@
         "tag": "15.10.7"
     },
     "qt5dxcb-plugin": {
-        "commit": "8744aee3c0389caac6bfd779a4e37cebf8559113",
-        "tag": "1.1.10"
+        "commit": "730c229599a4ec507d2cf55a74bab343c9439c3d",
+        "tag": "1.1.11"
     },
     "qt5integration": {
-        "commit": "b7b949a46c55bfde59a8ca58b9a52998d7bea8f7",
-        "tag": "0.3.2"
+        "commit": "5b2d2f1bd668db8f5ea23236bc6b9c90131e5b58",
+        "tag": "0.3.3"
     },
     "startdde": {
         "commit": "d05777a73981112e948f3e14768a3b684ccef025",
