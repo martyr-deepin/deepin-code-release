@@ -16,28 +16,28 @@
         "tag": "1.2.5"
     },
     "dde-control-center": {
-        "commit": "66650b657ce7d64754b8c4d3b1179d8f967a5a34",
-        "tag": "4.6.4"
+        "commit": "7b4242738f2ac84f7003808ad11e8abaa2bd2fe0",
+        "tag": "4.6.4.6"
     },
     "dde-daemon": {
-        "commit": "5543b3e65f3ba4ca29b40d1826156484e293e5cd",
-        "tag": "3.2.24"
+        "commit": "61dd07b80e429ac0c5ba79bdb5f09271efec718a",
+        "tag": "3.2.24.4"
     },
     "dde-dock": {
-        "commit": "d93bfc221780ff292ae5c551d828b67c20a763ce",
-        "tag": "4.7.2"
+        "commit": "41ddb82d416430e44ff49d34ba09216bfbccbf1a",
+        "tag": "4.7.3.2"
     },
     "dde-file-manager": {
-        "commit": "6aebbe65fa72f53b86156b7332f09823ed794871",
-        "tag": "4.6.5"
+        "commit": "6d3604f4efede751b1df257ac5db6d4cab1d2c1d",
+        "tag": "4.6.8.4"
     },
     "dde-help": {
         "commit": "9c84a5aa80b7b9f9e35900251e3e9267795554d9",
         "tag": "15.5"
     },
     "dde-launcher": {
-        "commit": "13273fb8f667460236651f2aac0a375220efa388",
-        "tag": "4.4.5"
+        "commit": "d5db260e5c51554c0dfe2fce7e45d78bc77fb25c",
+        "tag": "4.4.5.4"
     },
     "dde-network-utils": {
         "commit": "dd57f93c29f5468cce591496cd5db8fbc5c21351",
@@ -52,8 +52,8 @@
         "tag": "1.0.4"
     },
     "dde-session-ui": {
-        "commit": "edb6247542c4fd0f8fd72d02e8701831ccc770e1",
-        "tag": "4.5.1"
+        "commit": "2d401e98119c21e198eb1c390f9f7dd3663d9b4d",
+        "tag": "4.5.1.6"
     },
     "deepin-anything": {
         "commit": "6e681ff1b351e0be85ff2c819a74753d581fc019",
@@ -132,12 +132,12 @@
         "tag": "2.0.12"
     },
     "deepin-menu": {
-        "commit": "80d17e7847f81734dcaef95e7f59090ec081a654",
-        "tag": "3.3.10"
+        "commit": "8bcbdad49e06c43a321ed609e23de563dae5034f",
+        "tag": "3.4.0"
     },
     "deepin-metacity": {
-        "commit": "e3edf6753f468e1217f3c63daff2f790e98d7e14",
-        "tag": "3.22.20"
+        "commit": "62bec3f86b2a4bcea4ab9a7eb6a249ce0a751467",
+        "tag": "3.22.22"
     },
     "deepin-movie": {
         "commit": "882a0eeb895a91109728e0b32b2484a3da725c03",
@@ -200,8 +200,8 @@
         "tag": "1.4.6"
     },
     "deepin-terminal": {
-        "commit": "6a8db5946815c7fc103488bd548b82c9a7904d71",
-        "tag": "3.0.3"
+        "commit": "f1915655d32482609c7d8296b1c964a3b03eabf0",
+        "tag": "3.0.5"
     },
     "deepin-tool-kit": {
         "commit": "176b7d39ffcacfa336ee5ed2388191168a6def12",
@@ -236,16 +236,16 @@
         "tag": "0.1.0"
     },
     "dtkcore": {
-        "commit": "d9ce37ab6bbbd5d81c991b5bb38648c427e2e06c",
-        "tag": "2.0.9"
+        "commit": "3c05b157c179a6b067ea2fee8725af8a3bc046b7",
+        "tag": "2.0.9.4"
     },
     "dtksettings": {
         "commit": "32225b9ad60e1fcaee81312ea521f45b6fa5c78f",
         "tag": "0.1.7"
     },
     "dtkwidget": {
-        "commit": "ebcf2b1541210d74ec6bb5802eb4c76dd346f730",
-        "tag": "2.0.9.2"
+        "commit": "d7d3e536482e5265d94b484355c6cd672d44cabb",
+        "tag": "2.0.9.4"
     },
     "dtkwm": {
         "commit": "fb9053ce7046036211098b07a1268a15d0260821",
@@ -260,16 +260,16 @@
         "tag": "1.0.4"
     },
     "go-lib": {
-        "commit": "b9b3512873e4eb0dbdff7a2125f80d290a758010",
-        "tag": "1.2.16"
+        "commit": "1488a1a9ede18efdde93fbaae98827e5efb7851c",
+        "tag": "1.2.16.1"
     },
     "go-x11-client": {
         "commit": "70dbb86c0a0cb10ebc4e6cbbb21dfa5d5aff5570",
         "tag": "0.0.4"
     },
     "lastore-daemon": {
-        "commit": "6c65cacf2f3789bccb179d782b3fe15823c0a143",
-        "tag": "0.9.66"
+        "commit": "f234047d3cfbeb3f97256a5378b21f21851703b2",
+        "tag": "0.9.66.3"
     },
     "mintdrivers": {
         "commit": "10e41ec0abb4fc1463a99ebae1a1a27946d5abd8",
@@ -292,12 +292,12 @@
         "tag": "1.1.11"
     },
     "qt5integration": {
-        "commit": "5fd5818a95ad9da53390e7ef440b640010466d2d",
-        "tag": "0.3.4"
+        "commit": "724c8dd88c77459d7878722b78d66638e2a90cb7",
+        "tag": "0.3.5"
     },
     "startdde": {
-        "commit": "d05777a73981112e948f3e14768a3b684ccef025",
-        "tag": "3.1.35"
+        "commit": "ca96cd52e9edb0703e0c6565cee28ad7bc0a0012",
+        "tag": "3.1.35.3"
     },
     "warm-sched": {
         "commit": "b44bd11660f95c5cbde00665a9b4f35c969fdf78",
