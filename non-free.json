@@ -1,0 +1,22 @@
+[
+ {
+  "name": "deepin-cloud-print-client",
+  "url": "ssh://cr.deepin.io:29418/private/deepin-cloud-print-client",
+  "ref": "1.2.3.1"
+ },
+ {
+  "name": "deepin-presentation-assistant",
+  "url": "ssh://cr.deepin.io:29418/private/deepin-presentation-assistant",
+  "ref": "1.0.0"
+ },
+ {
+  "name": "deepin-presentation-assistant-rtmp",
+  "url": "ssh://cr.deepin.io:29418/private/deepin-presentation-assistant-rtmp",
+  "ref": "1.0.1"
+ },
+ {
+  "name": "deepin-scanner",
+  "url": "ssh://cr.deepin.io:29418/deepin-scanner",
+  "ref": "1.0.8"
+ }
+]
