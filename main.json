@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.1.30"
+  "ref": "3.2.0"
  },
  {
   "name": "dde-calendar",
@@ -22,17 +22,17 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.6.4.6"
+  "ref": "4.7.1"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.2.24.4"
+  "ref": "3.3.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.3.2"
+  "ref": "4.7.4"
  },
  {
   "name": "dde-file-manager",
@@ -52,7 +52,7 @@
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.4"
+  "ref": "0.0.6"
  },
  {
   "name": "dde-polkit-agent",
@@ -87,7 +87,7 @@
  {
   "name": "deepin-calculator",
   "url": "ssh://cr.deepin.io:29418/deepin-calculator",
-  "ref": "1.0.6"
+  "ref": "1.0.8"
  },
  {
   "name": "deepin-clone",
@@ -102,7 +102,7 @@
  {
   "name": "deepin-deb-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
-  "ref": "1.2.5"
+  "ref": "1.2.6"
  },
  {
   "name": "deepin-desktop-base",
@@ -113,6 +113,11 @@
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
   "ref": "3.2.18"
+ },
+ {
+  "name": "deepin-editor",
+  "url": "ssh://cr.deepin.io:29418/deepin-editor",
+  "ref": "1.1.1"
  },
  {
   "name": "deepin-feedback",
@@ -132,7 +137,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.0.7"
+  "ref": "1.0.8"
  },
  {
   "name": "deepin-gtk-theme",
@@ -187,7 +192,7 @@
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.8.4"
+  "ref": "3.1.8.5"
  },
  {
   "name": "deepin-mutter",
@@ -297,7 +302,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.4"
+  "ref": "2.0.9.5"
  },
  {
   "name": "dtksettings",
@@ -307,7 +312,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.4"
+  "ref": "2.0.9.5"
  },
  {
   "name": "dtkwm",
@@ -322,7 +327,7 @@
  {
   "name": "go-gir-generator",
   "url": "ssh://cr.deepin.io:29418/go-gir-generator",
-  "ref": "1.0.4"
+  "ref": "1.1.0"
  },
  {
   "name": "go-lib",
@@ -332,12 +337,12 @@
  {
   "name": "go-x11-client",
   "url": "ssh://cr.deepin.io:29418/go-x11-client",
-  "ref": "0.0.4"
+  "ref": "0.1.0"
  },
  {
   "name": "lastore-daemon",
   "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
-  "ref": "0.9.66.3"
+  "ref": "0.10.0"
  },
  {
   "name": "mintdrivers",
@@ -372,7 +377,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.1.35.3"
+  "ref": "3.2.0"
  },
  {
   "name": "warm-sched",
