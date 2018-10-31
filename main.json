@@ -102,7 +102,7 @@
  {
   "name": "deepin-deb-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
-  "ref": "1.2.6"
+  "ref": "1.2.7"
  },
  {
   "name": "deepin-desktop-base",

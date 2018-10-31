@@ -1,7 +1,7 @@
 [
  {
   "name": "deepin-cloud-print-client",
-  "url": "ssh://rekols@cr.deepin.io:29418/deepin-editor",
+  "url": "ssh://cr.deepin.io:29418/private/deepin-cloud-print-client",
   "ref": "1.2.3.1"
  },
  {
