@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.2.0"
+  "ref": "3.4.0"
  },
  {
   "name": "dde-calendar",
@@ -22,22 +22,22 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.1"
+  "ref": "4.7.2"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.3.0"
+  "ref": "3.4.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.4"
+  "ref": "4.7.5"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.6.9"
+  "ref": "4.6.10"
  },
  {
   "name": "dde-help",
@@ -47,7 +47,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.0"
+  "ref": "4.5.1"
  },
  {
   "name": "dde-network-utils",
@@ -102,17 +102,17 @@
  {
   "name": "deepin-deb-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
-  "ref": "1.2.7"
+  "ref": "1.2.8"
  },
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2018.7.23"
+  "ref": "2018.10.29"
  },
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.2.18"
+  "ref": "3.3.1"
  },
  {
   "name": "deepin-editor",
@@ -137,7 +137,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.0.8"
+  "ref": "1.0.9"
  },
  {
   "name": "deepin-gtk-theme",
@@ -162,7 +162,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.2"
+  "ref": "2.4.3"
  },
  {
   "name": "deepin-manual",
@@ -187,7 +187,7 @@
  {
   "name": "deepin-movie-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
-  "ref": "3.2.11"
+  "ref": "3.2.14"
  },
  {
   "name": "deepin-music",
@@ -217,7 +217,7 @@
  {
   "name": "deepin-qt5config",
   "url": "ssh://cr.deepin.io:29418/deepin-qt5config",
-  "ref": "1.0.3"
+  "ref": "1.0.4"
  },
  {
   "name": "deepin-remote-assistance",
@@ -232,7 +232,7 @@
  {
   "name": "deepin-screen-recorder",
   "url": "ssh://cr.deepin.io:29418/deepin-screen-recorder",
-  "ref": "2.7.5"
+  "ref": "2.7.6"
  },
  {
   "name": "deepin-screenshot",
@@ -257,7 +257,7 @@
  {
   "name": "deepin-terminal",
   "url": "ssh://cr.deepin.io:29418/deepin-terminal",
-  "ref": "3.0.5"
+  "ref": "3.0.9"
  },
  {
   "name": "deepin-tool-kit",
@@ -282,7 +282,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.31"
+  "ref": "1.9.33"
  },
  {
   "name": "deepin-wm-switcher",
@@ -342,7 +342,7 @@
  {
   "name": "lastore-daemon",
   "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
-  "ref": "0.10.0"
+  "ref": "0.11.0"
  },
  {
   "name": "mintdrivers",
