@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.2"
+  "ref": "4.7.3"
  },
  {
   "name": "dde-daemon",
@@ -32,7 +32,7 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.5"
+  "ref": "4.7.5.1"
  },
  {
   "name": "dde-file-manager",
@@ -162,7 +162,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.3"
+  "ref": "2.4.4"
  },
  {
   "name": "deepin-manual",
