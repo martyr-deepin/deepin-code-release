@@ -142,7 +142,7 @@
  {
   "name": "deepin-gtk-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-gtk-theme",
-  "ref": "17.10.9"
+  "ref": "17.10.10"
  },
  {
   "name": "deepin-icon-theme",
