@@ -32,7 +32,7 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.5.1"
+  "ref": "4.7.5.2"
  },
  {
   "name": "dde-file-manager",
