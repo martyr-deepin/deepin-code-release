@@ -2,7 +2,7 @@
  {
   "name": "deepin-cloud-print-client",
   "url": "ssh://cr.deepin.io:29418/private/deepin-cloud-print-client",
-  "ref": "1.2.5"
+  "ref": "1.2.\uff15"
  },
  {
   "name": "deepin-presentation-assistant",

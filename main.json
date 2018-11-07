@@ -82,7 +82,7 @@
  {
   "name": "deepin-boot-maker",
   "url": "ssh://cr.deepin.io:29418/deepin-boot-maker",
-  "ref": "2.0.4.5"
+  "ref": "2.0.4.7"
  },
  {
   "name": "deepin-calculator",
