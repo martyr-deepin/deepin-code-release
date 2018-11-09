@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.4.0"
+  "ref": "3.5.0"
  },
  {
   "name": "dde-calendar",
@@ -22,12 +22,12 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.3"
+  "ref": "4.7.4"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.4.0"
+  "ref": "3.6.0"
  },
  {
   "name": "dde-dock",
@@ -47,7 +47,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.1"
+  "ref": "4.5.2"
  },
  {
   "name": "dde-network-utils",
@@ -87,7 +87,7 @@
  {
   "name": "deepin-calculator",
   "url": "ssh://cr.deepin.io:29418/deepin-calculator",
-  "ref": "1.0.8"
+  "ref": "1.0.9"
  },
  {
   "name": "deepin-clone",
@@ -112,7 +112,7 @@
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.3.1"
+  "ref": "3.4.0"
  },
  {
   "name": "deepin-editor",
@@ -127,7 +127,7 @@
  {
   "name": "deepin-font-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-font-installer",
-  "ref": "1.1.1"
+  "ref": "1.1.2"
  },
  {
   "name": "deepin-gettext-tools",
@@ -147,7 +147,7 @@
  {
   "name": "deepin-icon-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
-  "ref": "15.12.59"
+  "ref": "15.12.64"
  },
  {
   "name": "deepin-icon-theme-tools",
@@ -162,12 +162,12 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.4"
+  "ref": "2.4.5"
  },
  {
   "name": "deepin-manual",
   "url": "ssh://cr.deepin.io:29418/deepin-manual",
-  "ref": "2.0.12"
+  "ref": "2.0.13"
  },
  {
   "name": "deepin-menu",
@@ -192,12 +192,12 @@
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.8.5"
+  "ref": "3.1.9"
  },
  {
   "name": "deepin-mutter",
   "url": "ssh://cr.deepin.io:29418/deepin-mutter",
-  "ref": "3.20.34"
+  "ref": "3.20.35"
  },
  {
   "name": "deepin-notifications",
@@ -252,7 +252,7 @@
  {
   "name": "deepin-system-monitor",
   "url": "ssh://cr.deepin.io:29418/deepin-system-monitor",
-  "ref": "1.4.6"
+  "ref": "1.4.7"
  },
  {
   "name": "deepin-terminal",
@@ -302,7 +302,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.5"
+  "ref": "2.0.9.8"
  },
  {
   "name": "dtksettings",
@@ -312,7 +312,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.7"
+  "ref": "2.0.9.9"
  },
  {
   "name": "dtkwm",
@@ -377,7 +377,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.2.0"
+  "ref": "3.3.0"
  },
  {
   "name": "warm-sched",
