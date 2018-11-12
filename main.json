@@ -27,12 +27,12 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.6.0"
+  "ref": "3.7.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.8"
+  "ref": "4.7.9"
  },
  {
   "name": "dde-file-manager",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.1"
+  "ref": "4.6.2"
  },
  {
   "name": "deepin-anything",
@@ -87,7 +87,7 @@
  {
   "name": "deepin-boot-maker",
   "url": "ssh://cr.deepin.io:29418/deepin-boot-maker",
-  "ref": "2.0.4.7"
+  "ref": "2.0.4.8"
  },
  {
   "name": "deepin-calculator",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.6"
+  "ref": "2.4.8"
  },
  {
   "name": "deepin-manual",
