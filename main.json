@@ -32,7 +32,7 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.6"
+  "ref": "4.7.8"
  },
  {
   "name": "dde-file-manager",
@@ -43,6 +43,11 @@
   "name": "dde-help",
   "url": "ssh://cr.deepin.io:29418/dde/dde-help",
   "ref": "15.5"
+ },
+ {
+  "name": "dde-introduction",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
+  "ref": "1.0.7"
  },
  {
   "name": "dde-launcher",
@@ -77,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.1.2.0"
+  "ref": "5.1.2.1"
  },
  {
   "name": "deepin-boot-maker",
