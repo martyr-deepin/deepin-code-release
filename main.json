@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1"
+  "ref": "4.7.1.1"
  },
  {
   "name": "dde-help",
@@ -262,7 +262,7 @@
  {
   "name": "deepin-terminal",
   "url": "ssh://cr.deepin.io:29418/deepin-terminal",
-  "ref": "3.0.10"
+  "ref": "3.0.10.1"
  },
  {
   "name": "deepin-tool-kit",
