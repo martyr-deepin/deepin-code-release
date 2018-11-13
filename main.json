@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.5.0"
+  "ref": "3.6.0"
  },
  {
   "name": "dde-calendar",
@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.4"
+  "ref": "4.7.5"
  },
  {
   "name": "dde-daemon",
@@ -122,7 +122,7 @@
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.1.1"
+  "ref": "1.1.2"
  },
  {
   "name": "deepin-feedback",
@@ -262,7 +262,7 @@
  {
   "name": "deepin-terminal",
   "url": "ssh://cr.deepin.io:29418/deepin-terminal",
-  "ref": "3.0.10.1"
+  "ref": "3.0.10.2"
  },
  {
   "name": "deepin-tool-kit",
