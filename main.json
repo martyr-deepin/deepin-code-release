@@ -1,0 +1,392 @@
+[
+ {
+  "name": "dae",
+  "url": "ssh://cr.deepin.io:29418/dae",
+  "ref": "1.0.2"
+ },
+ {
+  "name": "dbus-factory",
+  "url": "ssh://cr.deepin.io:29418/dbus-factory",
+  "ref": "3.1.17"
+ },
+ {
+  "name": "dde-api",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-api",
+  "ref": "3.6.0"
+ },
+ {
+  "name": "dde-calendar",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-calendar",
+  "ref": "1.2.5"
+ },
+ {
+  "name": "dde-control-center",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
+  "ref": "4.7.5"
+ },
+ {
+  "name": "dde-daemon",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
+  "ref": "3.7.0"
+ },
+ {
+  "name": "dde-dock",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
+  "ref": "4.8.0"
+ },
+ {
+  "name": "dde-file-manager",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
+  "ref": "4.7.1.1"
+ },
+ {
+  "name": "dde-help",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-help",
+  "ref": "15.5"
+ },
+ {
+  "name": "dde-introduction",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
+  "ref": "1.0.7"
+ },
+ {
+  "name": "dde-launcher",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
+  "ref": "4.5.2"
+ },
+ {
+  "name": "dde-network-utils",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
+  "ref": "0.0.7"
+ },
+ {
+  "name": "dde-polkit-agent",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-polkit-agent",
+  "ref": "0.2.1"
+ },
+ {
+  "name": "dde-qt-dbus-factory",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-qt-dbus-factory",
+  "ref": "1.0.5"
+ },
+ {
+  "name": "dde-session-ui",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
+  "ref": "4.6.2"
+ },
+ {
+  "name": "deepin-anything",
+  "url": "ssh://cr.deepin.io:29418/deepin-anything",
+  "ref": "0.0.4"
+ },
+ {
+  "name": "deepin-appstore",
+  "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
+  "ref": "5.1.2.1"
+ },
+ {
+  "name": "deepin-boot-maker",
+  "url": "ssh://cr.deepin.io:29418/deepin-boot-maker",
+  "ref": "2.0.4.8"
+ },
+ {
+  "name": "deepin-calculator",
+  "url": "ssh://cr.deepin.io:29418/deepin-calculator",
+  "ref": "1.0.9"
+ },
+ {
+  "name": "deepin-clone",
+  "url": "ssh://cr.deepin.io:29418/deepin-clone",
+  "ref": "0.1.1"
+ },
+ {
+  "name": "deepin-cogl",
+  "url": "ssh://cr.deepin.io:29418/deepin-cogl",
+  "ref": "1.22.4"
+ },
+ {
+  "name": "deepin-deb-installer",
+  "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
+  "ref": "1.2.8"
+ },
+ {
+  "name": "deepin-desktop-base",
+  "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
+  "ref": "2018.10.29"
+ },
+ {
+  "name": "deepin-desktop-schemas",
+  "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
+  "ref": "3.4.0"
+ },
+ {
+  "name": "deepin-editor",
+  "url": "ssh://cr.deepin.io:29418/deepin-editor",
+  "ref": "1.1.2"
+ },
+ {
+  "name": "deepin-feedback",
+  "url": "ssh://cr.deepin.io:29418/deepin-feedback",
+  "ref": "1.0.17"
+ },
+ {
+  "name": "deepin-font-installer",
+  "url": "ssh://cr.deepin.io:29418/deepin-font-installer",
+  "ref": "1.1.2"
+ },
+ {
+  "name": "deepin-gettext-tools",
+  "url": "ssh://cr.deepin.io:29418/deepin-gettext-tools",
+  "ref": "1.0.8"
+ },
+ {
+  "name": "deepin-graphics-driver-manager",
+  "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
+  "ref": "1.1.0"
+ },
+ {
+  "name": "deepin-gtk-theme",
+  "url": "ssh://cr.deepin.io:29418/deepin-gtk-theme",
+  "ref": "17.10.10"
+ },
+ {
+  "name": "deepin-icon-theme",
+  "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
+  "ref": "15.12.64"
+ },
+ {
+  "name": "deepin-icon-theme-tools",
+  "url": "ssh://cr.deepin.io:29418/deepin-icon-theme-tools",
+  "ref": "1.0.0"
+ },
+ {
+  "name": "deepin-image-viewer",
+  "url": "ssh://cr.deepin.io:29418/deepin-image-viewer",
+  "ref": "1.3.1"
+ },
+ {
+  "name": "deepin-installer-reborn",
+  "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
+  "ref": "2.4.8"
+ },
+ {
+  "name": "deepin-manual",
+  "url": "ssh://cr.deepin.io:29418/deepin-manual",
+  "ref": "2.0.13"
+ },
+ {
+  "name": "deepin-menu",
+  "url": "ssh://cr.deepin.io:29418/deepin-menu",
+  "ref": "3.4.0"
+ },
+ {
+  "name": "deepin-metacity",
+  "url": "ssh://cr.deepin.io:29418/deepin-metacity",
+  "ref": "3.22.22"
+ },
+ {
+  "name": "deepin-movie",
+  "url": "ssh://cr.deepin.io:29418/deepin-movie",
+  "ref": "2.2.15"
+ },
+ {
+  "name": "deepin-movie-reborn",
+  "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
+  "ref": "3.2.14"
+ },
+ {
+  "name": "deepin-music",
+  "url": "ssh://cr.deepin.io:29418/deepin-music",
+  "ref": "3.1.9"
+ },
+ {
+  "name": "deepin-mutter",
+  "url": "ssh://cr.deepin.io:29418/deepin-mutter",
+  "ref": "3.20.35"
+ },
+ {
+  "name": "deepin-notifications",
+  "url": "ssh://cr.deepin.io:29418/deepin-notifications",
+  "ref": "3.3.4"
+ },
+ {
+  "name": "deepin-picker",
+  "url": "ssh://cr.deepin.io:29418/deepin-picker",
+  "ref": "1.6.3"
+ },
+ {
+  "name": "deepin-qml-widgets",
+  "url": "ssh://cr.deepin.io:29418/deepin-qml-widgets",
+  "ref": "2.3.6"
+ },
+ {
+  "name": "deepin-qt5config",
+  "url": "ssh://cr.deepin.io:29418/deepin-qt5config",
+  "ref": "1.0.4"
+ },
+ {
+  "name": "deepin-remote-assistance",
+  "url": "ssh://cr.deepin.io:29418/deepin-remote-assistance",
+  "ref": "1.0.18"
+ },
+ {
+  "name": "deepin-repair-tools",
+  "url": "ssh://cr.deepin.io:29418/deepin-repair-tools",
+  "ref": "1.0.9"
+ },
+ {
+  "name": "deepin-screen-recorder",
+  "url": "ssh://cr.deepin.io:29418/deepin-screen-recorder",
+  "ref": "2.7.6"
+ },
+ {
+  "name": "deepin-screenshot",
+  "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
+  "ref": "4.1.2"
+ },
+ {
+  "name": "deepin-shortcut-viewer",
+  "url": "ssh://cr.deepin.io:29418/deepin-shortcut-viewer",
+  "ref": "1.3.5"
+ },
+ {
+  "name": "deepin-sound-theme",
+  "url": "ssh://cr.deepin.io:29418/deepin-sound-theme",
+  "ref": "15.10.3"
+ },
+ {
+  "name": "deepin-system-monitor",
+  "url": "ssh://cr.deepin.io:29418/deepin-system-monitor",
+  "ref": "1.4.7"
+ },
+ {
+  "name": "deepin-terminal",
+  "url": "ssh://cr.deepin.io:29418/deepin-terminal",
+  "ref": "3.0.10.2"
+ },
+ {
+  "name": "deepin-tool-kit",
+  "url": "ssh://cr.deepin.io:29418/deepin-tool-kit",
+  "ref": "2.0.8"
+ },
+ {
+  "name": "deepin-voice-recorder",
+  "url": "ssh://cr.deepin.io:29418/deepin-voice-recorder",
+  "ref": "1.3.8"
+ },
+ {
+  "name": "deepin-wallpapers",
+  "url": "ssh://cr.deepin.io:29418/deepin-wallpapers",
+  "ref": "1.7.5"
+ },
+ {
+  "name": "deepin-webengine",
+  "url": "ssh://cr.deepin.io:29418/deepin-webengine",
+  "ref": "5.9.4.1"
+ },
+ {
+  "name": "deepin-wm",
+  "url": "ssh://cr.deepin.io:29418/deepin-wm",
+  "ref": "1.9.33"
+ },
+ {
+  "name": "deepin-wm-switcher",
+  "url": "ssh://cr.deepin.io:29418/deepin-wm-switcher",
+  "ref": "1.1.9"
+ },
+ {
+  "name": "default-settings",
+  "url": "ssh://cr.deepin.io:29418/default-settings",
+  "ref": "2018.8.8"
+ },
+ {
+  "name": "dpa-ext-gnomekeyring",
+  "url": "ssh://cr.deepin.io:29418/dpa-ext-gnomekeyring",
+  "ref": "0.1.0"
+ },
+ {
+  "name": "dtkcore",
+  "url": "ssh://cr.deepin.io:29418/dtkcore",
+  "ref": "2.0.9.8"
+ },
+ {
+  "name": "dtksettings",
+  "url": "ssh://cr.deepin.io:29418/dtksettings",
+  "ref": "0.1.7"
+ },
+ {
+  "name": "dtkwidget",
+  "url": "ssh://cr.deepin.io:29418/dtkwidget",
+  "ref": "2.0.9.9"
+ },
+ {
+  "name": "dtkwm",
+  "url": "ssh://cr.deepin.io:29418/dtkwm",
+  "ref": "2.0.9"
+ },
+ {
+  "name": "go-dbus-generator",
+  "url": "ssh://cr.deepin.io:29418/go-dbus-generator",
+  "ref": "0.6.6"
+ },
+ {
+  "name": "go-gir-generator",
+  "url": "ssh://cr.deepin.io:29418/go-gir-generator",
+  "ref": "1.1.0"
+ },
+ {
+  "name": "go-lib",
+  "url": "ssh://cr.deepin.io:29418/go-lib",
+  "ref": "1.3.0"
+ },
+ {
+  "name": "go-x11-client",
+  "url": "ssh://cr.deepin.io:29418/go-x11-client",
+  "ref": "0.1.0"
+ },
+ {
+  "name": "lastore-daemon",
+  "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
+  "ref": "0.11.0"
+ },
+ {
+  "name": "mintdrivers",
+  "url": "ssh://cr.deepin.io:29418/mintdrivers",
+  "ref": "1.3.3"
+ },
+ {
+  "name": "miraclecast",
+  "url": "ssh://cr.deepin.io:29418/miraclecast",
+  "ref": "1.0.8"
+ },
+ {
+  "name": "nvidia-prime",
+  "url": "ssh://cr.deepin.io:29418/nvidia-prime",
+  "ref": "1.0.0"
+ },
+ {
+  "name": "plymouth-theme-deepin",
+  "url": "ssh://cr.deepin.io:29418/plymouth-theme-deepin",
+  "ref": "15.10.7"
+ },
+ {
+  "name": "qt5dxcb-plugin",
+  "url": "ssh://cr.deepin.io:29418/qt5dxcb-plugin",
+  "ref": "1.1.13"
+ },
+ {
+  "name": "qt5integration",
+  "url": "ssh://cr.deepin.io:29418/qt5integration",
+  "ref": "0.3.6"
+ },
+ {
+  "name": "startdde",
+  "url": "ssh://cr.deepin.io:29418/dde/startdde",
+  "ref": "3.3.0"
+ },
+ {
+  "name": "warm-sched",
+  "url": "ssh://cr.deepin.io:29418/warm-sched",
+  "ref": "0.2.2"
+ }
+]
