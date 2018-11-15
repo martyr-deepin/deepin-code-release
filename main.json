@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.7.0"
+  "ref": "3.9.0"
  },
  {
   "name": "dde-calendar",
