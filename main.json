@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.6"
+  "ref": "4.7.7"
  },
  {
   "name": "dde-daemon",
@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.1"
+  "ref": "4.7.1.3"
  },
  {
   "name": "dde-help",
@@ -82,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.1.2.3"
+  "ref": "5.1.2.5"
  },
  {
   "name": "deepin-boot-maker",
@@ -152,7 +152,7 @@
  {
   "name": "deepin-icon-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
-  "ref": "15.12.64"
+  "ref": "15.12.65"
  },
  {
   "name": "deepin-icon-theme-tools",
@@ -162,7 +162,7 @@
  {
   "name": "deepin-image-viewer",
   "url": "ssh://cr.deepin.io:29418/deepin-image-viewer",
-  "ref": "1.3.1"
+  "ref": "1.3.2"
  },
  {
   "name": "deepin-installer-reborn",
@@ -172,7 +172,7 @@
  {
   "name": "deepin-manual",
   "url": "ssh://cr.deepin.io:29418/deepin-manual",
-  "ref": "2.0.13"
+  "ref": "2.0.14"
  },
  {
   "name": "deepin-menu",
@@ -192,12 +192,12 @@
  {
   "name": "deepin-movie-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
-  "ref": "3.2.14"
+  "ref": "3.2.15"
  },
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.9"
+  "ref": "3.1.10"
  },
  {
   "name": "deepin-mutter",
