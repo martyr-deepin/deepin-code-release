@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.6.4.6"
+  "ref": "4.6.4.11"
  },
  {
   "name": "dde-daemon",
@@ -32,7 +32,7 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.7.3.2"
+  "ref": "4.7.3.5"
  },
  {
   "name": "dde-file-manager",
@@ -47,17 +47,21 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.4.5.4"
+  "ref": "4.4.5.6"
  },
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.4"
+  "ref": "0.0.5"
  },
  {
   "name": "dde-polkit-agent",
   "url": "ssh://cr.deepin.io:29418/dde/dde-polkit-agent",
   "ref": "0.2.1"
+ },
+ {
+  "name": "dde-preload",
+  "url": "ssh://cr.deepin.io:29418/dde/dde-preload"
  },
  {
   "name": "dde-qt-dbus-factory",
@@ -67,7 +71,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.5.1.6"
+  "ref": "4.5.1.11"
  },
  {
   "name": "deepin-anything",
@@ -102,7 +106,7 @@
  {
   "name": "deepin-deb-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
-  "ref": "1.2.5"
+  "ref": "1.2.7"
  },
  {
   "name": "deepin-desktop-base",
@@ -132,7 +136,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.0.7"
+  "ref": "1.0.8"
  },
  {
   "name": "deepin-gtk-theme",
@@ -157,7 +161,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.3.6"
+  "ref": "2.3.8.5"
  },
  {
   "name": "deepin-manual",
@@ -258,6 +262,11 @@
   "name": "deepin-tool-kit",
   "url": "ssh://cr.deepin.io:29418/deepin-tool-kit",
   "ref": "2.0.8"
+ },
+ {
+  "name": "deepin-turbo",
+  "url": "ssh://cr.deepin.io:29418/deepin-turbo",
+  "ref": "0.0.2"
  },
  {
   "name": "deepin-voice-recorder",
