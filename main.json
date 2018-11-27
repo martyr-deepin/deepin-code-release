@@ -82,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.1.2.5"
+  "ref": "5.1.2.6"
  },
  {
   "name": "deepin-boot-maker",
@@ -127,7 +127,7 @@
  {
   "name": "deepin-feedback",
   "url": "ssh://cr.deepin.io:29418/deepin-feedback",
-  "ref": "1.0.17"
+  "ref": "1.0.18"
  },
  {
   "name": "deepin-font-installer",
