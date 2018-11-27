@@ -27,7 +27,7 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.8.0"
+  "ref": "3.9.0"
  },
  {
   "name": "dde-dock",
