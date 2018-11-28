@@ -352,7 +352,7 @@
  {
   "name": "lastore-daemon",
   "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
-  "ref": "0.11.1"
+  "ref": "0.11.2"
  },
  {
   "name": "mintdrivers",
