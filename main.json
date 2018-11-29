@@ -47,7 +47,7 @@
  {
   "name": "dde-introduction",
   "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
-  "ref": "1.0.7"
+  "ref": "1.0.8"
  },
  {
   "name": "dde-launcher",
