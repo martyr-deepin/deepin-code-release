@@ -152,7 +152,7 @@
  {
   "name": "deepin-icon-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
-  "ref": "15.12.65"
+  "ref": "15.12.66"
  },
  {
   "name": "deepin-icon-theme-tools",
