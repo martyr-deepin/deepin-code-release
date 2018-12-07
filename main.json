@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.7.5"
+  "ref": "4.7.6.2"
  },
  {
   "name": "dde-daemon",
@@ -152,7 +152,7 @@
  {
   "name": "deepin-icon-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
-  "ref": "15.12.64"
+  "ref": "15.12.65"
  },
  {
   "name": "deepin-icon-theme-tools",
@@ -268,6 +268,10 @@
   "name": "deepin-tool-kit",
   "url": "ssh://cr.deepin.io:29418/deepin-tool-kit",
   "ref": "2.0.8"
+ },
+ {
+  "name": "deepin-turbo",
+  "url": "https://cr.deepin.io/deepin-turbo"
  },
  {
   "name": "deepin-voice-recorder",
