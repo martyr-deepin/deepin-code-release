@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.10.0"
+  "ref": "3.11.0"
  },
  {
   "name": "dde-calendar",
@@ -27,7 +27,7 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.10.0"
+  "ref": "3.11.0"
  },
  {
   "name": "dde-dock",
@@ -117,7 +117,7 @@
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.5.0"
+  "ref": "3.6.0"
  },
  {
   "name": "deepin-editor",
@@ -342,7 +342,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.4.0"
+  "ref": "1.5.0"
  },
  {
   "name": "go-x11-client",
@@ -387,7 +387,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.4.0"
+  "ref": "3.6.0"
  },
  {
   "name": "warm-sched",
