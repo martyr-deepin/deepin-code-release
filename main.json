@@ -32,12 +32,12 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.3"
+  "ref": "4.8.3.1"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.7"
+  "ref": "4.7.1.8"
  },
  {
   "name": "dde-help",
@@ -57,7 +57,7 @@
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.8"
+  "ref": "0.0.8.1"
  },
  {
   "name": "dde-polkit-agent",
@@ -152,7 +152,7 @@
  {
   "name": "deepin-icon-theme",
   "url": "ssh://cr.deepin.io:29418/deepin-icon-theme",
-  "ref": "15.12.66"
+  "ref": "15.12.67"
  },
  {
   "name": "deepin-icon-theme-tools",
@@ -162,7 +162,7 @@
  {
   "name": "deepin-image-viewer",
   "url": "ssh://cr.deepin.io:29418/deepin-image-viewer",
-  "ref": "1.3.5"
+  "ref": "1.3.6"
  },
  {
   "name": "deepin-installer-reborn",
@@ -342,7 +342,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.5.0"
+  "ref": "1.6.0"
  },
  {
   "name": "go-x11-client",
@@ -368,6 +368,11 @@
   "name": "nvidia-prime",
   "url": "ssh://cr.deepin.io:29418/nvidia-prime",
   "ref": "1.0.0"
+ },
+ {
+  "name": "onboard",
+  "url": "ssh://cr.deepin.io:29418/onboard",
+  "ref": "1.4.1.2"
  },
  {
   "name": "plymouth-theme-deepin",
