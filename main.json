@@ -32,7 +32,7 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.3"
+  "ref": "4.8.3.1"
  },
  {
   "name": "dde-file-manager",
@@ -57,7 +57,7 @@
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.8"
+  "ref": "0.0.8.1"
  },
  {
   "name": "dde-polkit-agent",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.7.0"
+  "ref": "4.6.2.1"
  },
  {
   "name": "deepin-anything",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.8"
+  "ref": "2.4.9.2"
  },
  {
   "name": "deepin-manual",
@@ -347,7 +347,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.5.0"
+  "ref": "1.6.0"
  },
  {
   "name": "go-x11-client",
