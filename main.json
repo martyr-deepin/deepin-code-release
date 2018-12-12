@@ -52,7 +52,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.4"
+  "ref": "4.5.5.1"
  },
  {
   "name": "dde-network-utils",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.9.2"
+  "ref": "2.4.9.3"
  },
  {
   "name": "deepin-manual",
@@ -292,7 +292,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.33"
+  "ref": "1.9.34"
  },
  {
   "name": "deepin-wm-switcher",
