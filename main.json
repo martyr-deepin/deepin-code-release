@@ -52,7 +52,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.4"
+  "ref": "4.5.5"
  },
  {
   "name": "dde-network-utils",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.7.0"
+  "ref": "4.6.2.1"
  },
  {
   "name": "deepin-anything",
@@ -122,7 +122,7 @@
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.10"
+  "ref": "1.2.1"
  },
  {
   "name": "deepin-feedback",
@@ -287,7 +287,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.33"
+  "ref": "1.9.34"
  },
  {
   "name": "deepin-wm-switcher",
