@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.8.0"
+  "ref": "4.8.1"
  },
  {
   "name": "dde-daemon",
@@ -52,7 +52,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.5.1"
+  "ref": "4.5.5.2"
  },
  {
   "name": "dde-network-utils",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.2.1"
+  "ref": "4.6.2.2"
  },
  {
   "name": "deepin-anything",
@@ -112,7 +112,7 @@
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2018.10.29"
+  "ref": "2018.12.13"
  },
  {
   "name": "deepin-desktop-schemas",
@@ -282,7 +282,7 @@
  {
   "name": "deepin-wallpapers",
   "url": "ssh://cr.deepin.io:29418/deepin-wallpapers",
-  "ref": "1.7.5"
+  "ref": "1.6.3"
  },
  {
   "name": "deepin-webengine",
