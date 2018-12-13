@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.8.0"
+  "ref": "4.8.1"
  },
  {
   "name": "dde-daemon",
@@ -52,7 +52,7 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.5"
+  "ref": "4.5.5.2"
  },
  {
   "name": "dde-network-utils",
@@ -192,7 +192,7 @@
  {
   "name": "deepin-movie-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
-  "ref": "3.2.16.1"
+  "ref": "3.2.17"
  },
  {
   "name": "deepin-music",
