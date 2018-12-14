@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.11.0"
+  "ref": "3.12.0"
  },
  {
   "name": "dde-calendar",
@@ -27,7 +27,7 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.13.0"
+  "ref": "3.14.0"
  },
  {
   "name": "dde-dock",
