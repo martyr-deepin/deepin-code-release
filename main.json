@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.11.0"
+  "ref": "3.12.0"
  },
  {
   "name": "dde-calendar",
@@ -22,22 +22,22 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.8.1"
+  "ref": "4.8.3"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.11.0"
+  "ref": "3.14.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.3.1"
+  "ref": "4.8.4"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.8"
+  "ref": "4.7.1.9"
  },
  {
   "name": "dde-help",
@@ -117,12 +117,12 @@
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.6.0"
+  "ref": "3.8.0"
  },
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.2.1"
+  "ref": "1.2.3"
  },
  {
   "name": "deepin-feedback",
@@ -202,7 +202,7 @@
  {
   "name": "deepin-mutter",
   "url": "ssh://cr.deepin.io:29418/deepin-mutter",
-  "ref": "3.20.36"
+  "ref": "3.20.37"
  },
  {
   "name": "deepin-notifications",
@@ -277,7 +277,7 @@
  {
   "name": "deepin-wallpapers",
   "url": "ssh://cr.deepin.io:29418/deepin-wallpapers",
-  "ref": "1.7.5"
+  "ref": "1.7.6"
  },
  {
   "name": "deepin-webengine",
@@ -327,7 +327,7 @@
  {
   "name": "go-dbus-factory",
   "url": "ssh://cr.deepin.io:29418/go-dbus-factory",
-  "ref": "0.1.0"
+  "ref": "0.2.0"
  },
  {
   "name": "go-dbus-generator",
@@ -352,7 +352,7 @@
  {
   "name": "lastore-daemon",
   "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
-  "ref": "0.11.2"
+  "ref": "0.12.0"
  },
  {
   "name": "mintdrivers",
