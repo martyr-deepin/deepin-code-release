@@ -5,6 +5,11 @@
   "ref": "1.2.5.1"
  },
  {
+  "name": "deepin-license",
+  "url": "ssh://cr.deepin.io:29418/deepin-license",
+  "ref": "1.2.0.4"
+ },
+ {
   "name": "deepin-presentation-assistant",
   "url": "ssh://cr.deepin.io:29418/private/deepin-presentation-assistant",
   "ref": "1.0.0"

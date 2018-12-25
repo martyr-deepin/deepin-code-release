@@ -32,12 +32,12 @@
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.4"
+  "ref": "4.8.5.1"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.9"
+  "ref": "4.7.1.10"
  },
  {
   "name": "dde-help",
@@ -122,7 +122,7 @@
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.2.4"
+  "ref": "1.2.5"
  },
  {
   "name": "deepin-feedback",
@@ -142,7 +142,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.1.1"
+  "ref": "1.1.2"
  },
  {
   "name": "deepin-gtk-theme",
@@ -197,7 +197,7 @@
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.11"
+  "ref": "3.1.12"
  },
  {
   "name": "deepin-mutter",
@@ -242,7 +242,7 @@
  {
   "name": "deepin-screenshot",
   "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
-  "ref": "4.1.4"
+  "ref": "4.1.5"
  },
  {
   "name": "deepin-shortcut-viewer",
@@ -261,8 +261,8 @@
  },
  {
   "name": "deepin-terminal",
-  "url": "ssh://cr.deepin.io:29418/deepin-terminal",
-  "ref": "3.0.12"
+  "url": "https://github.com/linuxdeepin/deepin-terminal.git",
+  "ref": "3.1"
  },
  {
   "name": "deepin-tool-kit",
@@ -307,7 +307,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.10"
+  "ref": "2.0.9.12"
  },
  {
   "name": "dtksettings",
@@ -317,7 +317,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.11"
+  "ref": "2.0.9.12"
  },
  {
   "name": "dtkwm",
