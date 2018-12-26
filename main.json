@@ -47,7 +47,7 @@
  {
   "name": "dde-introduction",
   "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
-  "ref": "1.1.0"
+  "ref": "1.1.1"
  },
  {
   "name": "dde-launcher",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.2.7"
+  "ref": "4.6.2.9"
  },
  {
   "name": "deepin-anything",
@@ -117,7 +117,7 @@
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.9.0"
+  "ref": "3.9.1"
  },
  {
   "name": "deepin-editor",
@@ -167,12 +167,12 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.5.6"
+  "ref": "2.5.7"
  },
  {
   "name": "deepin-manual",
   "url": "ssh://cr.deepin.io:29418/deepin-manual",
-  "ref": "2.0.14"
+  "ref": "2.0.15"
  },
  {
   "name": "deepin-menu",
