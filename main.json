@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.8.7"
+  "ref": "4.8.7.1"
  },
  {
   "name": "dde-daemon",
@@ -47,12 +47,12 @@
  {
   "name": "dde-introduction",
   "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
-  "ref": "1.1.1"
+  "ref": "1.1.2"
  },
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.6.1"
+  "ref": "4.6.2"
  },
  {
   "name": "dde-network-utils",
@@ -67,7 +67,7 @@
  {
   "name": "dde-qt-dbus-factory",
   "url": "ssh://cr.deepin.io:29418/dde/dde-qt-dbus-factory",
-  "ref": "1.0.6"
+  "ref": "1.0.7"
  },
  {
   "name": "dde-session-ui",
@@ -307,7 +307,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.12"
+  "ref": "2.0.9.13"
  },
  {
   "name": "dtksettings",
@@ -317,7 +317,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.12"
+  "ref": "2.0.9.13"
  },
  {
   "name": "dtkwm",
@@ -392,7 +392,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.7.0"
+  "ref": "3.8.0"
  },
  {
   "name": "warm-sched",
