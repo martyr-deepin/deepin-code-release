@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.13.0"
+  "ref": "3.14.0"
  },
  {
   "name": "dde-calendar",
@@ -27,7 +27,7 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.15.0"
+  "ref": "3.16.0"
  },
  {
   "name": "dde-dock",
@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.10"
+  "ref": "4.7.1.12"
  },
  {
   "name": "dde-help",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.4.9"
+  "ref": "2.5.8"
  },
  {
   "name": "deepin-manual",
@@ -342,7 +342,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.6.0"
+  "ref": "1.7.0"
  },
  {
   "name": "go-x11-client",
