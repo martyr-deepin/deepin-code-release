@@ -312,7 +312,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.13"
+  "ref": "2.0.9.14"
  },
  {
   "name": "dtksettings",
@@ -322,7 +322,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.13"
+  "ref": "2.0.9.14"
  },
  {
   "name": "dtkwm",
@@ -377,12 +377,17 @@
  {
   "name": "onboard",
   "url": "ssh://cr.deepin.io:29418/onboard",
-  "ref": "1.4.1.4"
+  "ref": "1.4.1.5"
  },
  {
   "name": "plymouth-theme-deepin",
   "url": "ssh://cr.deepin.io:29418/plymouth-theme-deepin",
   "ref": "15.10.7"
+ },
+ {
+  "name": "qcef",
+  "url": "ssh://cr.deepin.io:29418/qcef",
+  "ref": "1.1.4.6"
  },
  {
   "name": "qt5dxcb-plugin",
