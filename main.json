@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.12"
+  "ref": "4.7.2"
  },
  {
   "name": "dde-help",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.2.1"
+  "ref": "4.8.1"
  },
  {
   "name": "deepin-anything",
@@ -82,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.1.2.7"
+  "ref": "5.2.0.1"
  },
  {
   "name": "deepin-boot-maker",
@@ -240,6 +240,11 @@
   "ref": "2.7.7"
  },
  {
+  "name": "deepin-screensaver",
+  "url": "ssh://cr.deepin.io:29418/deepin-screensaver",
+  "ref": "0.0.1"
+ },
+ {
   "name": "deepin-screenshot",
   "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
   "ref": "4.1.5"
@@ -382,7 +387,7 @@
  {
   "name": "qt5dxcb-plugin",
   "url": "ssh://cr.deepin.io:29418/qt5dxcb-plugin",
-  "ref": "1.1.21"
+  "ref": "1.1.22"
  },
  {
   "name": "qt5integration",
