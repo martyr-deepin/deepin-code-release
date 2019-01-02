@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.13.0"
+  "ref": "3.14.0"
  },
  {
   "name": "dde-calendar",
@@ -22,22 +22,22 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.8.7"
+  "ref": "4.8.7.1"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.15.0"
+  "ref": "3.16.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.5.1"
+  "ref": "4.8.5.2"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.1.10"
+  "ref": "4.7.1.12"
  },
  {
   "name": "dde-help",
@@ -47,17 +47,17 @@
  {
   "name": "dde-introduction",
   "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
-  "ref": "1.1.1"
+  "ref": "1.1.2"
  },
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.5.9"
+  "ref": "4.6.2"
  },
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.8.1"
+  "ref": "0.0.8.2"
  },
  {
   "name": "dde-polkit-agent",
@@ -67,7 +67,7 @@
  {
   "name": "dde-qt-dbus-factory",
   "url": "ssh://cr.deepin.io:29418/dde/dde-qt-dbus-factory",
-  "ref": "1.0.6"
+  "ref": "1.0.7"
  },
  {
   "name": "dde-session-ui",
@@ -142,7 +142,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.1.2"
+  "ref": "1.1.3"
  },
  {
   "name": "deepin-gtk-theme",
@@ -167,12 +167,12 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.5.7"
+  "ref": "2.5.8"
  },
  {
   "name": "deepin-manual",
   "url": "ssh://cr.deepin.io:29418/deepin-manual",
-  "ref": "2.0.15"
+  "ref": "2.0.16"
  },
  {
   "name": "deepin-menu",
@@ -182,7 +182,7 @@
  {
   "name": "deepin-metacity",
   "url": "ssh://cr.deepin.io:29418/deepin-metacity",
-  "ref": "3.22.22"
+  "ref": "3.22.23"
  },
  {
   "name": "deepin-movie",
@@ -197,12 +197,12 @@
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.12"
+  "ref": "3.1.13"
  },
  {
   "name": "deepin-mutter",
   "url": "ssh://cr.deepin.io:29418/deepin-mutter",
-  "ref": "3.20.37"
+  "ref": "3.20.38"
  },
  {
   "name": "deepin-notifications",
@@ -297,7 +297,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.34"
+  "ref": "1.9.35"
  },
  {
   "name": "deepin-wm-switcher",
@@ -317,7 +317,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.12"
+  "ref": "2.0.9.13"
  },
  {
   "name": "dtksettings",
@@ -327,7 +327,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.12"
+  "ref": "2.0.9.13"
  },
  {
   "name": "dtkwm",
@@ -352,7 +352,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.6.0"
+  "ref": "1.7.0"
  },
  {
   "name": "go-x11-client",
@@ -382,7 +382,7 @@
  {
   "name": "onboard",
   "url": "https://cr.deepin.io/onboard",
-  "ref": "1.4.1.4"
+  "ref": "1.4.1.5"
  },
  {
   "name": "plymouth-theme-deepin",
@@ -392,7 +392,7 @@
  {
   "name": "qt5dxcb-plugin",
   "url": "ssh://cr.deepin.io:29418/qt5dxcb-plugin",
-  "ref": "1.1.15"
+  "ref": "1.1.21"
  },
  {
   "name": "qt5integration",
@@ -402,7 +402,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.7.0"
+  "ref": "3.8.0"
  },
  {
   "name": "warm-sched",
