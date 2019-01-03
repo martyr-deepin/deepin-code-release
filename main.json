@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.14.0"
+  "ref": "3.15.0"
  },
  {
   "name": "dde-calendar",
@@ -27,7 +27,7 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.16.0"
+  "ref": "3.17.0"
  },
  {
   "name": "dde-dock",
@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.2"
+  "ref": "4.7.3"
  },
  {
   "name": "dde-help",
@@ -112,17 +112,17 @@
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2018.10.29"
+  "ref": "2019.01.15"
  },
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.8.0"
+  "ref": "3.10.0"
  },
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.2.5"
+  "ref": "1.2.6"
  },
  {
   "name": "deepin-feedback",
@@ -162,12 +162,12 @@
  {
   "name": "deepin-image-viewer",
   "url": "ssh://cr.deepin.io:29418/deepin-image-viewer",
-  "ref": "1.3.6"
+  "ref": "1.3.7"
  },
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.5.8"
+  "ref": "2.5.9"
  },
  {
   "name": "deepin-manual",
@@ -192,7 +192,7 @@
  {
   "name": "deepin-movie-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
-  "ref": "3.2.17"
+  "ref": "3.2.18"
  },
  {
   "name": "deepin-music",
@@ -267,7 +267,7 @@
  {
   "name": "deepin-terminal",
   "url": "https://github.com/linuxdeepin/deepin-terminal.git",
-  "ref": "3.1"
+  "ref": "3.2"
  },
  {
   "name": "deepin-tool-kit",
@@ -347,7 +347,7 @@
  {
   "name": "go-lib",
   "url": "ssh://cr.deepin.io:29418/go-lib",
-  "ref": "1.7.0"
+  "ref": "1.8.0"
  },
  {
   "name": "go-x11-client",
