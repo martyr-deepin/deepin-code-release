@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.2.9"
+  "ref": "4.6.2.10"
  },
  {
   "name": "deepin-anything",
@@ -317,7 +317,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.13"
+  "ref": "2.0.9.14"
  },
  {
   "name": "dtksettings",
@@ -327,7 +327,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.13"
+  "ref": "2.0.9.14"
  },
  {
   "name": "dtkwm",
