@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.3"
+  "ref": "4.7.4.1"
  },
  {
   "name": "dde-help",
@@ -47,7 +47,7 @@
  {
   "name": "dde-introduction",
   "url": "ssh://cr.deepin.io:29418/dde/dde-introduction",
-  "ref": "1.1.2"
+  "ref": "1.1.4"
  },
  {
   "name": "dde-launcher",
@@ -82,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.1.2.7"
+  "ref": "5.1.2.8"
  },
  {
   "name": "deepin-boot-maker",
@@ -112,7 +112,7 @@
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2018.12.13"
+  "ref": "2019.01.08"
  },
  {
   "name": "deepin-desktop-schemas",
@@ -168,6 +168,11 @@
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
   "ref": "2.5.10"
+ },
+ {
+  "name": "deepin-keyring",
+  "url": "https://cr.deepin.io/deepin-keyring",
+  "ref": "2019.01.09"
  },
  {
   "name": "deepin-manual",
