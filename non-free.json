@@ -27,7 +27,7 @@
  {
   "name": "deepin-sync-client",
   "url": "ssh://cr.deepin.io:29418/private/deepin-sync-client",
-  "ref": "1.0.0"
+  "ref": "1.0.1"
  },
  {
   "name": "deepin-sync-daemon",
