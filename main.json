@@ -37,7 +37,7 @@
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.4.1"
+  "ref": "4.7.4.2"
  },
  {
   "name": "dde-help",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.6.2.11"
+  "ref": "4.6.2.12"
  },
  {
   "name": "deepin-anything",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.5.10"
+  "ref": "2.6.0"
  },
  {
   "name": "deepin-keyring",
@@ -177,7 +177,7 @@
  {
   "name": "deepin-manual",
   "url": "ssh://cr.deepin.io:29418/deepin-manual",
-  "ref": "2.0.16"
+  "ref": "2.0.18"
  },
  {
   "name": "deepin-menu",
