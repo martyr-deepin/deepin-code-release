@@ -27,12 +27,12 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.17.0"
+  "ref": "3.20.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.7.2"
+  "ref": "4.8.7.3"
  },
  {
   "name": "dde-file-manager",
@@ -62,7 +62,7 @@
  {
   "name": "dde-polkit-agent",
   "url": "ssh://cr.deepin.io:29418/dde/dde-polkit-agent",
-  "ref": "0.2.2"
+  "ref": "0.2.3"
  },
  {
   "name": "dde-qt-dbus-factory",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.6.1"
+  "ref": "2.6.2"
  },
  {
   "name": "deepin-keyring",
@@ -252,7 +252,7 @@
  {
   "name": "deepin-screenshot",
   "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
-  "ref": "4.1.5"
+  "ref": "4.1.6"
  },
  {
   "name": "deepin-shortcut-viewer",
@@ -352,7 +352,7 @@
  {
   "name": "go-gir-generator",
   "url": "ssh://cr.deepin.io:29418/go-gir-generator",
-  "ref": "1.1.0"
+  "ref": "1.2.0"
  },
  {
   "name": "go-lib",
