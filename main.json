@@ -27,12 +27,12 @@
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.19.0"
+  "ref": "3.20.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.7.2"
+  "ref": "4.8.7.3"
  },
  {
   "name": "dde-file-manager",
@@ -62,7 +62,7 @@
  {
   "name": "dde-polkit-agent",
   "url": "ssh://cr.deepin.io:29418/dde/dde-polkit-agent",
-  "ref": "0.2.2"
+  "ref": "0.2.3"
  },
  {
   "name": "dde-qt-dbus-factory",
@@ -72,7 +72,7 @@
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.8.4"
+  "ref": "4.8.5"
  },
  {
   "name": "deepin-anything",
@@ -167,7 +167,7 @@
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.6.1"
+  "ref": "2.6.2"
  },
  {
   "name": "deepin-manual",
@@ -247,7 +247,7 @@
  {
   "name": "deepin-screenshot",
   "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
-  "ref": "4.1.5"
+  "ref": "4.1.6"
  },
  {
   "name": "deepin-shortcut-viewer",
@@ -302,7 +302,7 @@
  {
   "name": "default-settings",
   "url": "ssh://cr.deepin.io:29418/default-settings",
-  "ref": "2018.8.8"
+  "ref": "2019.1.14"
  },
  {
   "name": "dpa-ext-gnomekeyring",
@@ -342,7 +342,7 @@
  {
   "name": "go-gir-generator",
   "url": "ssh://cr.deepin.io:29418/go-gir-generator",
-  "ref": "1.1.0"
+  "ref": "1.2.0"
  },
  {
   "name": "go-lib",
@@ -357,7 +357,7 @@
  {
   "name": "lastore-daemon",
   "url": "ssh://cr.deepin.io:29418/lastore/lastore-daemon",
-  "ref": "0.12.0"
+  "ref": "0.13.0"
  },
  {
   "name": "mintdrivers",
@@ -397,7 +397,7 @@
  {
   "name": "qt5integration",
   "url": "ssh://cr.deepin.io:29418/qt5integration",
-  "ref": "0.3.7"
+  "ref": "0.3.7.2"
  },
  {
   "name": "startdde",
