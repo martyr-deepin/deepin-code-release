@@ -12,7 +12,7 @@
  {
   "name": "dde-api",
   "url": "ssh://cr.deepin.io:29418/dde/dde-api",
-  "ref": "3.15.0"
+  "ref": "3.16.0"
  },
  {
   "name": "dde-calendar",
@@ -22,22 +22,22 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.9.1"
+  "ref": "4.9.2"
  },
  {
   "name": "dde-daemon",
   "url": "ssh://cr.deepin.io:29418/dde/dde-daemon",
-  "ref": "3.20.0"
+  "ref": "3.22.0"
  },
  {
   "name": "dde-dock",
   "url": "ssh://cr.deepin.io:29418/dde/dde-dock",
-  "ref": "4.8.7.3"
+  "ref": "4.8.9"
  },
  {
   "name": "dde-file-manager",
   "url": "ssh://cr.deepin.io:29418/dde/dde-file-manager",
-  "ref": "4.7.4.4"
+  "ref": "4.7.5"
  },
  {
   "name": "dde-help",
@@ -52,27 +52,27 @@
  {
   "name": "dde-launcher",
   "url": "ssh://cr.deepin.io:29418/dde/dde-launcher",
-  "ref": "4.6.2"
+  "ref": "4.6.4"
  },
  {
   "name": "dde-network-utils",
   "url": "ssh://cr.deepin.io:29418/dde/dde-network-utils",
-  "ref": "0.0.8.2"
+  "ref": "0.0.9"
  },
  {
   "name": "dde-polkit-agent",
   "url": "ssh://cr.deepin.io:29418/dde/dde-polkit-agent",
-  "ref": "0.2.3"
+  "ref": "0.2.4"
  },
  {
   "name": "dde-qt-dbus-factory",
   "url": "ssh://cr.deepin.io:29418/dde/dde-qt-dbus-factory",
-  "ref": "1.0.7"
+  "ref": "1.0.8"
  },
  {
   "name": "dde-session-ui",
   "url": "ssh://cr.deepin.io:29418/dde/dde-session-ui",
-  "ref": "4.8.6"
+  "ref": "4.8.7"
  },
  {
   "name": "deepin-anything",
@@ -107,7 +107,7 @@
  {
   "name": "deepin-deb-installer",
   "url": "ssh://cr.deepin.io:29418/deepin-deb-installer",
-  "ref": "1.2.9"
+  "ref": "1.3.0"
  },
  {
   "name": "deepin-desktop-base",
@@ -117,12 +117,12 @@
  {
   "name": "deepin-desktop-schemas",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-schemas",
-  "ref": "3.10.0"
+  "ref": "3.11.0"
  },
  {
   "name": "deepin-editor",
   "url": "ssh://cr.deepin.io:29418/deepin-editor",
-  "ref": "1.2.6.2"
+  "ref": "1.2.6.3"
  },
  {
   "name": "deepin-feedback",
@@ -142,7 +142,7 @@
  {
   "name": "deepin-graphics-driver-manager",
   "url": "ssh://cr.deepin.io:29418/deepin-graphics-driver-manager",
-  "ref": "1.1.2"
+  "ref": "1.1.4"
  },
  {
   "name": "deepin-gtk-theme",
@@ -162,12 +162,12 @@
  {
   "name": "deepin-image-viewer",
   "url": "ssh://cr.deepin.io:29418/deepin-image-viewer",
-  "ref": "1.3.7"
+  "ref": "1.3.8"
  },
  {
   "name": "deepin-installer-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-installer-reborn",
-  "ref": "2.6.2"
+  "ref": "2.6.3"
  },
  {
   "name": "deepin-manual",
@@ -182,7 +182,7 @@
  {
   "name": "deepin-metacity",
   "url": "ssh://cr.deepin.io:29418/deepin-metacity",
-  "ref": "3.22.23"
+  "ref": "3.22.24"
  },
  {
   "name": "deepin-movie",
@@ -192,12 +192,12 @@
  {
   "name": "deepin-movie-reborn",
   "url": "ssh://cr.deepin.io:29418/deepin-movie-reborn",
-  "ref": "3.2.18"
+  "ref": "3.2.19"
  },
  {
   "name": "deepin-music",
   "url": "ssh://cr.deepin.io:29418/deepin-music",
-  "ref": "3.1.13"
+  "ref": "3.1.14"
  },
  {
   "name": "deepin-mutter",
@@ -232,7 +232,7 @@
  {
   "name": "deepin-repair-tools",
   "url": "ssh://cr.deepin.io:29418/deepin-repair-tools",
-  "ref": "1.0.10"
+  "ref": "1.0.11"
  },
  {
   "name": "deepin-screen-recorder",
@@ -242,12 +242,12 @@
  {
   "name": "deepin-screensaver",
   "url": "ssh://cr.deepin.io:29418/deepin-screensaver",
-  "ref": "0.0.3"
+  "ref": "0.0.5"
  },
  {
   "name": "deepin-screenshot",
   "url": "ssh://cr.deepin.io:29418/deepin-screenshot",
-  "ref": "4.1.6"
+  "ref": "4.1.7"
  },
  {
   "name": "deepin-shortcut-viewer",
@@ -262,12 +262,12 @@
  {
   "name": "deepin-system-monitor",
   "url": "ssh://cr.deepin.io:29418/deepin-system-monitor",
-  "ref": "1.4.8"
+  "ref": "1.4.8.1"
  },
  {
   "name": "deepin-terminal",
   "url": "https://github.com/linuxdeepin/deepin-terminal.git",
-  "ref": "3.2"
+  "ref": "3.2.1"
  },
  {
   "name": "deepin-tool-kit",
@@ -312,7 +312,7 @@
  {
   "name": "dtkcore",
   "url": "ssh://cr.deepin.io:29418/dtkcore",
-  "ref": "2.0.9.14"
+  "ref": "2.0.9.15"
  },
  {
   "name": "dtksettings",
@@ -322,7 +322,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.14"
+  "ref": "2.0.9.15"
  },
  {
   "name": "dtkwm",
@@ -392,7 +392,7 @@
  {
   "name": "qt5dxcb-plugin",
   "url": "ssh://cr.deepin.io:29418/qt5dxcb-plugin",
-  "ref": "1.1.22"
+  "ref": "1.1.23"
  },
  {
   "name": "qt5integration",
@@ -402,7 +402,7 @@
  {
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
-  "ref": "3.10.0"
+  "ref": "3.11.0"
  },
  {
   "name": "warm-sched",
