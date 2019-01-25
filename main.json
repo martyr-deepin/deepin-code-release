@@ -82,7 +82,7 @@
  {
   "name": "deepin-appstore",
   "url": "ssh://cr.deepin.io:29418/dstore/deepin-appstore",
-  "ref": "5.2.0.4"
+  "ref": "5.2.0.5"
  },
  {
   "name": "deepin-boot-maker",
