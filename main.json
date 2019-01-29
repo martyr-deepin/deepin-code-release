@@ -22,7 +22,7 @@
  {
   "name": "dde-control-center",
   "url": "ssh://cr.deepin.io:29418/dde/dde-control-center",
-  "ref": "4.9.2"
+  "ref": "4.9.2.1"
  },
  {
   "name": "dde-daemon",
@@ -112,7 +112,7 @@
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2019.01.16"
+  "ref": "2019.01.28"
  },
  {
   "name": "deepin-desktop-schemas",
@@ -302,7 +302,7 @@
  {
   "name": "default-settings",
   "url": "ssh://cr.deepin.io:29418/default-settings",
-  "ref": "2019.1.14"
+  "ref": "2019.1.30"
  },
  {
   "name": "dpa-ext-gnomekeyring",
