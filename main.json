@@ -312,7 +312,7 @@
  {
   "name": "default-settings",
   "url": "ssh://cr.deepin.io:29418/default-settings",
-  "ref": "2019.1.14"
+  "ref": "2019.1.30"
  },
  {
   "name": "dpa-ext-gnomekeyring",
