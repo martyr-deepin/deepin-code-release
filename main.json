@@ -322,7 +322,7 @@
  {
   "name": "dtkwidget",
   "url": "ssh://cr.deepin.io:29418/dtkwidget",
-  "ref": "2.0.9.15"
+  "ref": "2.0.9.16"
  },
  {
   "name": "dtkwm",
