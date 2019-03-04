@@ -292,7 +292,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.35"
+  "ref": "1.9.36"
  },
  {
   "name": "deepin-wm-switcher",
@@ -403,6 +403,10 @@
   "name": "startdde",
   "url": "ssh://cr.deepin.io:29418/dde/startdde",
   "ref": "3.12.1"
+ },
+ {
+  "name": "udisks2-qt5",
+  "url": "https://cr.deepin.io/udisks2-qt5"
  },
  {
   "name": "warm-sched",
