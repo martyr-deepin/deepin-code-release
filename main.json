@@ -112,7 +112,7 @@
  {
   "name": "deepin-desktop-base",
   "url": "ssh://cr.deepin.io:29418/deepin-desktop-base",
-  "ref": "2019.01.28"
+  "ref": "2019.03.06"
  },
  {
   "name": "deepin-desktop-schemas",
@@ -292,7 +292,7 @@
  {
   "name": "deepin-wm",
   "url": "ssh://cr.deepin.io:29418/deepin-wm",
-  "ref": "1.9.37"
+  "ref": "1.9.35"
  },
  {
   "name": "deepin-wm-switcher",
