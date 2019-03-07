@@ -36,6 +36,7 @@
  },
  {
   "name": "youdao-dict",
-  "url": "ssh://hualet@cr.deepin.io:29418/youdao-dict"
+  "url": "ssh://hualet@cr.deepin.io:29418/youdao-dict",
+  "ref": "1.2.0"
  }
 ]
